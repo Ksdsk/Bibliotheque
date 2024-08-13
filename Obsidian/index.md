@@ -2,7 +2,6 @@
 ## Table of Contents
 1. [Motivation](#Motivation)
 2. [Subjects](#Subjects)
-
 ## Motivation
 *I've graduated school, and I miss learning.*
 
