@@ -19,5 +19,6 @@ Estimation is a huge part of the sprint planning process, because the team needs
 
 After each user stories are assigned, each engineers take a moment to calculate their planning points distribution.
 
-> At Amazon, there were two different buckets each points could belong to. The first one was **capacity**, where the effort points are multiplied by a certain offset value for rests and balance, commonly 0.8, and the remainder would be distributed to the **buffer** or **burst**, which is reserved for doing other things, such as meetings, mental breaks, and more. 
-## 
+> At Amazon, there were two different buckets each points could belong to. The first one was **capacity**, where the effort points are multiplied by a certain offset value for rests and balance, commonly 0.8, and the remainder would be distributed to the **buffer** or **burst**, which is reserved for doing other things, such as meetings, mental breaks, and more.
+## Ceremonies
+A formal scrum meeting is defined as a *ceremony*. This ceremony
