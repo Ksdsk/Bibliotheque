@@ -6,4 +6,6 @@ A container is the standard unit of software that packages up code and all of it
 Because the containers *virtualize the operating system*, there are some key differences between itself and a virtual machine:
 - Containers
 	- Abstraction of the application layer that packages code and dependencies together.
-	- High iteration speed
+	- High iteration speed because it only contains high-level software.
+	- Has a robust ecosystem sharing containers.
+	- Can be ex
