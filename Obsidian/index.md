@@ -1,3 +1,4 @@
+# Bibliotheque
 ## Table of Contents
 1. [Motivation](#Motivation)
 2. [Subjects](#Subjects)
@@ -18,4 +19,9 @@ I'll figure out how you, probably a random person of the internet, or likely my 
 ## Subjects
 ### Software Development
 - [[Agile Methodology]]
-Yeah I'm still writing. I'll add the hyperlinks to my notes here though.
+- [[Kanban]]
+- [[Scrum]]
+- [[Software Development Life Cycle (SDLC)]]
+- [[Waterfall Methodology]]
+- ...
+-
