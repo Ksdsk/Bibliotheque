@@ -17,3 +17,5 @@ Because the containers *virtualize the operating system*, there are some key dif
 	- VMs take up a lot of storage space.
 
 The right answer for your tool will depend on the use case. If you are simply trying to launch a simple ecosystem of software-only projects, then containers might be the right option for you. If you have a specific hardware requirement for your projects, then likely you'll need a virtual machine. Of course, you could choose to employ both, but it is likely that you won't need to.
+## Using Docker
+Docker is almost synonymous with the standard of container. Because of its popularity, we can decide to use the containers in many different application. Most popularly, Docker is useful
