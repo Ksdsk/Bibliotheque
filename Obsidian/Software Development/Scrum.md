@@ -21,4 +21,16 @@ After each user stories are assigned, each engineers take a moment to calculate 
 
 > At Amazon, there were two different buckets each points could belong to. The first one was **capacity**, where the effort points are multiplied by a certain offset value for rests and balance, commonly 0.8, and the remainder would be distributed to the **buffer** or **burst**, which is reserved for doing other things, such as meetings, mental breaks, and more.
 ### Ceremonies
-A formal scrum meeting is defined as a *ceremony*. This ceremony
+A formal scrum meeting is defined as a *ceremony*. The purpose of each ceremony is to communicate with the team to discuss about the current goals and also dabble on how to improve themselves as a team.
+
+The four standard ceremonies are:
+- **[[#Sprint Planning]]**
+	- Ceremony at the beginning of a sprint.
+	- Designed t0 
+	- 1-2 hours.
+	- Attended by development team, SM, and PO.
+- **Daily Stand-up**
+	- Ceremony in the middle of a sprint.
+	- 15-30 minutes maximum.
+	- Attended by development team, SM, and PO.
+- 
