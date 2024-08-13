@@ -25,12 +25,16 @@ A formal scrum meeting is defined as a *ceremony*. The purpose of each ceremony 
 
 The four standard ceremonies are:
 - **[[#Sprint Planning]]**
-	- Ceremony at the beginning of a sprint.
-	- Designed t0 
+	- Ceremony at the beginning of a sprint designed to set up a particular sprint.
 	- 1-2 hours.
 	- Attended by development team, SM, and PO.
 - **Daily Stand-up**
-	- Ceremony in the middle of a sprint.
+	- Ceremony in the middle of a sprint to inform everyone what's going on across the team. Usually, this involves talking about what each member have done last work day, what they will work on today, and if they are blocked by anything.
 	- 15-30 minutes maximum.
 	- Attended by development team, SM, and PO.
-- 
+- **Sprint Review**\
+	- Ceremony at the end of a sprint, where the scrum team meets to reveal what was accomplished during the sprint. This can be made in form of a demo, or just a simple verbal discussion.
+	- 45-90 minutes.
+	- Attended by development team, SM, and PO.
+- **Sprint Retrospective**
+	- Ceremony at the end of a sprint, usually with the sprint review, to talk about what was done well and what can be improved more.
