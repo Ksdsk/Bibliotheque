@@ -22,4 +22,5 @@ Docker is almost synonymous with the standard of container. Because of its popul
 
 Some examples are:
 - Launching MySQL
-- Creating a running instance of [[SAM]]
+- Creating a running instance of [[Serverless Application Model (SAM)|Serverless Application Model for AWS]].
+
