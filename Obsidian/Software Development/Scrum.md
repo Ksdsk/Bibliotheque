@@ -15,7 +15,9 @@ Sprint planning is a tool to set up the sprints. A good sprint planning will kee
 
 Sprint planning should be constrained no more than two hours each week, or four hours biweekly. This timeboxing makes sure that no time is wasted and everyone comes in prepared, as sprint planning takes up every members' time.
 
-Estimation is a huge part of the sprint planning process, because the team needs to define what can or cannot be done in the sprint. 
+Estimation is a huge part of the sprint planning process, because the team needs to define what can or cannot be done in the sprint. A tool that can help with estimation spurs from the concept of [[User Stories|user stories]]. Each story can be given a *story point*, which signifies the amount of work that needs to be put into the task. One common downfall of assigning each story point is *overestimation*, where an engineer thinks that a task can be done in less time than what it actually did costed. This can be generally avoided with a strategy to allocate story points with the entire team. Generally, this is done with a tool called [[Planning Poker|planning poker]].
 
-One common downfall of bad sprint planning is *overestimation*. 
+After each user stories are assigned, each engineers take a moment to calculate their planning points distribution.
+
+> At Amazon, there were two different buckets each points could belong to. The first one was **capacity**, where the effort points are multiplied by a certain offset value for rests and balance, commonly 0.8, and the remainder would be distributed to the **buffer** or **burst**, which is reserved for doing other things, such as meetings, mental breaks, and more. 
 ## 
