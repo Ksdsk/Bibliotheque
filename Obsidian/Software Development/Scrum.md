@@ -38,3 +38,5 @@ The four standard ceremonies are:
 	- Attended by development team, SM, and PO.
 - **Sprint Retrospective**
 	- Ceremony at the end of a sprint, usually with the sprint review, to talk about what was done well and what can be improved more.
+	- 45-90 minutes.
+	- Attended by development team, SM, and PO.
