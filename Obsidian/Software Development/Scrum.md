@@ -11,5 +11,11 @@ You might find the term "Manager" be familiar to the one of the Scrum Master or 
 ## Sprint
 A *sprint* can be described as a measurement of a work iteration cadence, usually involving a start-to-finish task the given timespan. A sprint is generally two-weeks long. This short nature encourages small, incremental changes and promote lots of communication between the workforce and the customers. 
 ## Sprint Planning
-Sprint planning is a tool to set up the sprints. A good sprint planning will keep the goals of the customers and the scrum team same. 
+Sprint planning is a tool to set up the sprints. A good sprint planning will keep the goals of the customers and the scrum well-positioned and acknowledged.
+
+Sprint planning should be constrained no more than two hours each week, or four hours biweekly. This timeboxing makes sure that no time is wasted and everyone comes in prepared, as sprint planning takes up every members' time.
+
+Estimation is a huge part of the sprint planning process, because the team needs to define what can or cannot be done in the sprint. 
+
+One common downfall of bad sprint planning is *overestimation*. 
 ## 
