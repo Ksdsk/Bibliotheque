@@ -12,8 +12,24 @@ Dagger is a tool for dependency injection for Java. It is currently being mainta
 
 Its main building block is Java's `javax.inject.Inject` [[Java Annotations|annotation]].
 ### Declaring Dependencies
-Dagger constructs instances of your application classes and satisfies their dependencies. You can use Java's `@Inject` to annotate the constructor that Dagger should use to create instances of a class. When a new instance is *requested*, Dagger will obtain the required parameters values and invoke its constructor.
-
+Dagger constructs instances of your application classes and satisfies their dependencies. You can use Java's `@Inject` to annotate the constructor that Dagger should use to create instances of a class. When a new instance is *requested*, Dagger will obtain the required parameters values and invoke its constructor:
 ```java
-class T
+class Thermosiphon implements Pump {
+	private final Heater heater;
+
+	@Inject
+	Thermosiphon(Heater heater) {
+		this.heater = heater;
+	}
+	...
+}
+```
+
+Dagger can also inject fields directly. In this example, it obtains a `Heater` instance for the `heater` field and a `Pump` instance for the `pump` field:
+```java
+class CoffeeMaker {
+	@Inject Heater heater;
+	@Inject Pump pump;
+	...
+}
 ```
