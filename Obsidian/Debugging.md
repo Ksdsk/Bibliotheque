@@ -7,7 +7,6 @@ There are an infinite amount of ways a bugs can come to existence, but most comm
 - Programming errors;
 - Use of unfamiliar technologies;
 - An error in a third-party library.
-
 ## Avoiding Bugs
 It's almost impossible to avoid all bugs in a large program, but it is possible to reduce their number. These are the five steps that can help you, as a developer, to help you avoid bugs:
 1. Make sure you know what to do.
@@ -16,3 +15,8 @@ It's almost impossible to avoid all bugs in a large program, but it is possible 
 4. Run the program with boundary input values.
 5. Write automated tests that will check the program at the build time.
 
+Test automations are possible with debugging frameworks, such as JUnit for Java and PyTest for Python.
+## Writing Tests
+There are several tools and guidelines on how to make an effective test. A simple test to simply compare the values of the reality and the expectation is called an **assertion**. 
+
+A good assertion should not include the implementation details in the tests. However, following that rule may make testing pretty difficult because we are no longer sure if we can confidently 
