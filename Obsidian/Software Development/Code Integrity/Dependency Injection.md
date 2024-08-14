@@ -47,6 +47,8 @@ Additionally, all `@Provides`must belong to a module, which can be added with th
 ```java
 @Module
 interface HeaterModule {
-	
+	@Provides static Heater provideHeater() {
+		return new ElectricHeater();
+	}
 }
 ```
