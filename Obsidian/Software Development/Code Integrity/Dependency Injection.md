@@ -11,4 +11,9 @@ Dagger is a tool for dependency injection for Java. It is currently being mainta
 > Dagger allows us to generate code that mimics the code that a user might have hand-written to ensure that dependency inject is as simple, traceable, and performant as it can be. [Dagger](https://dagger.dev/dev-guide/)
 
 Its main building block is Java's `javax.inject.Inject` [[Java Annotations|annotation]].
-### Using Dagger
+### Declaring Dependencies
+Dagger constructs instances of your application classes and satisfies their dependencies. You can use Java's `@Inject` to annotate the constructor that Dagger should use to create instances of a class. When a new instance is *requested*, Dagger will obtain the required parameters values and invoke its constructor.
+
+```java
+class T
+```
