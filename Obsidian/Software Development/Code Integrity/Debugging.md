@@ -19,7 +19,7 @@ Test automations are possible with debugging frameworks, such as JUnit for Java 
 ## Writing Tests
 There are several tools and guidelines on how to make an effective test. A simple test to simply compare the values of the reality and the expectation is called an **assertion**. 
 
-A good assertion should not include the implementation details in the tests. It should also test *only one thing per test*. However, following that rule may make testing pretty difficult because we are no longer sure if we can confidently *expect* the underlying implementation to behave correctly. This is when we can [[eliminate dependencies during testing]] to try to make sure our scopes are targeting the exact function we wish to test.
+A good assertion should not include the implementation details in the tests. It should also test *only one thing per test*. However, following that rule may make testing pretty difficult because we are no longer sure if we can confidently *expect* the underlying implementation to behave correctly. This is when we can [[#Eliminating dependencies in tests|eliminate dependencies during testing]] to try to make sure our scopes are targeting the exact function we wish to test.
 ### Eliminating dependencies in tests
 Your functions may require dependencies, whether it be a different function that returns a value or an external API call, these functions are irrelevant of the function behaviour we want to test and can be an anomaly during testing. One solution we can do is to try to inject a *pretend dependency* which acts like the actual dependency, but we can control what values will be returned. There are two main methods of pretending, which are the [[#Stubs]] and the [[#Mocks]].
 #### Stubs

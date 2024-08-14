@@ -1,5 +1,5 @@
 ## What is it?
-Software development life cycle, or *SDLC*, is "the cost-effective and time-efficient process that development teams use to design and build high-quality software" [Source]([What is SDLC? - Software Development Lifecycle Explained - AWS (amazon.com)](https://aws.amazon.com/what-is/sdlc/#:~:text=The%20software%20development%20lifecycle%20(SDLC,expectations%20during%20production%20and%20beyond.)). In short, it's a methodology that steps-out the phases of development to maximize transparency of work, thus enabling efficient estimation of tasks and systematic delivery of software.
+Software development life cycle, or *SDLC*, is "the cost-effective and time-efficient process that development teams use to design and build high-quality software" [What is SDLC? - Software Development Lifecycle Explained - AWS (amazon.com)](https://aws.amazon.com/what-is/sdlc/#:~:text=The%20software%20development%20lifecycle%20(SDLC,expectations%20during%20production%20and%20beyond.). In short, it's a methodology that steps-out the phases of development to maximize transparency of work, thus enabling efficient estimation of tasks and systematic delivery of software.
 ## The Phases
 There are six phases of an usual software development cycle:
 - Plan

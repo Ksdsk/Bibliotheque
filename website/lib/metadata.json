@@ -1,16 +1,38 @@
 {
   "vaultName": "Obsidian",
-  "lastExport": 1723562142604,
+  "lastExport": 1723605463967,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "Software Development/Agile Methodology.md",
-    "Software Development/Kanban.md",
-    "Software Development/Scrum.md",
-    "Software Development/Software Development Life Cycle (SDLC).md",
-    "Software Development/Waterfall Methodology.md",
+    "Cloud Computing/AWS/Serverless Application Model (SAM).md",
+    "Hobbies/Audio/Codecs.md",
+    "Hobbies/Coffee/Affogato.md",
+    "Hobbies/Coffee/Americano.md",
+    "Hobbies/Coffee/Caffe Mocha.md",
+    "Hobbies/Coffee/Cappuccino.md",
+    "Hobbies/Coffee/Cold Brew.md",
+    "Hobbies/Coffee/Cortado.md",
+    "Hobbies/Coffee/Espresso.md",
+    "Hobbies/Coffee/Flat White.md",
+    "Hobbies/Coffee/Immersion.md",
+    "Hobbies/Coffee/Latte.md",
+    "Hobbies/Coffee/Macchiato.md",
+    "Hobbies/Keyboards/Audio Feedback.md",
+    "Hobbies/Keyboards/Switches.md",
+    "Software Development/Code Integrity/Debugging.md",
+    "Software Development/Code Integrity/Dependency Injection.md",
+    "Software Development/DevOps/Agile Methodology.md",
+    "Software Development/DevOps/Kanban.md",
+    "Software Development/DevOps/Planning Poker.md",
+    "Software Development/DevOps/Scrum.md",
+    "Software Development/DevOps/Software Development Life Cycle (SDLC).md",
+    "Software Development/DevOps/Test-Driven Design.md",
+    "Software Development/DevOps/User Stories.md",
+    "Software Development/DevOps/Waterfall Methodology.md",
+    "Software Development/Tools/Docker.md",
+    "Software Development/Version Control/Git.md",
     "index.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -73,207 +95,339 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 6093,
+      "modifiedTime": 1723605463967,
+      "sourceSize": 32774,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 652,
+      "modifiedTime": 1723605463967,
+      "sourceSize": 1972,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 130208,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1723562142604,
+      "modifiedTime": 1723605463967,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "Software Development/Agile Methodology.md": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 2593,
-      "exportedPath": "software-development/agile-methodology.html",
-      "dependencies": []
-    },
-    "Software Development/Kanban.md": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 0,
-      "exportedPath": "software-development/kanban.html",
-      "dependencies": []
-    },
-    "Software Development/Scrum.md": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 2547,
-      "exportedPath": "software-development/scrum.html",
-      "dependencies": []
-    },
-    "Software Development/Software Development Life Cycle (SDLC).md": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 3424,
-      "exportedPath": "software-development/software-development-life-cycle-(sdlc).html",
-      "dependencies": []
-    },
-    "Software Development/Waterfall Methodology.md": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 635,
-      "exportedPath": "software-development/waterfall-methodology.html",
-      "dependencies": []
-    },
     "index.md": {
-      "modifiedTime": 1723562142604,
-      "sourceSize": 2449,
+      "modifiedTime": 1723605463967,
+      "sourceSize": 2302,
       "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "Cloud Computing/AWS/Serverless Application Model (SAM).md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/aws/serverless-application-model-(sam).html",
+      "dependencies": []
+    },
+    "Hobbies/Audio/Codecs.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/audio/codecs.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Affogato.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/affogato.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Americano.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/americano.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Caffe Mocha.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/caffe-mocha.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Cappuccino.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/cappuccino.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Cold Brew.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/cold-brew.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Cortado.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/cortado.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Espresso.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/espresso.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Flat White.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/flat-white.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Immersion.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/immersion.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Latte.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/latte.html",
+      "dependencies": []
+    },
+    "Hobbies/Coffee/Macchiato.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/coffee/macchiato.html",
+      "dependencies": []
+    },
+    "Hobbies/Keyboards/Audio Feedback.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/keyboards/audio-feedback.html",
+      "dependencies": []
+    },
+    "Hobbies/Keyboards/Switches.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "hobbies/keyboards/switches.html",
+      "dependencies": []
+    },
+    "Software Development/Code Integrity/Debugging.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 3579,
+      "exportedPath": "software-development/code-integrity/debugging.html",
+      "dependencies": []
+    },
+    "Software Development/Code Integrity/Dependency Injection.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 724,
+      "exportedPath": "software-development/code-integrity/dependency-injection.html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/Agile Methodology.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 2593,
+      "exportedPath": "software-development/devops/agile-methodology.html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/Kanban.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 352,
+      "exportedPath": "software-development/devops/kanban.html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/Planning Poker.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "software-development/devops/planning-poker.html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/Scrum.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 3707,
+      "exportedPath": "software-development/devops/scrum.html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/Software Development Life Cycle (SDLC).md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 3414,
+      "exportedPath": "software-development/devops/software-development-life-cycle-(sdlc).html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/Test-Driven Design.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "software-development/devops/test-driven-design.html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/User Stories.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 0,
+      "exportedPath": "software-development/devops/user-stories.html",
+      "dependencies": []
+    },
+    "Software Development/DevOps/Waterfall Methodology.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 635,
+      "exportedPath": "software-development/devops/waterfall-methodology.html",
+      "dependencies": []
+    },
+    "Software Development/Tools/Docker.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 2293,
+      "exportedPath": "software-development/tools/docker.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Git.md": {
+      "modifiedTime": 1723605463967,
+      "sourceSize": 359,
+      "exportedPath": "software-development/version-control/git.html",
       "dependencies": []
     }
   }

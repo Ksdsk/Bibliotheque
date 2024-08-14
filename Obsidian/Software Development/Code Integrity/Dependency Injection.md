@@ -4,4 +4,3 @@ Dependency Injection is a [[Design Pattern|design pattern]] to promote the *sepa
 
 This is a key partner to the [[Object-Oriented Design|object-oriented design]], the *Dependency Inversion Principle*.
 
-##
