@@ -49,6 +49,28 @@ The `@Inject` and `@Provides` annotated classes form a graph of objects, linked 
 ```java
 @Component(modules = DripCoffeeModule.class)
 interface CoffeeShop {
-	Coffee
+	CoffeeMaker maker();
+}
+```
+
+The implementation has the same name as the interface prefixed with `Dagger`. For example, the `CoffeeShop` instance of the interface can be obtained by invoking the `builder()` method of the Dagger implementation:
+```java
+CoffeeShop coffeeShop = DaggerCoffeeShop.builder()
+	.dripCoffeeModule(new DripCoffeeModule())
+	.build();
+```
+
+If all the dependencies can be constructed without the user creating a dependency instance, such as for a module with all static methods, Dagger will add a `create()` method that can be used to get a new instance without having to deal with the builder:
+```java
+CoffeeShop coffeeShop = DaggerCoffeeShop.create();
+```
+
+After this, our `CoffeeApp` can simply use the Dagger-generated implementation of `CoffeeShop` to get a fully-injected `CoffeeMaker`:
+```java
+public class CoffeeApp {
+	public static void main(String[] args) {
+		CoffeeShop coffeeShop = DaggerCoffeeShop.create();
+		coffeeShop.maker().brew();
+	}
 }
 ```
