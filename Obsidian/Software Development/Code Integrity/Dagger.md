@@ -44,3 +44,11 @@ interface HeaterModule {
 	}
 }
 ```
+## Building the Graph
+The `@Inject` and `@Provides` annotated classes form a graph of objects, linked by their dependencies. Calling code like an application's `main` method accesses that graph via a well-defined set of roots. In Dagger, that set is defined by an interface with methods that have no arguments and return the desired type. By applying the `@Component` annotation to such an interface and passing the *module* types to the `modules` parameter, Dagger then fully generate an implementation of that contract.
+```java
+@Component(modules = DripCoffeeModule.class)
+interface CoffeeShop {
+	Coffee
+}
+```
