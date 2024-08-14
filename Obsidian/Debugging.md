@@ -23,8 +23,15 @@ A good assertion should not include the implementation details in the tests. It 
 ### Eliminating dependencies in tests
 Your functions may require dependencies, whether it be a different function that returns a value or an external API call, these functions are irrelevant of the function behaviour we want to test and can be an anomaly during testing. One solution we can do is to try to inject a *pretend dependency* which acts like the actual dependency, but we can control what values will be returned. There are two main methods of pretending, which are the [[#Stubs]] and the [[#Mocks]].
 #### Stubs
-Stubs allow you to have a pre-determined behaviour that substitutes a real behaviour. The dependency is implemented as a stub with a logic as expected by the client. These can be useful when the clients of the stubs expect the same set of responses, e.g. a third party service. Stubs should never fail a unit or integration test where a mock can. They should also not require any sort of framework to run, but usually are supported by mocking frameworks to quickly build a stub.
+> A way to provide dummy info instead of making the calling to the actual thing.
 
-There may be several stubs in one test.
+Stubs allow you to create a dependency that will return a canned value for calls made during the test. These can be useful when the clients of the stubs expect the same set of responses, e.g. a third party service. Stubs should never fail a unit or integration test where a mock can. They should also not require any sort of framework to run, but usually are supported by mocking frameworks to quickly build a stub.
 #### Mocks
-Is an object that entails *expectations* about a behaviour. Fo
+> A way to mimic the real function, usually much more simplistic than the actual version.
+
+Mocks are objects that entails *expectations* about a behaviour. For example, you might be interested if the function you're testing for is correctly calling an external function correctly, you'd be using a mock. If a mock receives an unexpected call, they will probably raise an exception! 
+#### Spies
+> Anything that can record what's happening inside your function during testing.
+
+There are also a special injection called a **spy**. Anything that is injected which can log data can be described as a spy, which may be useful if you wanted to log the behaviours on top of mocking or stubbing them.
+
