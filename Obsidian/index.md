@@ -13,6 +13,8 @@ Anyways, I'm making this repository as sort of a motivation, but also a log of w
 
 I'm going to start from the very basics, then end up noting about the things I want to be better at, which is mostly going to relate to the kind of work I'm doing. Eventually, this repository is going to become something like a library, where it'll be a collection of notes for different kinds of subjects. The term *library* has a different meaning in software engineering though, so I'll just call it library in a different language. The Korean word for library doesn't sound cool (*do-seo-kwan*)... I think I'm going to call it *Bibliothèque*, the French word for Library.
 
+And just for fun, I'll also add in some hobbies outside of the technological world as well. Mostly to kee
+
 I'll figure out how you, probably a random person of the internet, or likely my friends lol, can access my notes without downloading Obsidian. Until then, I'll be writing about things.
 
 ## Subjects
