@@ -1,9 +1,9 @@
 # Bibliotheque
-## Table of Contents
-1. [Motivation](#Motivation)
-2. [Subjects](#Subjects)
+
+Website has been created via GitHub pages - [visit the website!](https://ksdsk.github.io/Bibliotheque/)
 
 ## Motivation
+
 *I've graduated school, and I miss learning.*
 
 Lately I've been feeling like there's too many knowledge that I don't know about that can't be made with by creating personal projects. For example, learning more about Software Development Life Cycle (SDLC), refactoring tricks, or for a more *embedded* technology like learning about software layers.
@@ -14,8 +14,4 @@ Anyways, I'm making this repository as sort of a motivation, but also a log of w
 
 I'm going to start from the very basics, then end up noting about the things I want to be better at, which is mostly going to relate to the kind of work I'm doing. Eventually, this repository is going to become something like a library, where it'll be a collection of notes for different kinds of subjects. The term *library* has a different meaning in software engineering though, so I'll just call it library in a different language. The Korean word for library doesn't sound cool (*do-seo-kwan*)... I think I'm going to call it *Bibliothèque*, the French word for Library.
 
-I'll figure out how you, probably a random person of the internet, or likely my friends lol, can access my notes without downloading Obsidian. Until then, I'll be writing about things.
-
-## Subjects
-### Software Development
-Yeah I'm still writing. I'll add the hyperlinks to my notes here though.
+And just for fun, I'll also add in some hobbies outside of the technological world as well. Mostly to keep my sanity, but also for lengthening my interest and mastery in them.
