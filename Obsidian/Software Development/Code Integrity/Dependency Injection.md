@@ -33,3 +33,20 @@ class CoffeeMaker {
 	...
 }
 ```
+
+When `@Inject` is not feasible (e.g. Interfaces, third-party classes, ...), you can use `@Provides` annotation to satisfy a dependency. The method's return type defines which dependency it satisfies. For example, the `provideHeater()` is invoked whenever a `Heater` is required:
+```java
+@Provides static Heater provideHeater() {
+	return new ElectricHeater();
+}
+```
+
+If the `@Provides` method has a dependency, it's still possible to use the annotation as long as the dependency has an `@Inject` constructor.
+
+Additionally, all `@Provides`must belong to a module, which can be added with the `@Module` annotation in the class like so:
+```java
+@Module
+interface HeaterModule {
+	
+}
+```
