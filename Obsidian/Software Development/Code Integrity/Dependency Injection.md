@@ -5,3 +5,10 @@ Dependency Injection is a [[Design Pattern|design pattern]] to promote the *sepa
 This is a key partner to the [[Object-Oriented Design|object-oriented design]], the *Dependency Inversion Principle*.
 
 This makes testing much more effective, especially combined with [[Debugging#Eliminating dependencies in tests|mocking frameworks]].
+## Dagger
+Dagger is a tool for dependency injection for Java. It is currently being maintained by Google, and used across tons and tons of codebases. 
+
+> Dagger allows us to generate code that mimics the code that a user might have hand-written to ensure that dependency inject is as simple, traceable, and performant as it can be. [Dagger](https://dagger.dev/dev-guide/)
+
+Its main building block is Java's `javax.inject.Inject` [[Java Annotations|annotation]].
+### Using Dagger
