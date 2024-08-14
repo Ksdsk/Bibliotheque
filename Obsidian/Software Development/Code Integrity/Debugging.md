@@ -34,4 +34,3 @@ Mocks are objects that entails *expectations* about a behaviour. For example, yo
 > Anything that can record what's happening inside your function during testing.
 
 There are also a special injection called a **spy**. Anything that is injected which can log data can be described as a spy, which may be useful if you wanted to log the behaviours on top of mocking or stubbing them.
-
