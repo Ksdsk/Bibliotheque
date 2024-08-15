@@ -18,7 +18,6 @@ You can also create an empty Git repository in a specified directory like so:
 ```zsh
 git init <directory>
 ```
-
 ### Bare Repositories
 You can initialize an empty Git repository, but omit the working directory. Shared repositories should always be created with the `--bare` flag. This flag creates a repository that doesn't have a working directory, making it impossible to edit files and commit changes in that repository.
 
@@ -31,5 +30,5 @@ git init --bare <directory>
 Templates allow you to initialize a new repository with a predefined `.git` subdirectory. You can configure a template to have default directories and files that will get copied to a new repository's `.git` subdirectory.
 ```shell
 git init <directory> --template=<template_directory>
-
 ```
+
