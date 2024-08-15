@@ -8,3 +8,6 @@ Creating a caffè latte is simple:
 1. Brew espresso
 2. Steam milk (usually for about 4 seconds of stretching) in a milk jug
 3. Stop steaming when it reaches about 65 degrees (when you feel uncomfortable holding the milk jug). 
+## Iced Latte
+Iced latte is a chilled form of a caffè latte. It is one of the most popular form of iced coffee beverage.
+##
