@@ -15,4 +15,9 @@ At the sprint planning meeting, each estimator is given one deck of the cards. A
 The meeting proceeds as follows:
 - A Moderator, who will not play, chairs the meeting.
 - The [[Scrum#Roles|Product Owner]] provides a short overview of one [[User Stories|user story]] to be estimated. The team is given an opportunity to ask questions and discuss to clarify assumptions and risks. A summary of the discussion can be recorded by the Moderator.
-- Each individual lays a card face down representing their estimate for the story. Units used can vary - they can be days or st
+- Each individual lays a card face down representing their estimate for the story. Units used can vary - they can be days or story point. During the discussion, estimations must not be mentioned at all in relation to feature size to avoid [anchoring](https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)).
+- Everyone calls their cards simultaneously by turning them over.
+- People with high estimates and low estimates justifies for their estimate and then the discussion continues.
+- Repeat the estimation process until a consensus is reached.
+- To ensure that the discussion is structured, the Moderator or the Product Owner may at any point turn over the timer and when it runs out, all discussion must cease and another round of poker is played.
+
