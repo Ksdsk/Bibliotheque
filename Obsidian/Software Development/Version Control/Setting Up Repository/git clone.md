@@ -4,4 +4,12 @@ Like [[git init]], cloning is generally a cone-time operation. Once a developer 
 ## How it works
 The `git clone` command copies an existing Git repository by first running `git init` on the target subdirectory, then copies all of the current files into the initialized directory. As a convenience, cloning automatically creates a remote connection called *origin*, which points back to the original repository, making it very easy to interact with a central repository.
 ## Commands
-You can clone a repository directly from the web (HTTPS) 
+You can clone a repository directly from the web using different [[Network Protocols]] like **HTTPS** and **SSH**. In either case, the command will be very akin to the following:
+```shell
+git clone <repository>
+```
+
+You can clone the above to a specific folder:
+```shell
+git clone <repository> <directory>
+```
