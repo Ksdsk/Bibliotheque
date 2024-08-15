@@ -2,4 +2,4 @@ Caffè mocha is a chocolate-flavoured warm beverage and a variation of [[Caffè 
 ## Origin
 The name *mocha* comes from the Yemeni port of *Mokha*, which was a port well-known for its coffee trade from the 15th to 17th century. When the coffee culture expanded to Europe, the people referred to the coffee imports from Arabia as *Mocha*.
 
-The Caff
+The coffee we drink today 
