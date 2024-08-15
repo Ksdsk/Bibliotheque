@@ -19,8 +19,9 @@ Git is a version control system, which is the tool of tracking and managing chan
 | [[git pull]]     | Downloads a branch from a remote repository, then immediately merges it to the current branch.                                                           |
 | [[git push]]     | Moves a local branch to another repository.                                                                                                              |
 | [[git rebase]]   | Lets you move branches around.                                                                                                                           |
-| [[`git reflog`]] | Allows the developer to move back to changesets.                                                                                                         |
+| [[git reflog]]   | Allows the developer to move back to changesets.                                                                                                         |
 | [[git remote]]   | A convenient tool for administering remote connections. Lets you use a more meaningful shortcut.                                                         |
 | [[git reset]]    | Undoes changes to files in the working directory.                                                                                                        |
 | [[git revert]]   | Undoes a committed snapshot.                                                                                                                             |
 | [[git status]]   | Displays the state of the working directory and the staged snapshot.                                                                                     |
+|                  |                                                                                                                                                          |
