@@ -13,3 +13,13 @@ You can clone the above to a specific folder:
 ```shell
 git clone <repository> <directory>
 ```
+
+You can close a specific reference point of the repository:
+```shell
+git clone --branch <tag> <repo>
+```
+
+You can also create a **shallow clone** of your repository, which only clones the history of commits specified by the option `depth`. For example, `depth=1` will only close the latest commit:
+```shell
+git clone -depth=1 <repo>
+```
