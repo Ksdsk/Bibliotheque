@@ -1,10 +1,10 @@
-Americano is a drink consisting of espresso and hot water.
+Americano is a drink consisting of [[espresso]] and hot water.
 ## Origin
-Caffe latte is a coffee drink of Italian origin made with espresso and steamed milk. It is traditionally served in a glass. There are a lot of variants of this drink, such as the [[Caffè Mocha]], which introduces a chocolate flavour on top, or matcha, a green tea drink. 
-
-The word Caffè Latte is taken from the Italian phrase *Caffè e Latte*, which means *Coffee and Milk*. 
+Caffe Americano, or simply *Americano*, means "American Coffee" in Italian, Spanish, and Portuguese. The coffee was thought to be originated by the American G.I.s where they decided to dilute espresso with hot water to approximate to their own taste.
 ## Recipe
-Creating a caffè latte is simple:
-1. Brew espresso
-2. Steam milk (usually for about 4 seconds of stretching) in a milk jug
-3. Stop steaming when it reaches about 65 degrees (when you feel uncomfortable holding the milk jug). 
+Creating an Americano is simple:
+1. Prepare water about 4 times the amount of espresso at 90 degrees;
+2. Brew espresso;
+3. Pour the hot water over the espresso.
+## Long Black
+A long black is essentially the same as an americano, but instead of pouring water over the espresso, you will pour the espresso over the hot water. This keeps the espresso's crema intact.
