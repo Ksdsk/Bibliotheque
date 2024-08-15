@@ -1,4 +1,4 @@
-Americano is a drink consisting of 
+Americano is a drink consisting of espresso and hot water.
 ## Origin
 Caffe latte is a coffee drink of Italian origin made with espresso and steamed milk. It is traditionally served in a glass. There are a lot of variants of this drink, such as the [[Caffè Mocha]], which introduces a chocolate flavour on top, or matcha, a green tea drink. 
 
