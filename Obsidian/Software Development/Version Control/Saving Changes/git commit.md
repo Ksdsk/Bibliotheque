@@ -1,0 +1,5 @@
+The `git commit` command captures a snapshot of the project's currently staged changes. Committed snapshots are regarded as a "safe" version of a project - [[Git]] will never change them unless the developer explicitly asks it to.
+## How it works
+At a high-level, Git can be thought of as a timeline management utility. Commits, in this analogy, would be the core building block units of a Git project timeline - a milestone or a snapshot of the current project. Commits are created with the `git commit` command to capture the state of a project at that point in time. All the accumulated commits are first stored locally until the developer [[git push|pushes]] the commits to the central repository.
+
+Because storing the history of every directories of a project would be massively difficult and unscalable, Git's version control model works based on these snapshots. Unlike other tools like [[SVN]] which stores 
