@@ -13,5 +13,32 @@ git tag -a <tag-name>
 
 For example, for an annotated tag you can add a tag message:
 ```shell
-git tag -a <tag-n
+git tag -a <tag-name> -m <tag-message>
 ```
+
+You can view the list of stored tags in a repository:
+```shell
+git tag
+```
+
+You can refine the list of tags with the `-l` option:
+```shell
+git tag -l <pattern-to-match>
+```
+
+You can push a tag to remote, which has to be done explicitly:
+```shell
+git push origin <tag-name>
+```
+
+You can also [[git checkout|checkout]] a tag:
+```shell
+git checkout <tag-name>
+```
+
+You can delete tags:
+```shell
+git tag -d <tag-name>
+```
+
+
