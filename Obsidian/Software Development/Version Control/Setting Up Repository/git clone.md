@@ -19,7 +19,17 @@ You can close a specific reference point of the repository:
 git clone --branch <tag> <repo>
 ```
 
-You can also create a **shallow clone** of your repository, which only clones the history of commits specified by the option `depth`. For example, `depth=1` will only close the latest commit:
+You can also create a **shallow clone** of your repository, which only clones the history of commits specified by the option `depth`. For example, `depth=1` will only clone the latest commit:
 ```shell
 git clone -depth=1 <repo>
+```
+
+You can clone a specific branch of the repository instead of the branch the remote `HEAD` is pointing to (usually the `main` branch):
+```shell
+git clone --branch
+```
+
+You can also create a *bare* clone of the repository, which doesn't have a working directory (you cannot edit anything, but only pull and push):
+```shell
+git clone --bare
 ```
