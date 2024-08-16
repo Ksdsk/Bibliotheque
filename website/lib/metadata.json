@@ -1,6 +1,6 @@
 {
   "vaultName": "Obsidian",
-  "lastExport": 1723691203655,
+  "lastExport": 1723773442430,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -21,6 +21,7 @@
     "Hobbies/Coffee/Macchiato.md",
     "Hobbies/Keyboards/Audio Feedback.md",
     "Hobbies/Keyboards/Switches.md",
+    "Networks/Network Protocols.md",
     "Software Development/Code Integrity/Dagger.md",
     "Software Development/Code Integrity/Debugging.md",
     "Software Development/Code Integrity/Java Annotations.md",
@@ -34,6 +35,38 @@
     "Software Development/DevOps/User Stories.md",
     "Software Development/DevOps/Waterfall Methodology.md",
     "Software Development/Tools/Docker.md",
+    "Software Development/Version Control/Comparing Workflows/Feature Branch Workflow.md",
+    "Software Development/Version Control/Comparing Workflows/Forking Workflow.md",
+    "Software Development/Version Control/Comparing Workflows/Gitflow Workflow.md",
+    "Software Development/Version Control/Inspecting a Repository/git blame.md",
+    "Software Development/Version Control/Inspecting a Repository/git log.md",
+    "Software Development/Version Control/Inspecting a Repository/git tag.md",
+    "Software Development/Version Control/Making a Pull Request/Pull Requests.md",
+    "Software Development/Version Control/Rewriting History/git rebase.md",
+    "Software Development/Version Control/Rewriting History/git reflog.md",
+    "Software Development/Version Control/Saving Changes/git add.md",
+    "Software Development/Version Control/Saving Changes/git commit.md",
+    "Software Development/Version Control/Saving Changes/git diff.md",
+    "Software Development/Version Control/Saving Changes/git stash.md",
+    "Software Development/Version Control/Saving Changes/git status.md",
+    "Software Development/Version Control/Saving Changes/gitignore.md",
+    "Software Development/Version Control/Setting Up Repository/git clone.md",
+    "Software Development/Version Control/Setting Up Repository/git config.md",
+    "Software Development/Version Control/Setting Up Repository/git init.md",
+    "Software Development/Version Control/Setting Up Repository/Setting Alias for Git Commands.md",
+    "Software Development/Version Control/Syncing/git fetch.md",
+    "Software Development/Version Control/Syncing/git pull.md",
+    "Software Development/Version Control/Syncing/git push.md",
+    "Software Development/Version Control/Syncing/git remote.md",
+    "Software Development/Version Control/Undoing Changes/git clean.md",
+    "Software Development/Version Control/Undoing Changes/git reset.md",
+    "Software Development/Version Control/Undoing Changes/git revert.md",
+    "Software Development/Version Control/Undoing Changes/git rm.md",
+    "Software Development/Version Control/Using Branches/git branch.md",
+    "Software Development/Version Control/Using Branches/git checkout.md",
+    "Software Development/Version Control/Using Branches/git merge.md",
+    "Software Development/Version Control/Using Branches/Merge Conflicts.md",
+    "Software Development/Version Control/Using Branches/Merge Strategies.md",
     "Software Development/Version Control/Git.md",
     "index.md",
     "lib/scripts/graph-wasm.wasm",
@@ -51,6 +84,28 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -81,6 +136,28 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -97,169 +174,169 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1723691203655,
-      "sourceSize": 36463,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 72134,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1723691203655,
-      "sourceSize": 2219,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 6180,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 130208,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1723691203655,
+      "modifiedTime": 1723773442430,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -283,56 +360,56 @@
       "dependencies": []
     },
     "Hobbies/Coffee/Affogato.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 427,
       "exportedPath": "hobbies/coffee/affogato.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Americano.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 697,
       "exportedPath": "hobbies/coffee/americano.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Cappuccino.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 982,
       "exportedPath": "hobbies/coffee/cappuccino.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Cold Brew.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 761,
       "exportedPath": "hobbies/coffee/cold-brew.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Cortado.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 595,
       "exportedPath": "hobbies/coffee/cortado.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Espresso.md": {
-      "modifiedTime": 1723691203655,
-      "sourceSize": 1371,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1483,
       "exportedPath": "hobbies/coffee/espresso.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Flat White.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 770,
       "exportedPath": "hobbies/coffee/flat-white.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Immersion.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 174,
       "exportedPath": "hobbies/coffee/immersion.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Macchiato.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 526,
       "exportedPath": "hobbies/coffee/macchiato.html",
       "dependencies": []
     },
@@ -367,8 +444,8 @@
       "dependencies": []
     },
     "Software Development/DevOps/Planning Poker.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 2633,
       "exportedPath": "software-development/devops/planning-poker.html",
       "dependencies": []
     },
@@ -409,14 +486,14 @@
       "dependencies": []
     },
     "Software Development/Version Control/Git.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 359,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 4077,
       "exportedPath": "software-development/version-control/git.html",
       "dependencies": []
     },
     "Hobbies/Coffee/Caffè Latte.md": {
-      "modifiedTime": 1723691203655,
-      "sourceSize": 710,
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1274,
       "exportedPath": "hobbies/coffee/caffè-latte.html",
       "dependencies": []
     },
@@ -442,6 +519,336 @@
       "modifiedTime": 1723691203655,
       "sourceSize": 956,
       "exportedPath": "software-development/design-pattern/structural-patterns/dependency-injection.html",
+      "dependencies": []
+    },
+    "Networks/Network Protocols.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1149,
+      "exportedPath": "networks/network-protocols.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Comparing Workflows/Feature Branch Workflow.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/comparing-workflows/feature-branch-workflow.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Comparing Workflows/Forking Workflow.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/comparing-workflows/forking-workflow.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Comparing Workflows/Gitflow Workflow.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/comparing-workflows/gitflow-workflow.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Inspecting a Repository/git blame.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/inspecting-a-repository/git-blame.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Inspecting a Repository/git log.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/inspecting-a-repository/git-log.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Inspecting a Repository/git tag.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1172,
+      "exportedPath": "software-development/version-control/inspecting-a-repository/git-tag.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Making a Pull Request/Pull Requests.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/making-a-pull-request/pull-requests.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Rewriting History/git rebase.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/rewriting-history/git-rebase.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Rewriting History/git reflog.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/rewriting-history/git-reflog.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Saving Changes/git add.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1740,
+      "exportedPath": "software-development/version-control/saving-changes/git-add.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Saving Changes/git commit.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1824,
+      "exportedPath": "software-development/version-control/saving-changes/git-commit.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Saving Changes/git diff.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 321,
+      "exportedPath": "software-development/version-control/saving-changes/git-diff.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Saving Changes/git stash.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1727,
+      "exportedPath": "software-development/version-control/saving-changes/git-stash.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Saving Changes/git status.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/saving-changes/git-status.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Saving Changes/gitignore.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 4485,
+      "exportedPath": "software-development/version-control/saving-changes/gitignore.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Setting Up Repository/git clone.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1882,
+      "exportedPath": "software-development/version-control/setting-up-repository/git-clone.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Setting Up Repository/git config.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 888,
+      "exportedPath": "software-development/version-control/setting-up-repository/git-config.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Setting Up Repository/git init.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 2190,
+      "exportedPath": "software-development/version-control/setting-up-repository/git-init.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Setting Up Repository/Setting Alias for Git Commands.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 365,
+      "exportedPath": "software-development/version-control/setting-up-repository/setting-alias-for-git-commands.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Syncing/git fetch.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/syncing/git-fetch.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Syncing/git pull.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/syncing/git-pull.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Syncing/git push.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/syncing/git-push.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Syncing/git remote.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/syncing/git-remote.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Undoing Changes/git clean.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/undoing-changes/git-clean.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Undoing Changes/git reset.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/undoing-changes/git-reset.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Undoing Changes/git revert.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/undoing-changes/git-revert.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Undoing Changes/git rm.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/undoing-changes/git-rm.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Using Branches/git branch.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/using-branches/git-branch.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Using Branches/git checkout.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/using-branches/git-checkout.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Using Branches/git merge.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/using-branches/git-merge.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Using Branches/Merge Conflicts.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/using-branches/merge-conflicts.html",
+      "dependencies": []
+    },
+    "Software Development/Version Control/Using Branches/Merge Strategies.md": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 0,
+      "exportedPath": "software-development/version-control/using-branches/merge-strategies.html",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_zero.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/mathjax_zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-bold.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-italic.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-italic.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-bolditalic.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size1-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size2-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size3-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size4-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_ams-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-bold.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-bold.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-bold.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-italic.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_script-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_typewriter-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-regular.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-bold.woff": {
+      "modifiedTime": 1723773442430,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     }
   }
