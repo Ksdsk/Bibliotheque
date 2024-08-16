@@ -24,4 +24,3 @@ Git is a version control system, which is the tool of tracking and managing chan
 | [[git reset]]    | Undoes changes to files in the working directory.                                                                                                        |
 | [[git revert]]   | Undoes a committed snapshot.                                                                                                                             |
 | [[git status]]   | Displays the state of the working directory and the staged snapshot.                                                                                     |
-|                  |                                                                                                                                                          |
