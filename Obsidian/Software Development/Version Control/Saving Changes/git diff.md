@@ -1,0 +1,1 @@
+The term "diff" is simply a shortened word of "difference". In the context of [[Git]], it is a function that takes two input data sets and outputs the changes between them. `git diff` is a multi-use Git command that when executed runs a diff function on Git data sources. These can be commits, branches, files, and more.
