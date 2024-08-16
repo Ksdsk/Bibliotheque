@@ -8,7 +8,7 @@ Developing a project revolves around the basic edit/stage/commit pattern:
 3. After you're happy with the staged snapshot, you commit it to the project history with `git commit`.
 Additionally, if you need to undo a commit or staged snapshot, you can use [[git reset]].
 ## Staging Area
-The primary function of the command is to promote pending changes in the working directory to the *staging area*. The staging area is one of Git's unique feature. Instead of committing all of the changes you've made since the last commit, the stage lets you group related changes into highly focused snapshots before actually committing it tot he project history. As in any revision control system, it's important to create atomic commits so that it's easy to track down bugs and revert changes with minimal impact on the entire project.\
+The primary function of the command is to promote pending changes in the working directory to the *staging area*. The staging area is one of Git's unique feature. Instead of committing all of the changes you've made since the last commit, the stage lets you group related changes into highly focused snapshots before actually committing it tot he project history. As in any revision control system, it's important to create atomic commits so that it's easy to track down bugs and revert changes with minimal impact on the entire project.
 ## Commands
 The generic command is:
 ```zsh
