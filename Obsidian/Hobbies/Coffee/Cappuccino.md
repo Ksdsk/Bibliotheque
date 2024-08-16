@@ -6,6 +6,6 @@ The Viennese bestowed the name *Kapuziner*, which was introduced to northern Ita
 ## Recipe
 Creating a cappuccino is similar to a latte:
 1. Brew espresso;
-2. Steam milk (usually for about 8-10 seconds to create a layer of foam);
+2. Steam milk, which should be less than the amount you would put for a latte (usually for about 8-10 seconds to create a layer of foam);
 3. Stop steaming when it reaches about 65 degrees (when you feel uncomfortable holding the milk jug).
 
