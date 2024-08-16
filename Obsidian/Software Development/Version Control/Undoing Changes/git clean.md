@@ -1,0 +1,1 @@
+`git clean` is a convenience method for deleting untracked files in a repository's working directory. Overall, the effect of the command can be accomplished using the [[git status]]
