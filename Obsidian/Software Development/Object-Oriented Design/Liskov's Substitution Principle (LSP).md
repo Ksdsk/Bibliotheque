@@ -22,6 +22,33 @@ public class MotorCar implements Car {
 		// ...
 	}
 
-	public void accel
+	public void accelerate() {
+		engine.powerOn(1000);
+		// ...
+	}
 }
 ```
+
+That's for a motor vehicle, but we don't have any of that in an Electric car:
+```java
+public class ElectricCar implements Car {
+	// Constructors, getters, and setters
+
+	public void turnOnEngine() {
+		throw new AssertionError("I don't have an engine!");
+	}
+
+	public void accelerate() {
+		// ...
+	}
+}
+```
+
+This would be a clear violation of the LSP principle. However, if we implement the interface as:
+```java
+public interface Car {
+	void turnOnCar();
+	// ...
+}
+```
+... and make the necessary changes
