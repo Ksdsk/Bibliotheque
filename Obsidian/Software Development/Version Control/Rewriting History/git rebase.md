@@ -14,5 +14,3 @@ To use the interactive rebase mode:
 git rebase -i <base>
 ```
 ... where the `<base>` can be a commit ID, a branch name, or a relative reference to `HEAD`.
-
-You can also ta
