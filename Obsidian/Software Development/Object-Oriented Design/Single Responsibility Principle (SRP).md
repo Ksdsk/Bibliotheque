@@ -22,6 +22,7 @@ public class Book {
 	private String author;
 	private String text;
 	// Constructor, getters, and setters
+	
 	// Methods that directly relate to the book properties
 	public String replaceWordInText(String word, String replacementWord) {
 		return text.replaceAll(word, replacementWord);
@@ -32,3 +33,29 @@ public class Book {
 	}
 }
 ```
+
+The book class works well, and we can store as many books as we'd like in our application. Let's try adding a print method to a book:
+```java
+public class BadBook {
+	//  ...
+	void printTextToConsole() {
+		// Code for formatting and printing the text
+	}
+}
+```
+However, this code violates the SRP we outlined earlier.
+
+To fix the mess, we should implement a separate class that deals with only printing our texts:
+```java
+public class BookPrinter {
+	// Methods for printing text
+	void printTextToConsole(String text) {
+		// ...
+	}
+
+	void printTextToAnotherMedium(String text) {
+		// ...
+	}
+}
+```
+... relieving the `Book` class of its printing duties, but we can also leverage our `BookPrinter` class to send our text to other media.
