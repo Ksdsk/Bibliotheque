@@ -1,0 +1,2 @@
+> In access management, digital identity is the recorded set of measurable characteristics by which a computer can identify an external entity. The entity may be a person, an organization, a software program, or another computer. [What is digital identity? | Cloudflare](https://www.cloudflare.com/learning/access-management/what-is-identity/#:~:text=In%20access%20management%2C%20digital%20identity,relies%20on%20computer%2Didentifiable%20attributes.)
+
