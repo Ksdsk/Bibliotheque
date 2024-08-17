@@ -14,3 +14,21 @@ public class Book {
 	// Constructor, getters, and setters
 }
 ```
+
+Let's add a couple of methods to query the text:
+```java
+public class Book {
+	private String name;
+	private String author;
+	private String text;
+	// Constructor, getters, and setters
+	// Methods that directly relate to the book properties
+	public String replaceWordInText(String word, String replacementWord) {
+		return text.replaceAll(word, replacementWord);
+	} 
+
+	public boolean isWordInText(String word) {
+		return text.contains(word);
+	}
+}
+```
