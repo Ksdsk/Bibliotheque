@@ -5,9 +5,9 @@ The **Factory Method** pattern suggests that you replace direct object construct
 Pros:
 - Avoid tight coupling between the creator and the concrete products
 - Promotes the [[Single Responsibility Principle (SRP)]] - You can move the product creation code into one place in the program, making the code easier to support.
-- Promotes the [[Open/Closed Principle (OCP)]] - You can introduce new types of products into the program without breaking existing client code.
+- Promotes the [[Open Closed Principle (OCP)]] - You can introduce new types of products into the program without breaking existing client code.
 Cons:
-- The code may become more complicated since you need to introduc
+- The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern.
 ## Applicability
 When you don't know beforehand the exact types and dependencies of the objects your code should work with:
 - The factory Method separates product construction code from the code that actually uses the product. Therefore, it's easier to extend the product construction code independently from the rest of the code.
