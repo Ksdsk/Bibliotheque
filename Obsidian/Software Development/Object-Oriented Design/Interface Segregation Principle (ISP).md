@@ -27,4 +27,16 @@ public interface BearPetter {
 }
 ```
 
-Now, we can 
+Now, we can implement only the necessary interfaces like so:
+```java
+public class BearCarer implements BearCleaner, BearFeeder {
+
+    public void washTheBear() {
+        //I think we missed a spot...
+    }
+
+    public void feedTheBear() {
+        //Tuna Tuesdays...
+    }
+}
+```
