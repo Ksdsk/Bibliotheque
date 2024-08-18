@@ -30,3 +30,88 @@ You can use the pattern when:
 4. Think about creating a director class.
 5. The client code creates both the builder and the director objects.
 6. The construction result can be obtained directly from the director only if all products follow the same interface. Otherwise, the client should fetch the result from the builder.
+## Example
+Let's try to build a car:
+```java
+public interface Builder {
+    void setCarType(CarType type);
+    void setSeats(int seats);
+    void setEngine(Engine engine);
+    void setTransmission(Transmission transmission);
+    void setTripComputer(TripComputer tripComputer);
+    void setGPSNavigator(GPSNavigator gpsNavigator);
+}
+
+public class CarBuilder implements Builder {
+    private CarType type;
+    private int seats;
+    private Engine engine;
+    private Transmission transmission;
+    private TripComputer tripComputer;
+    private GPSNavigator gpsNavigator;
+
+    public void setCarType(CarType type) {
+        this.type = type;
+    }
+
+    @Override
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
+
+    @Override
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+    @Override
+    public void setTransmission(Transmission transmission) {
+        this.transmission = transmission;
+    }
+
+    @Override
+    public void setTripComputer(TripComputer tripComputer) {
+        this.tripComputer = tripComputer;
+    }
+
+    @Override
+    public void setGPSNavigator(GPSNavigator gpsNavigator) {
+        this.gpsNavigator = gpsNavigator;
+    }
+
+    public Car getResult() {
+        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+    }
+}
+
+public class Director {
+
+    public void constructSportsCar(Builder builder) {
+        builder.setCarType(CarType.SPORTS_CAR);
+        builder.setSeats(2);
+        builder.setEngine(new Engine(3.0, 0));
+        builder.setTransmission(Transmission.SEMI_AUTOMATIC);
+        builder.setTripComputer(new TripComputer());
+        builder.setGPSNavigator(new GPSNavigator());
+    }
+
+    public void constructCityCar(Builder builder) {
+        builder.setCarType(CarType.CITY_CAR);
+        builder.setSeats(2);
+        builder.setEngine(new Engine(1.2, 0));
+        builder.setTransmission(Transmission.AUTOMATIC);
+        builder.setTripComputer(new TripComputer());
+        builder.setGPSNavigator(new GPSNavigator());
+    }
+
+    public void constructSUV(Builder builder) {
+        builder.setCarType(CarType.SUV);
+        builder.setSeats(4);
+        builder.setEngine(new Engine(2.5, 0));
+        builder.setTransmission(Transmission.MANUAL);
+        builder.setGPSNavigator(new GPSNavigator());
+    }
+}
+```
+
+There's another method of returning the builder so you can do all of the building in one line!
