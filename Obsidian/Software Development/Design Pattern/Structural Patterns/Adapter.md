@@ -82,3 +82,8 @@ Pros:
 Cons:
 - The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Sometimes, it can be simpler to change the service class so that it matches the rest of your code.
 ## Relations with Other Patterns
+- [[Bridge]] is usually designed up-front, letting you develop parts of an application independently of each other. On the other hand, Adapter is commonly used with an existing app to make some otherwise-incompatible classes work together nicely.
+- Adapter provides a completely different interface for accessing an existing object. On the other hand, with the [[Decorator]] pattern, the interface either stays the same or gets extended.
+- With Adapter, you access an existing object via different interface. With [[Proxy]], the interface stays the same. With [[Decorator]], you access the object via an enhanced interface.
+- [[Facade]] defines a new interface for existing objects, whereas Adapter tries to make the existing interface usable; Adapter usually wraps just one object, Facade works with an entire subsystem of objects.
+- [[Bridge]], [[State]], and [[Strategy]] have very similar structures. However, they solve different problems.
