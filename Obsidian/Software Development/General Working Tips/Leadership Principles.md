@@ -88,10 +88,25 @@ A team is comprised of great people:
 
 The above is a list of what you want to be as an employee - those traits are what enables us to deliver the best results to our customers.
 
-Always ask if you are raising the bar and seek to improve. Your manage strives to learn more about their employee, especially on what they are doing well and what they need to grow. 
+Always ask if you are raising the bar and seek to improve. Your manage strives to learn more about their employee, especially on what they are doing well and what they need to grow. Ask them and learn from your senior. Ask for critical feedback to become the ideal employee.
 ## Insist on the Highest Standards
+> Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
+
+Customers can find details which motivates them to switch and continue exploring different option. They are obviously in their right as their own role. So, as developers, we need to insist on the highest standards to try to attract the customers and simply give what they need and want. 
+
+Higher expectations lead to better results. So, in the meetings you are in, try to set the expectations, and keep them high. Try to model what "good" looks like in your system. 
+
+Keep fighting - that is a fight worth fighting. The companies that keep increasing what's possible for customers deliver best for customers.
 ## Think Big
+> Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
+
+A part of being an inventor is that we cannot be content with where we are and constantly ask what are the next big breakthroughs for customers.
+
+You cannot run the same playbook for decades at a time to have a long-running product. Change is hard, but change is good. 
+
+Bold initiatives that are not simple to do, and these types of initiatives require thinking big, and it's what you do if you want to serve customers better. **And it is part of what not only makes Amazon unique, but also gives us a unique impact in the world.**
 ## Bias for Action
+> Speed matters in business. Many
 ## Frugality
 ## Earn Trust
 ## Dive Deep
