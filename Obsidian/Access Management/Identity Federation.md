@@ -8,4 +8,15 @@ Then, as the internet began to gain popularity and applications begin to be run 
 ## Components of Federation
 Here are some casts:
 - The first system of a federation is the [[Identity Provider (IdP)]]. 
-- The application is 
+- The application a user w ants to log into is the Service Provider (SP).
+- The message that is sent between the systems is called an *assertion*,
+
+The assertion contains the account name of the user along with other attributes that the SP needs to create a user session. It is cryptographically signed so the SP can trust that it came from the right IdP.
+
+Notice that the SP has nothing to do with the authentication of the user. It trusts the IdP to take care of that. All the SP cares about is that the user was authenticated properly.
+
+But an IdP can be federated to multiple SPs. What does that mean in practice? A user goes to one place to login, then the IdP asserts their identity to the SP that the user is attempting to access. This means there is now a single control point for authentication. By centralizing the user's account and credentials, an administrator has only a single system to perform user management.
+## Relationship with current strategies
+While [[Security Assertion Markup Language (SAML)]] was cutting edge for its time, by today's standards, it looks very dated. It was designed to enable [[Single Sign-On (SSO)]] from browser-based clients to web servers by passing XML documents. 
+
+Today, modern apps are not always going to be web-based, and an assertion using XML is too heavy for today's uses. Hence, the [[OpenID Connect (OIDC)]] was born. 

@@ -9,7 +9,7 @@ The OpenID Connect protocol follows these steps:
 2. End user clicks sign-in and types their username and password.
 3. The relying party (RP), which is the Client, sends a request to the OpenID Provider (OP).
 4. The OP authenticates the User and obtains authorization.
-5. The OP responds with an Identity Token and usually an Access Token,
+5. The OP responds with an Identity Token and usually an Access Token, often it would be the [[JSON Web Tokens (JWT)]]. 
 6. The RP can send a request with the Access Token to the User device.
 7. The UserInfo Endpoint returns Claims about the End User.
 ## Benefits
@@ -19,6 +19,8 @@ By reducing the number of accounts that users need to access applications, OIDC 
 - Enhances security controls
 - Standardizes authentication
 - Streamlines identity management
+## Comparison with SAML
+OIDC was built on top of [[OAuth]] 2.0 - it supports a broader set of use cases, like Single Page Applications, mobile apps, and server-to-server access. It uses [[JSON Web Tokens (JWT)]] which are lighter weight compared to [[Security Assertion Markup Language (SAML)]]'s XML assertions.
 ## Example
 Many organizations use OIDC to enable secure authentication across web and mobile apps:
 - When a user signs up for a Spotify account, they are offered three choices: Sign up with Facebook, Google, or your Email address. Users who choose to sign up with Facebook or Google are using OIDC to create an account. They will be redirected to whichever OP they selected (Facebook or Google) and then once they've signed in, the OP will send Spotify basic profile details. The user doesn't have to create a new account for Spotify and their passwords remain protected.
