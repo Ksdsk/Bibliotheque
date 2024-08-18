@@ -1,12 +1,38 @@
 {
   "vaultName": "Obsidian",
-  "lastExport": 1723779591906,
+  "lastExport": 1723956003900,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "Cloud Computing/AWS/Serverless Application Model (SAM).md",
+    "(media)/Pasted image 20240816232059.png",
+    "(media)/Pasted image 20240817120047.png",
+    "(media)/Pasted image 20240817220713.png",
+    "(media)/Pasted image 20240817220959.png",
+    "Access Management/Authentication.md",
+    "Access Management/Authorization.md",
+    "Access Management/Digital Identity.md",
+    "Access Management/Identity Provider (IdP).md",
+    "Access Management/JSON Web Tokens (JWT).md",
+    "Access Management/Security Assertion Markup Language (SAML).md",
+    "Access Management/Single Sign-On (SSO).md",
+    "Application Programming Interface (API)/OpenAPI.md",
+    "Application Programming Interface (API)/Smithy 2.0.md",
+    "Application Programming Interface (API)/Swagger.md",
+    "Artificial Intelligence (AI)/AI Ethics.md",
+    "Artificial Intelligence (AI)/OpenAI.md",
+    "Cloud Computing/Amazon Web Services/Analytics/Amazon CloudSearch.md",
+    "Cloud Computing/Amazon Web Services/Analytics/Amazon Redshift.md",
+    "Cloud Computing/Amazon Web Services/Compute/Amazon EC2.md",
+    "Cloud Computing/Amazon Web Services/Compute/AWS Elastic Beanstalk.md",
+    "Cloud Computing/Amazon Web Services/Compute/AWS Lambda.md",
+    "Cloud Computing/Amazon Web Services/Identity/Amazon Cognito.md",
+    "Cloud Computing/Amazon Web Services/Identity/AWS Identity and Access Management (IAM).md",
+    "Cloud Computing/Amazon Web Services/Identity/AWS Identity Center.md",
+    "Cloud Computing/Amazon Web Services/Management and Governance/Amazon CloudWatch.md",
+    "Cloud Computing/Amazon Web Services/Management and Governance/AWS CloudFormation.md",
+    "Cloud Computing/Amazon Web Services/Serverless Application Model (SAM).md",
     "Hobbies/Audio/Codecs.md",
     "Hobbies/Coffee/Affogato.md",
     "Hobbies/Coffee/Americano.md",
@@ -21,11 +47,35 @@
     "Hobbies/Coffee/Macchiato.md",
     "Hobbies/Keyboards/Audio Feedback.md",
     "Hobbies/Keyboards/Switches.md",
+    "Monitoring/Grafana.md",
+    "Monitoring/Prometheus.md",
     "Networks/Network Protocols.md",
     "Software Development/Code Integrity/Dagger.md",
     "Software Development/Code Integrity/Debugging.md",
     "Software Development/Code Integrity/Java Annotations.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Chain of Responsibility.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Command.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Iterator.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Mediator.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Memento.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Observer.md",
+    "Software Development/Design Pattern/Behavioural Patterns/State.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Strategy.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Template Method.md",
+    "Software Development/Design Pattern/Behavioural Patterns/Visitor.md",
+    "Software Development/Design Pattern/Creational Patterns/Abstract Factory.md",
+    "Software Development/Design Pattern/Creational Patterns/Builder.md",
+    "Software Development/Design Pattern/Creational Patterns/Factory Method.md",
+    "Software Development/Design Pattern/Creational Patterns/Prototype.md",
+    "Software Development/Design Pattern/Creational Patterns/Singleton.md",
+    "Software Development/Design Pattern/Structural Patterns/Adapter.md",
+    "Software Development/Design Pattern/Structural Patterns/Bridge.md",
+    "Software Development/Design Pattern/Structural Patterns/Composite.md",
+    "Software Development/Design Pattern/Structural Patterns/Decorator.md",
     "Software Development/Design Pattern/Structural Patterns/Dependency Injection.md",
+    "Software Development/Design Pattern/Structural Patterns/Facade.md",
+    "Software Development/Design Pattern/Structural Patterns/Flyweight.md",
+    "Software Development/Design Pattern/Structural Patterns/Proxy.md",
     "Software Development/DevOps/Agile Methodology.md",
     "Software Development/DevOps/Kanban.md",
     "Software Development/DevOps/Planning Poker.md",
@@ -34,6 +84,17 @@
     "Software Development/DevOps/Test-Driven Design.md",
     "Software Development/DevOps/User Stories.md",
     "Software Development/DevOps/Waterfall Methodology.md",
+    "Software Development/General Working Tips/AWS Internship.md",
+    "Software Development/General Working Tips/Burnouts.md",
+    "Software Development/General Working Tips/Day 1 Culture.md",
+    "Software Development/General Working Tips/Department of National Defence Internship.md",
+    "Software Development/General Working Tips/Leadership Principles.md",
+    "Software Development/Object-Oriented Design/Dependency Inversion Principle (DIP).md",
+    "Software Development/Object-Oriented Design/Interface Segregation Principle (ISP).md",
+    "Software Development/Object-Oriented Design/Liskov's Substitution Principle (LSP).md",
+    "Software Development/Object-Oriented Design/Object-Oriented Design.md",
+    "Software Development/Object-Oriented Design/Open Closed Principle (OCP).md",
+    "Software Development/Object-Oriented Design/Single Responsibility Principle (SRP).md",
     "Software Development/Tools/Docker.md",
     "Software Development/Version Control/Comparing Workflows/Feature Branch Workflow.md",
     "Software Development/Version Control/Comparing Workflows/Forking Workflow.md",
@@ -69,6 +130,11 @@
     "Software Development/Version Control/Using Branches/Merge Strategies.md",
     "Software Development/Version Control/Git.md",
     "index.md",
+    "Pasted image 20240817234939.png",
+    "lib/media/pasted-image-20240817220959.png",
+    "lib/media/pasted-image-20240817120047.png",
+    "lib/media/pasted-image-20240817234939.png",
+    "lib/media/pasted-image-20240816232059.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -174,169 +240,169 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1723779591906,
-      "sourceSize": 72134,
+      "modifiedTime": 1723956003900,
+      "sourceSize": 133494,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1723779591906,
-      "sourceSize": 6286,
+      "modifiedTime": 1723956003900,
+      "sourceSize": 11906,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 130208,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -345,12 +411,6 @@
       "modifiedTime": 1723605463967,
       "sourceSize": 2302,
       "exportedPath": "index.html",
-      "dependencies": []
-    },
-    "Cloud Computing/AWS/Serverless Application Model (SAM).md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 0,
-      "exportedPath": "cloud-computing/aws/serverless-application-model-(sam).html",
       "dependencies": []
     },
     "Hobbies/Audio/Codecs.md": {
@@ -570,14 +630,16 @@
       "dependencies": []
     },
     "Software Development/Version Control/Rewriting History/git rebase.md": {
-      "modifiedTime": 1723773442430,
-      "sourceSize": 0,
+      "modifiedTime": 1723956003900,
+      "sourceSize": 1190,
       "exportedPath": "software-development/version-control/rewriting-history/git-rebase.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240816232059.png"
+      ]
     },
     "Software Development/Version Control/Rewriting History/git reflog.md": {
-      "modifiedTime": 1723773442430,
-      "sourceSize": 0,
+      "modifiedTime": 1723956003900,
+      "sourceSize": 734,
       "exportedPath": "software-development/version-control/rewriting-history/git-reflog.html",
       "dependencies": []
     },
@@ -672,8 +734,8 @@
       "dependencies": []
     },
     "Software Development/Version Control/Undoing Changes/git reset.md": {
-      "modifiedTime": 1723773442430,
-      "sourceSize": 0,
+      "modifiedTime": 1723956003900,
+      "sourceSize": 1921,
       "exportedPath": "software-development/version-control/undoing-changes/git-reset.html",
       "dependencies": []
     },
@@ -720,135 +782,543 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1723779591906,
+      "modifiedTime": 1723956003900,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240816232059.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 10880,
+      "exportedPath": "(media)/pasted-image-20240816232059.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240817120047.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 31116,
+      "exportedPath": "(media)/pasted-image-20240817120047.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240817220713.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 52127,
+      "exportedPath": "(media)/pasted-image-20240817220713.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240817220959.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 58046,
+      "exportedPath": "(media)/pasted-image-20240817220959.png",
+      "dependencies": []
+    },
+    "Access Management/Authentication.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "access-management/authentication.html",
+      "dependencies": []
+    },
+    "Access Management/Authorization.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "access-management/authorization.html",
+      "dependencies": []
+    },
+    "Access Management/Digital Identity.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 454,
+      "exportedPath": "access-management/digital-identity.html",
+      "dependencies": []
+    },
+    "Access Management/Identity Provider (IdP).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "access-management/identity-provider-(idp).html",
+      "dependencies": []
+    },
+    "Access Management/JSON Web Tokens (JWT).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "access-management/json-web-tokens-(jwt).html",
+      "dependencies": []
+    },
+    "Access Management/Security Assertion Markup Language (SAML).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "access-management/security-assertion-markup-language-(saml).html",
+      "dependencies": []
+    },
+    "Access Management/Single Sign-On (SSO).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "access-management/single-sign-on-(sso).html",
+      "dependencies": []
+    },
+    "Application Programming Interface (API)/OpenAPI.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "application-programming-interface-(api)/openapi.html",
+      "dependencies": []
+    },
+    "Application Programming Interface (API)/Smithy 2.0.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "application-programming-interface-(api)/smithy-2.0.html",
+      "dependencies": []
+    },
+    "Application Programming Interface (API)/Swagger.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "application-programming-interface-(api)/swagger.html",
+      "dependencies": []
+    },
+    "Artificial Intelligence (AI)/AI Ethics.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "artificial-intelligence-(ai)/ai-ethics.html",
+      "dependencies": []
+    },
+    "Artificial Intelligence (AI)/OpenAI.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "artificial-intelligence-(ai)/openai.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Analytics/Amazon CloudSearch.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/analytics/amazon-cloudsearch.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Analytics/Amazon Redshift.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/analytics/amazon-redshift.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Compute/Amazon EC2.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/compute/amazon-ec2.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Compute/AWS Elastic Beanstalk.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/compute/aws-elastic-beanstalk.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Compute/AWS Lambda.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/compute/aws-lambda.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Identity/Amazon Cognito.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/identity/amazon-cognito.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Identity/AWS Identity and Access Management (IAM).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/identity/aws-identity-and-access-management-(iam).html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Identity/AWS Identity Center.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/identity/aws-identity-center.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Management and Governance/Amazon CloudWatch.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/management-and-governance/amazon-cloudwatch.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Management and Governance/AWS CloudFormation.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/management-and-governance/aws-cloudformation.html",
+      "dependencies": []
+    },
+    "Cloud Computing/Amazon Web Services/Serverless Application Model (SAM).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "cloud-computing/amazon-web-services/serverless-application-model-(sam).html",
+      "dependencies": []
+    },
+    "Monitoring/Grafana.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "monitoring/grafana.html",
+      "dependencies": []
+    },
+    "Monitoring/Prometheus.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "monitoring/prometheus.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Chain of Responsibility.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/chain-of-responsibility.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Command.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/command.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Iterator.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/iterator.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Mediator.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/mediator.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Memento.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/memento.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Observer.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/observer.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/State.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/state.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Strategy.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/strategy.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Template Method.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/template-method.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Behavioural Patterns/Visitor.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/behavioural-patterns/visitor.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Creational Patterns/Abstract Factory.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 4934,
+      "exportedPath": "software-development/design-pattern/creational-patterns/abstract-factory.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Creational Patterns/Builder.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 5035,
+      "exportedPath": "software-development/design-pattern/creational-patterns/builder.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240817220959.png"
+      ]
+    },
+    "Software Development/Design Pattern/Creational Patterns/Factory Method.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 3401,
+      "exportedPath": "software-development/design-pattern/creational-patterns/factory-method.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240817120047.png"
+      ]
+    },
+    "Software Development/Design Pattern/Creational Patterns/Prototype.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 7387,
+      "exportedPath": "software-development/design-pattern/creational-patterns/prototype.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240817234939.png"
+      ]
+    },
+    "Software Development/Design Pattern/Creational Patterns/Singleton.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 6857,
+      "exportedPath": "software-development/design-pattern/creational-patterns/singleton.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Structural Patterns/Adapter.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/structural-patterns/adapter.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Structural Patterns/Bridge.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/structural-patterns/bridge.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Structural Patterns/Composite.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/structural-patterns/composite.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Structural Patterns/Decorator.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/structural-patterns/decorator.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Structural Patterns/Facade.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/structural-patterns/facade.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Structural Patterns/Flyweight.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/structural-patterns/flyweight.html",
+      "dependencies": []
+    },
+    "Software Development/Design Pattern/Structural Patterns/Proxy.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/design-pattern/structural-patterns/proxy.html",
+      "dependencies": []
+    },
+    "Software Development/General Working Tips/AWS Internship.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/general-working-tips/aws-internship.html",
+      "dependencies": []
+    },
+    "Software Development/General Working Tips/Burnouts.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/general-working-tips/burnouts.html",
+      "dependencies": []
+    },
+    "Software Development/General Working Tips/Day 1 Culture.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/general-working-tips/day-1-culture.html",
+      "dependencies": []
+    },
+    "Software Development/General Working Tips/Department of National Defence Internship.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 0,
+      "exportedPath": "software-development/general-working-tips/department-of-national-defence-internship.html",
+      "dependencies": []
+    },
+    "Software Development/General Working Tips/Leadership Principles.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 13355,
+      "exportedPath": "software-development/general-working-tips/leadership-principles.html",
+      "dependencies": []
+    },
+    "Software Development/Object-Oriented Design/Dependency Inversion Principle (DIP).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 1454,
+      "exportedPath": "software-development/object-oriented-design/dependency-inversion-principle-(dip).html",
+      "dependencies": []
+    },
+    "Software Development/Object-Oriented Design/Interface Segregation Principle (ISP).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 1272,
+      "exportedPath": "software-development/object-oriented-design/interface-segregation-principle-(isp).html",
+      "dependencies": []
+    },
+    "Software Development/Object-Oriented Design/Liskov's Substitution Principle (LSP).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 1163,
+      "exportedPath": "software-development/object-oriented-design/liskov's-substitution-principle-(lsp).html",
+      "dependencies": []
+    },
+    "Software Development/Object-Oriented Design/Object-Oriented Design.md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 471,
+      "exportedPath": "software-development/object-oriented-design/object-oriented-design.html",
+      "dependencies": []
+    },
+    "Software Development/Object-Oriented Design/Open Closed Principle (OCP).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 662,
+      "exportedPath": "software-development/object-oriented-design/open-closed-principle-(ocp).html",
+      "dependencies": []
+    },
+    "Software Development/Object-Oriented Design/Single Responsibility Principle (SRP).md": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 1720,
+      "exportedPath": "software-development/object-oriented-design/single-responsibility-principle-(srp).html",
+      "dependencies": []
+    },
+    "Pasted image 20240817234939.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 19803,
+      "exportedPath": "pasted-image-20240817234939.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240817220959.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 58046,
+      "exportedPath": "lib/media/pasted-image-20240817220959.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240817120047.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 31116,
+      "exportedPath": "lib/media/pasted-image-20240817120047.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240817234939.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 19803,
+      "exportedPath": "lib/media/pasted-image-20240817234939.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240816232059.png": {
+      "modifiedTime": 1723956003900,
+      "sourceSize": 10880,
+      "exportedPath": "lib/media/pasted-image-20240816232059.png",
       "dependencies": []
     }
   }

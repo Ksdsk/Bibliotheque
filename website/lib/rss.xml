@@ -1,4 +1,917 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 16 Aug 2024 03:39:52 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 16 Aug 2024 03:39:51 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Caffè Mocha]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 18 Aug 2024 04:40:07 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 18 Aug 2024 04:40:03 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Authentication]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\authentication.html</link><guid isPermaLink="false">Access Management/Authentication.md</guid><pubDate>Sat, 17 Aug 2024 02:58:15 GMT</pubDate></item><item><title><![CDATA[Authorization]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\authorization.html</link><guid isPermaLink="false">Access Management/Authorization.md</guid><pubDate>Sat, 17 Aug 2024 02:58:19 GMT</pubDate></item><item><title><![CDATA[Digital Identity]]></title><description><![CDATA[ 
+ <br>
+In access management, digital identity is the recorded set of measurable characteristics by which a computer can identify an external entity. The entity may be a person, an organization, a software program, or another computer. <a data-tooltip-position="top" aria-label="https://www.cloudflare.com/learning/access-management/what-is-identity/#:~:text=In%20access%20management%2C%20digital%20identity,relies%20on%20computer%2Didentifiable%20attributes." rel="noopener" class="external-link" href="https://www.cloudflare.com/learning/access-management/what-is-identity/#:~:text=In%20access%20management%2C%20digital%20identity,relies%20on%20computer%2Didentifiable%20attributes." target="_blank">What is digital identity? | Cloudflare</a>
+]]></description><link>access-management\digital-identity.html</link><guid isPermaLink="false">Access Management/Digital Identity.md</guid><pubDate>Sat, 17 Aug 2024 02:58:00 GMT</pubDate></item><item><title><![CDATA[Identity Provider (IdP)]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\identity-provider-(idp).html</link><guid isPermaLink="false">Access Management/Identity Provider (IdP).md</guid><pubDate>Sat, 17 Aug 2024 02:59:15 GMT</pubDate></item><item><title><![CDATA[JSON Web Tokens (JWT)]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\json-web-tokens-(jwt).html</link><guid isPermaLink="false">Access Management/JSON Web Tokens (JWT).md</guid><pubDate>Sat, 17 Aug 2024 02:59:38 GMT</pubDate></item><item><title><![CDATA[Security Assertion Markup Language (SAML)]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\security-assertion-markup-language-(saml).html</link><guid isPermaLink="false">Access Management/Security Assertion Markup Language (SAML).md</guid><pubDate>Sat, 17 Aug 2024 02:58:41 GMT</pubDate></item><item><title><![CDATA[Single Sign-On (SSO)]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\single-sign-on-(sso).html</link><guid isPermaLink="false">Access Management/Single Sign-On (SSO).md</guid><pubDate>Sat, 17 Aug 2024 02:58:59 GMT</pubDate></item><item><title><![CDATA[OpenAPI]]></title><description><![CDATA[ 
+ ]]></description><link>application-programming-interface-(api)\openapi.html</link><guid isPermaLink="false">Application Programming Interface (API)/OpenAPI.md</guid><pubDate>Sat, 17 Aug 2024 03:09:44 GMT</pubDate></item><item><title><![CDATA[Smithy 2.0]]></title><description><![CDATA[ 
+ ]]></description><link>application-programming-interface-(api)\smithy-2.0.html</link><guid isPermaLink="false">Application Programming Interface (API)/Smithy 2.0.md</guid><pubDate>Sat, 17 Aug 2024 03:09:56 GMT</pubDate></item><item><title><![CDATA[Swagger]]></title><description><![CDATA[ 
+ ]]></description><link>application-programming-interface-(api)\swagger.html</link><guid isPermaLink="false">Application Programming Interface (API)/Swagger.md</guid><pubDate>Sat, 17 Aug 2024 03:09:51 GMT</pubDate></item><item><title><![CDATA[AI Ethics]]></title><description><![CDATA[ 
+ ]]></description><link>artificial-intelligence-(ai)\ai-ethics.html</link><guid isPermaLink="false">Artificial Intelligence (AI)/AI Ethics.md</guid><pubDate>Sat, 17 Aug 2024 03:19:17 GMT</pubDate></item><item><title><![CDATA[OpenAI]]></title><description><![CDATA[ 
+ ]]></description><link>artificial-intelligence-(ai)\openai.html</link><guid isPermaLink="false">Artificial Intelligence (AI)/OpenAI.md</guid><pubDate>Sat, 17 Aug 2024 03:19:22 GMT</pubDate></item><item><title><![CDATA[Amazon CloudSearch]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\analytics\amazon-cloudsearch.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Analytics/Amazon CloudSearch.md</guid><pubDate>Sat, 17 Aug 2024 03:02:04 GMT</pubDate></item><item><title><![CDATA[Amazon Redshift]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\analytics\amazon-redshift.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Analytics/Amazon Redshift.md</guid><pubDate>Sat, 17 Aug 2024 03:01:07 GMT</pubDate></item><item><title><![CDATA[Amazon EC2]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\compute\amazon-ec2.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/Amazon EC2.md</guid><pubDate>Sat, 17 Aug 2024 03:03:13 GMT</pubDate></item><item><title><![CDATA[AWS Elastic Beanstalk]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\compute\aws-elastic-beanstalk.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/AWS Elastic Beanstalk.md</guid><pubDate>Sat, 17 Aug 2024 03:03:27 GMT</pubDate></item><item><title><![CDATA[AWS Lambda]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\compute\aws-lambda.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/AWS Lambda.md</guid><pubDate>Sat, 17 Aug 2024 03:03:18 GMT</pubDate></item><item><title><![CDATA[Amazon Cognito]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\identity\amazon-cognito.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/Amazon Cognito.md</guid><pubDate>Sat, 17 Aug 2024 03:00:46 GMT</pubDate></item><item><title><![CDATA[AWS Identity and Access Management (IAM)]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\identity\aws-identity-and-access-management-(iam).html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/AWS Identity and Access Management (IAM).md</guid><pubDate>Sat, 17 Aug 2024 03:00:18 GMT</pubDate></item><item><title><![CDATA[AWS Identity Center]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\identity\aws-identity-center.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/AWS Identity Center.md</guid><pubDate>Sat, 17 Aug 2024 03:00:09 GMT</pubDate></item><item><title><![CDATA[Amazon CloudWatch]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\management-and-governance\amazon-cloudwatch.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Management and Governance/Amazon CloudWatch.md</guid><pubDate>Sat, 17 Aug 2024 03:04:15 GMT</pubDate></item><item><title><![CDATA[AWS CloudFormation]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\management-and-governance\aws-cloudformation.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Management and Governance/AWS CloudFormation.md</guid><pubDate>Sat, 17 Aug 2024 03:04:21 GMT</pubDate></item><item><title><![CDATA[Serverless Application Model (SAM)]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\serverless-application-model-(sam).html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Serverless Application Model (SAM).md</guid><pubDate>Tue, 13 Aug 2024 22:26:52 GMT</pubDate></item><item><title><![CDATA[Grafana]]></title><description><![CDATA[ 
+ ]]></description><link>monitoring\grafana.html</link><guid isPermaLink="false">Monitoring/Grafana.md</guid><pubDate>Sat, 17 Aug 2024 03:05:14 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[ 
+ ]]></description><link>monitoring\prometheus.html</link><guid isPermaLink="false">Monitoring/Prometheus.md</guid><pubDate>Sat, 17 Aug 2024 03:05:02 GMT</pubDate></item><item><title><![CDATA[Chain of Responsibility]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\chain-of-responsibility.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Chain of Responsibility.md</guid><pubDate>Sat, 17 Aug 2024 03:21:08 GMT</pubDate></item><item><title><![CDATA[Command]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\command.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Command.md</guid><pubDate>Sat, 17 Aug 2024 03:21:15 GMT</pubDate></item><item><title><![CDATA[Iterator]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\iterator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Iterator.md</guid><pubDate>Sat, 17 Aug 2024 03:21:18 GMT</pubDate></item><item><title><![CDATA[Mediator]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\mediator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Mediator.md</guid><pubDate>Sat, 17 Aug 2024 03:21:22 GMT</pubDate></item><item><title><![CDATA[Memento]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\memento.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Memento.md</guid><pubDate>Sat, 17 Aug 2024 03:21:25 GMT</pubDate></item><item><title><![CDATA[Observer]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\observer.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Observer.md</guid><pubDate>Sat, 17 Aug 2024 03:21:28 GMT</pubDate></item><item><title><![CDATA[State]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\state.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/State.md</guid><pubDate>Sat, 17 Aug 2024 03:21:32 GMT</pubDate></item><item><title><![CDATA[Strategy]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\strategy.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Strategy.md</guid><pubDate>Sat, 17 Aug 2024 03:21:35 GMT</pubDate></item><item><title><![CDATA[Template Method]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\template-method.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Template Method.md</guid><pubDate>Sat, 17 Aug 2024 03:21:38 GMT</pubDate></item><item><title><![CDATA[Visitor]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\visitor.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Visitor.md</guid><pubDate>Sat, 17 Aug 2024 03:21:42 GMT</pubDate></item><item><title><![CDATA[Abstract Factory]]></title><description><![CDATA[ 
+ <br>
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+<br>This pattern suggests explicitly declaring interfaces for each distinct product of the product family. Then you can make all variants of products follow those interfaces. For example, all chair variants can implement the Chair interface. Many of these designs start by using the <a data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Method</a>.<br>Pros:<br>
+<br>You can be sure that the products you're getting from a factory are compatible with each other.
+<br>You avoid tight coupling between concrete products and client code.
+<br><a data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">Single Responsibility Principle (SRP)</a> - You can extract the product creation code into one place, making the code easier to support.
+<br><a data-href="Open Closed Principle (OCP)" href="\software-development\object-oriented-design\open-closed-principle-(ocp).html" class="internal-link" target="_self" rel="noopener">Open Closed Principle (OCP)</a> - You can introduce new variants of products without breaking existing code.<br>
+Cons:
+<br>The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.
+<br><br>Use the abstract factory when your code needs to work with various families of related products, but you don't want it to depend on the concrete classes of those products - they might be unknown beforehand or you simply want to allow for future extensibility.<br>Consider implementing the abstract factory when you have a class with a set of <a data-tooltip-position="top" aria-label="Factory Method" data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Methods</a> that blur its primary responsibility.<br><br>
+<br>Map out a matrix of distinct product types versus variants of these products.
+<br>Declare abstract product interfaces for all product types. Then make all concrete product classes implement these interfaces.
+<br>Declare the abstract factory interface with a set of creation methods for all abstract products,
+<br>Implement a set of concrete factory classes, one for each product variant.
+<br>Create factory initialization code somewhere in the app. It should instantiate one of the concrete factory classes, depending on the application configuration or the current environment. Pass this factory object to all classes that construct products.
+<br>Scan through the code and find all direct calls to product constructors. Replace them with calls to the appropriate creation method on the factory object.
+<br><br>Let's make a Button and Checkbox interface and the specific classes for MacOS and Windows:<br>public interface Button {
+    void paint();
+}
+
+public interface Checkbox {
+    void paint();
+}
+
+// MACOS
+public class MacOSButton implements Button {
+
+    @Override
+    public void paint() {
+        System.out.println("You have created MacOSButton.");
+    }
+}
+
+public class MacOSCheckbox implements Checkbox {
+
+    @Override
+    public void paint() {
+        System.out.println("You have created MacOSCheckbox.");
+    }
+}
+
+// WINDOWS
+public class WindowsButton implements Button {
+
+    @Override
+    public void paint() {
+        System.out.println("You have created WindowsButton.");
+    }
+}
+
+public class WindowsCheckbox implements Checkbox {
+
+    @Override
+    public void paint() {
+        System.out.println("You have created WindowsCheckbox.");
+    }
+}
+Copy<br>Let's make an interface as an abstract factory which houses the types and certain methods:<br>public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckbox();
+}
+Copy<br>Concrete factories are then made:<br>public class MacOSFactory implements GUIFactory {
+
+    @Override
+    public Button createButton() {
+        return new MacOSButton();
+    }
+
+    @Override
+    public Checkbox createCheckbox() {
+        return new MacOSCheckbox();
+    }
+}
+
+public class WindowsFactory implements GUIFactory {
+
+    @Override
+    public Button createButton() {
+        return new WindowsButton();
+    }
+
+    @Override
+    public Checkbox createCheckbox() {
+        return new WindowsCheckbox();
+    }
+}
+Copy<br>Let's make our runner:<br>public class Application {
+    private Button button;
+    private Checkbox checkbox;
+
+    public Application(GUIFactory factory) {
+        button = factory.createButton();
+        checkbox = factory.createCheckbox();
+    }
+
+    public void paint() {
+        button.paint();
+        checkbox.paint();
+    }
+}
+
+public class Demo {
+
+    /**
+     * Application picks the factory type and creates it in run time (usually at
+     * initialization stage), depending on the configuration or environment
+     * variables.
+     */
+    private static Application configureApplication() {
+        Application app;
+        GUIFactory factory;
+        String osName = System.getProperty("os.name").toLowerCase();
+        if (osName.contains("mac")) {
+            factory = new MacOSFactory();
+        } else {
+            factory = new WindowsFactory();
+        }
+        app = new Application(factory);
+        return app;
+    }
+
+    public static void main(String[] args) {
+        Application app = configureApplication();
+        app.paint();
+    }
+}
+Copy]]></description><link>software-development\design-pattern\creational-patterns\abstract-factory.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Abstract Factory.md</guid><pubDate>Sun, 18 Aug 2024 00:48:32 GMT</pubDate></item><item><title><![CDATA[Builder]]></title><description><![CDATA[ 
+ <br>
+Builder is a creational design pattern that lets you construct complex objects step-by-step. The pattern allows you to produce different types and representations of an object using the same construction code.
+<br>The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called "Builders".<br>Pros:<br>
+<br>You can construct objects step-by-step, defer construction steps or run steps recursively.
+<br>You can reuse the same construction code when building various representations of products.
+<br><a data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">Single Responsibility Principle (SRP)</a> - You can isolate complex construction code from the business logic of the product.
+<br>Cons:<br>
+<br>The overall complexity of the code increases since the pattern requires creating multiple new classes.
+<br><br>You can use the pattern when:<br>
+<br>You want to get rid of a telescoping constructor, which is a long overloaded cases of constructors.
+<br>You want your code to be able to create different representations of some product.
+<br>You want to construct <a data-href="Composite" href="\software-development\design-pattern\structural-patterns\composite.html" class="internal-link" target="_self" rel="noopener">Composite</a> trees or other complex objects.
+<br><br>
+<br>The Builder interface declares product construction steps that are common to all types of builders.
+<br>Concrete builders provide different implementations of the construction steps. Concrete builders may produce products that don't follow the common interface.
+<br>Products are resulting objects. Products constructed by different builders don't have to belong to the same class hierarchy or interface.
+<br>The Director class defines the order in which to call construction steps so you can create and reuse specific configurations of products.
+<br>The Client must associate one of the builder objects with the director. Usually, this is done just once via the parameters of the director's constructor. Then, the director uses that builder object for all further construction.
+<br><br><img alt="Pasted image 20240817220959.png" src="\lib\media\pasted-image-20240817220959.png"><br>
+<a data-tooltip-position="top" aria-label="https://refactoring.guru/design-patterns/builder" rel="noopener" class="external-link" href="https://refactoring.guru/design-patterns/builder" target="_blank">Builder (refactoring.guru)</a><br>
+<br>Make sure that you can clearly define the common construction steps for building all available product representations. 
+<br>Declare these steps in the base builder interface.
+<br>Create a concrete builder class for each of the product representations and implement their construction steps.
+<br>Think about creating a director class.
+<br>The client code creates both the builder and the director objects.
+<br>The construction result can be obtained directly from the director only if all products follow the same interface. Otherwise, the client should fetch the result from the builder.
+<br><br>Let's try to build a car:<br>public interface Builder {
+    void setCarType(CarType type);
+    void setSeats(int seats);
+    void setEngine(Engine engine);
+    void setTransmission(Transmission transmission);
+    void setTripComputer(TripComputer tripComputer);
+    void setGPSNavigator(GPSNavigator gpsNavigator);
+}
+
+public class CarBuilder implements Builder {
+    private CarType type;
+    private int seats;
+    private Engine engine;
+    private Transmission transmission;
+    private TripComputer tripComputer;
+    private GPSNavigator gpsNavigator;
+
+    public void setCarType(CarType type) {
+        this.type = type;
+    }
+
+    @Override
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
+
+    @Override
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+    @Override
+    public void setTransmission(Transmission transmission) {
+        this.transmission = transmission;
+    }
+
+    @Override
+    public void setTripComputer(TripComputer tripComputer) {
+        this.tripComputer = tripComputer;
+    }
+
+    @Override
+    public void setGPSNavigator(GPSNavigator gpsNavigator) {
+        this.gpsNavigator = gpsNavigator;
+    }
+
+    public Car getResult() {
+        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+    }
+}
+
+public class Director {
+
+    public void constructSportsCar(Builder builder) {
+        builder.setCarType(CarType.SPORTS_CAR);
+        builder.setSeats(2);
+        builder.setEngine(new Engine(3.0, 0));
+        builder.setTransmission(Transmission.SEMI_AUTOMATIC);
+        builder.setTripComputer(new TripComputer());
+        builder.setGPSNavigator(new GPSNavigator());
+    }
+
+    public void constructCityCar(Builder builder) {
+        builder.setCarType(CarType.CITY_CAR);
+        builder.setSeats(2);
+        builder.setEngine(new Engine(1.2, 0));
+        builder.setTransmission(Transmission.AUTOMATIC);
+        builder.setTripComputer(new TripComputer());
+        builder.setGPSNavigator(new GPSNavigator());
+    }
+
+    public void constructSUV(Builder builder) {
+        builder.setCarType(CarType.SUV);
+        builder.setSeats(4);
+        builder.setEngine(new Engine(2.5, 0));
+        builder.setTransmission(Transmission.MANUAL);
+        builder.setGPSNavigator(new GPSNavigator());
+    }
+}
+Copy<br>There's another method of returning the builder so you can do all of the building in one line!]]></description><link>software-development\design-pattern\creational-patterns\builder.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Builder.md</guid><pubDate>Sun, 18 Aug 2024 02:27:05 GMT</pubDate><enclosure url="lib\media\pasted-image-20240817220959.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240817220959.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Factory Method]]></title><description><![CDATA[ 
+ <br>
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+<br>The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method. Well, the objects are still created via the new operator, but it's being called from within the factory method. Objects returned by a factory method are often referred to as products.<br>Pros:<br>
+<br>Avoid tight coupling between the creator and the concrete products
+<br>Promotes the <a data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">Single Responsibility Principle (SRP)</a> - You can move the product creation code into one place in the program, making the code easier to support.
+<br>Promotes the <a data-href="Open Closed Principle (OCP)" href="\software-development\object-oriented-design\open-closed-principle-(ocp).html" class="internal-link" target="_self" rel="noopener">Open Closed Principle (OCP)</a> - You can introduce new types of products into the program without breaking existing client code.<br>
+Cons:
+<br>The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern.
+<br><br>When you don't know beforehand the exact types and dependencies of the objects your code should work with:<br>
+<br>The factory Method separates product construction code from the code that actually uses the product. Therefore, it's easier to extend the product construction code independently from the rest of the code.
+<br>For example, to add a new product type to the app, you'll only need to create a new creator subclass and override the factory method in it.
+<br><br>
+<br>The Product declares the interface, which is common to all objects that can be produced by the creator and its subclasses.
+<br>Concrete Products are different implementations of the product interface.
+<br>The Creator class declares the factory method that returns new product objects. It's important that the return type of this method matches the product interface.<br>
+You can declare the factory method as abstract to force all subclasses to implement their own versions of the method. As an alternative, the base factory method can return some default product type.
+<br>Concrete Creators override the base factory method so it returns a different type of a product.
+<br><br><img alt="Pasted image 20240817120047.png" src="\lib\media\pasted-image-20240817120047.png"><br>
+<a data-tooltip-position="top" aria-label="https://refactoring.guru/design-patterns/factory-method" rel="noopener" class="external-link" href="https://refactoring.guru/design-patterns/factory-method" target="_blank">Factory Method in Java / Design Patterns (refactoring.guru)</a><br>
+<br>Make all products follow the same interface. The interface should declare methods that make sense in every product.
+<br>Add an empty factory method inside the creator class. The return type of the method should match the common interface.
+<br>In the creator's code, find all references to product constructors. One by one, replace them with calls to the factory method, while extracting the product creation code into the factory method.
+<br>Now, create a set of creator subclasses for each type of product listed in the factory method. Override the factory method in the subclasses and extract the appropriate bits of construction code from the base method.
+<br>If there are too many product types and it doesn't make sense to create subclasses for all of them, you can reuse the control parameter from the base class in subclasses.
+<br>If, after all of the extractions, the base factory method has become empty, you can make it abstract. If there's something left, you can make it a default behaviour of the method.
+]]></description><link>software-development\design-pattern\creational-patterns\factory-method.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Factory Method.md</guid><pubDate>Sat, 17 Aug 2024 15:19:49 GMT</pubDate><enclosure url="lib\media\pasted-image-20240817120047.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240817120047.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Prototype]]></title><description><![CDATA[ 
+ <br>
+Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+<br>The prototype pattern delegates the cloning process to the actual objects that are being cloned. The pattern declares a common interface for all objects that support cloning. This interface lets you clone an object without coupling your code to the class of that object. Usually, such an interface contains just a single clone method.<br>An object that supports cloning is called a prototype. When your objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing.<br>Pros:<br>
+<br>You can clone objects without coupling to their concrete classes.
+<br>You can get rid of repeated initialization code in favour of cloning pre-built prototypes.
+<br>You can produce complex objects more conveniently.
+<br>You get an alternative to inheritance when dealing with configuration presents for complex objects.
+<br>Cons:<br>
+<br>Cloning complex objects that have circular references might be very tricky.
+<br><br>You can use this pattern when:<br>
+<br>Your code shouldn't depend on the concrete classes of objects that you need to copy.
+<br>You want to reduce the number of subclasses that only differ in the way they initialize their respective objects.
+<br><br>
+<br>The prototype interface declares the cloning methods. In most cases, it's a single clone method.
+<br>The concrete prototype class implements the cloning method. In addition to copying the original object's data to the clone, this method may also handle some edge cases of the cloning process related to cloning linked objects, untangling recursive dependencies, etc.
+<br>The client can produce a copy of any object that follows the prototype interface.
+<br><br><img alt="Pasted image 20240817234939.png" src="\lib\media\pasted-image-20240817234939.png"><br>
+<a data-tooltip-position="top" aria-label="https://refactoring.guru/design-patterns/prototype" rel="noopener" class="external-link" href="https://refactoring.guru/design-patterns/prototype" target="_blank">Prototype (refactoring.guru)</a><br>
+<br>Create the prototype interface and declare the clone method on it. Or, just add the method to all classes of an existing class hierarchy, if you have one.
+<br>A prototype class must define the alternative constructor that accepts an object of that class as an argument. The constructor must copy the values of all fields defined in the class from the passed object into the newly created instance. If you're changing a subclass, you must call the parent constructor to let the superclass handle the cloning of its private fields.
+<br>The cloning method usually consists of just one line - running a new operator with the prototypical version of the constructor. Every class must explicitly override the cloning method and use its own class name along with the new operator.
+<br><br>Let's make a common Shape interface:<br>import java.util.Objects;
+
+public abstract class Shape {
+    public int x;
+    public int y;
+    public String color;
+
+    public Shape() {
+    }
+
+    public Shape(Shape target) {
+        if (target != null) {
+            this.x = target.x;
+            this.y = target.y;
+            this.color = target.color;
+        }
+    }
+
+    public abstract Shape clone();
+
+    @Override
+    public boolean equals(Object object2) {
+        if (!(object2 instanceof Shape)) return false;
+        Shape shape2 = (Shape) object2;
+        return shape2.x == x &amp;&amp; shape2.y == y 
+		    &amp;&amp; Objects.equals(shape2.color, color);
+	    }
+	}
+Copy<br>Then we might have a Circle and Rectangle that looks like this:<br>public class Circle extends Shape {
+    public int radius;
+
+    public Circle() {
+    }
+
+    public Circle(Circle target) {
+        super(target);
+        if (target != null) {
+            this.radius = target.radius;
+        }
+    }
+
+    @Override
+    public Shape clone() {
+        return new Circle(this);
+    }
+
+    @Override
+    public boolean equals(Object object2) {
+        if (!(object2 instanceof Circle) || !super.equals(object2)) return false;
+        Circle shape2 = (Circle) object2;
+        return shape2.radius == radius;
+    }
+}
+
+public class Rectangle extends Shape {
+    public int width;
+    public int height;
+
+    public Rectangle() {
+    }
+
+    public Rectangle(Rectangle target) {
+        super(target);
+        if (target != null) {
+            this.width = target.width;
+            this.height = target.height;
+        }
+    }
+
+    @Override
+    public Shape clone() {
+        return new Rectangle(this);
+    }
+
+    @Override
+    public boolean equals(Object object2) {
+        if (!(object2 instanceof Rectangle) || !super.equals(object2)) return false;
+        Rectangle shape2 = (Rectangle) object2;
+        return shape2.width == width &amp;&amp; shape2.height == height;
+    }
+}
+Copy<br>To clone, we can call its clone() to mass-produce the same copy of itself:<br>import java.util.ArrayList;
+import java.util.List;
+
+public class Demo {
+    public static void main(String[] args) {
+        List&lt;Shape&gt; shapes = new ArrayList&lt;&gt;();
+        List&lt;Shape&gt; shapesCopy = new ArrayList&lt;&gt;();
+
+        Circle circle = new Circle();
+        circle.x = 10;
+        circle.y = 20;
+        circle.radius = 15;
+        circle.color = "red";
+        shapes.add(circle);
+
+        Circle anotherCircle = (Circle) circle.clone();
+        shapes.add(anotherCircle);
+
+        Rectangle rectangle = new Rectangle();
+        rectangle.width = 10;
+        rectangle.height = 20;
+        rectangle.color = "blue";
+        shapes.add(rectangle);
+
+        cloneAndCompare(shapes, shapesCopy);
+    }
+
+    private static void cloneAndCompare(List&lt;Shape&gt; shapes, List&lt;Shape&gt; shapesCopy) {
+        for (Shape shape : shapes) {
+            shapesCopy.add(shape.clone());
+        }
+
+        for (int i = 0; i &lt; shapes.size(); i++) {
+            if (shapes.get(i) != shapesCopy.get(i)) {
+                System.out.println(i + ": Shapes are different objects (yay!)");
+                if (shapes.get(i).equals(shapesCopy.get(i))) {
+                    System.out.println(i + ": And they are identical (yay!)");
+                } else {
+                    System.out.println(i + ": But they are not identical (booo!)");
+                }
+            } else {
+                System.out.println(i + ": Shape objects are the same (booo!)");
+            }
+        }
+    }
+}
+
+
+/**
+0: Shapes are different objects (yay!)
+0: And they are identical (yay!)
+1: Shapes are different objects (yay!)
+1: And they are identical (yay!)
+2: Shapes are different objects (yay!)
+2: And they are identical (yay!)
+*/
+Copy<br><br>
+<br>Many designs start by using the <a data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Method</a> and evolve toward this pattern.
+<br><a data-href="Abstract Factory" href="\software-development\design-pattern\creational-patterns\abstract-factory.html" class="internal-link" target="_self" rel="noopener">Abstract Factory</a> classes are often based on a set of <a data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Method</a>, but you can also use this pattern to compose the methods on these classes.
+<br>Prototype can help when you need to save copies of <a data-href="Command" href="\software-development\design-pattern\behavioural-patterns\command.html" class="internal-link" target="_self" rel="noopener">Command</a> into history.
+<br>Designs that make heavy use of <a data-href="Composite" href="\software-development\design-pattern\structural-patterns\composite.html" class="internal-link" target="_self" rel="noopener">Composite</a> and <a data-href="Decorator" href="\software-development\design-pattern\structural-patterns\decorator.html" class="internal-link" target="_self" rel="noopener">Decorator</a> patterns can often benefit from using this pattern.
+<br>Prototype isn't based on inheritance, so it doesn't have its drawbacks, where <a data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Method</a> is based on inheritance, but doesn't require an initialization step.
+<br>Sometimes, Prototype can be a simpler alternative to <a data-href="Memento" href="\software-development\design-pattern\behavioural-patterns\memento.html" class="internal-link" target="_self" rel="noopener">Memento</a> when the state of which you want to store in the history is fairly straightforward and doesn't have links to external resources.
+<br><a data-href="Abstract Factory" href="\software-development\design-pattern\creational-patterns\abstract-factory.html" class="internal-link" target="_self" rel="noopener">Abstract Factory</a>, <a data-href="Builder" href="\software-development\design-pattern\creational-patterns\builder.html" class="internal-link" target="_self" rel="noopener">Builder</a>, and Prototypes can all be implemented as <a data-href="Singleton" href="\software-development\design-pattern\creational-patterns\singleton.html" class="internal-link" target="_self" rel="noopener">Singleton</a>.
+]]></description><link>software-development\design-pattern\creational-patterns\prototype.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Prototype.md</guid><pubDate>Sun, 18 Aug 2024 03:03:24 GMT</pubDate><enclosure url="lib\media\pasted-image-20240817234939.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240817234939.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Singleton]]></title><description><![CDATA[ 
+ <br>
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+<br>All implementations of the Singleton have these two steps in common:<br>
+<br>Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
+<br>Create a static creation method that acts as a constructor.
+<br>Pros:<br>
+<br>You can be sure that a class has only a single instance.
+<br>You gain a global access point to that instance.
+<br>The singleton object is initialized only when it's requested for the first time.
+<br>Cons:<br>
+<br>Violates the <a data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">Single Responsibility Principle (SRP)</a>.
+<br>The Singleton pattern can mask bad design, for instance, when the components of the program know too much about each other.
+<br>The pattern requires special treatment in a <a data-tooltip-position="top" aria-label="Multithreading" data-href="Multithreading" href="\Multithreading" class="internal-link" target="_self" rel="noopener">multithreaded</a> environment so that multiple threads won't create a singleton object several times.
+<br>It may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing <a data-tooltip-position="top" aria-label="Debugging > Mocks" data-href="Debugging#Mocks" href="\software-development\code-integrity\debugging.html#Mocks" class="internal-link" target="_self" rel="noopener">mocks</a>.
+<br><br>Use the Singleton pattern when:<br>
+<br>When a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
+<br>When you need stricter control over global variables.
+<br><br>
+<br>The Singleton class declares the static method getInstance that returns the same instance of its own class.
+<br><br>WIP<br><br>Here's an unsafe method to implement a Singleton:<br>public final class Singleton {
+    private static Singleton instance;
+    public String value;
+
+    private Singleton(String value) {
+        // The following code emulates slow initialization.
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        this.value = value;
+    }
+
+    public static Singleton getInstance(String value) {
+        if (instance == null) {
+            instance = new Singleton(value);
+        }
+        return instance;
+    }
+}
+
+public class DemoSingleThread {
+    public static void main(String[] args) {
+        System.out.println(
+	        "If you see the same value, then singleton was reused (yay!)" 
+	        + "\n" 
+	        + "If you see different values, then 2 singletons were created (booo!!)" 
+	        + "\n\n" +
+            "RESULT:" + "\n");
+        Singleton singleton = Singleton.getInstance("FOO");
+        Singleton anotherSingleton = Singleton.getInstance("BAR");
+        System.out.println(singleton.value);
+        System.out.println(anotherSingleton.value);
+    }
+}
+
+/**
+If you see the same value, then singleton was reused (yay!)
+If you see different values, then 2 singletons were created (booo!!)
+
+RESULT:
+
+FOO
+FOO
+*/
+
+Copy<br>In a multithreaded environment, this causes a problem:<br>public class DemoMultiThread {
+    public static void main(String[] args) {
+        System.out.println("If you see the same value, then singleton was reused (yay!)" + "\n" +
+                "If you see different values, then 2 singletons were created (booo!!)" + "\n\n" +
+                "RESULT:" + "\n");
+        Thread threadFoo = new Thread(new ThreadFoo());
+        Thread threadBar = new Thread(new ThreadBar());
+        threadFoo.start();
+        threadBar.start();
+    }
+
+    static class ThreadFoo implements Runnable {
+        @Override
+        public void run() {
+            Singleton singleton = Singleton.getInstance("FOO");
+            System.out.println(singleton.value);
+        }
+    }
+
+    static class ThreadBar implements Runnable {
+        @Override
+        public void run() {
+            Singleton singleton = Singleton.getInstance("BAR");
+            System.out.println(singleton.value);
+        }
+    }
+}
+
+/**
+If you see the same value, then singleton was reused (yay!)
+If you see different values, then 2 singletons were created (booo!!)
+
+RESULT:
+
+FOO
+BAR
+*/
+Copy<br>To fix, we can implement a <a data-href="Lazy Loading" href="\Lazy Loading" class="internal-link" target="_self" rel="noopener">Lazy Loading</a> method:<br>public final class Singleton {
+    // The field must be declared volatile so that double check lock would work
+    // correctly.
+    private static volatile Singleton instance;
+
+    public String value;
+
+    private Singleton(String value) {
+        this.value = value;
+    }
+
+    public static Singleton getInstance(String value) {
+        // The approach taken here is called double-checked locking (DCL). It
+        // exists to prevent race condition between multiple threads that may
+        // attempt to get singleton instance at the same time, creating separate
+        // instances as a result.
+        //
+        // It may seem that having the `result` variable here is completely
+        // pointless. There is, however, a very important caveat when
+        // implementing double-checked locking in Java, which is solved by
+        // introducing this local variable.
+        //
+        // You can read more info DCL issues in Java here:
+        // https://refactoring.guru/java-dcl-issue
+        Singleton result = instance;
+        if (result != null) {
+            return result;
+        }
+        synchronized(Singleton.class) {
+            if (instance == null) {
+                instance = new Singleton(value);
+            }
+            return instance;
+        }
+    }
+}
+
+public class DemoMultiThread {
+    public static void main(String[] args) {
+        System.out.println("If you see the same value, then singleton was reused (yay!)" + "\n" +
+                "If you see different values, then 2 singletons were created (booo!!)" + "\n\n" +
+                "RESULT:" + "\n");
+        Thread threadFoo = new Thread(new ThreadFoo());
+        Thread threadBar = new Thread(new ThreadBar());
+        threadFoo.start();
+        threadBar.start();
+    }
+
+    static class ThreadFoo implements Runnable {
+        @Override
+        public void run() {
+            Singleton singleton = Singleton.getInstance("FOO");
+            System.out.println(singleton.value);
+        }
+    }
+
+    static class ThreadBar implements Runnable {
+        @Override
+        public void run() {
+            Singleton singleton = Singleton.getInstance("BAR");
+            System.out.println(singleton.value);
+        }
+    }
+}
+
+/**
+If you see the same value, then singleton was reused (yay!)
+If you see different values, then 2 singletons were created (booo!!)
+
+RESULT:
+
+BAR
+BAR
+*/
+Copy<br><br>
+<br>A <a data-href="Facade" href="\software-development\design-pattern\structural-patterns\facade.html" class="internal-link" target="_self" rel="noopener">Facade</a> class can often be transformed into a Singleton since a single facade object is sufficient in most cases.
+<br><a data-href="Flyweight" href="\software-development\design-pattern\structural-patterns\flyweight.html" class="internal-link" target="_self" rel="noopener">Flyweight</a> would resemble Singleton if you somehow managed to reduce all shared states of the objects to just one flyweight object.
+<br><a data-href="Abstract Factory" href="\software-development\design-pattern\creational-patterns\abstract-factory.html" class="internal-link" target="_self" rel="noopener">Abstract Factory</a>, <a data-href="Builder" href="\software-development\design-pattern\creational-patterns\builder.html" class="internal-link" target="_self" rel="noopener">Builder</a>, and <a data-href="Prototype" href="\software-development\design-pattern\creational-patterns\prototype.html" class="internal-link" target="_self" rel="noopener">Prototype</a> can all be implemented as Singletons.
+]]></description><link>software-development\design-pattern\creational-patterns\singleton.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Singleton.md</guid><pubDate>Sun, 18 Aug 2024 03:20:38 GMT</pubDate></item><item><title><![CDATA[Adapter]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\structural-patterns\adapter.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Adapter.md</guid><pubDate>Sat, 17 Aug 2024 03:22:17 GMT</pubDate></item><item><title><![CDATA[Bridge]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\structural-patterns\bridge.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Bridge.md</guid><pubDate>Sat, 17 Aug 2024 03:22:24 GMT</pubDate></item><item><title><![CDATA[Composite]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\structural-patterns\composite.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Composite.md</guid><pubDate>Sat, 17 Aug 2024 03:22:27 GMT</pubDate></item><item><title><![CDATA[Decorator]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\structural-patterns\decorator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Decorator.md</guid><pubDate>Sat, 17 Aug 2024 03:22:29 GMT</pubDate></item><item><title><![CDATA[Facade]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\structural-patterns\facade.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Facade.md</guid><pubDate>Sat, 17 Aug 2024 03:22:32 GMT</pubDate></item><item><title><![CDATA[Flyweight]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\structural-patterns\flyweight.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Flyweight.md</guid><pubDate>Sat, 17 Aug 2024 03:22:35 GMT</pubDate></item><item><title><![CDATA[Proxy]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\structural-patterns\proxy.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Proxy.md</guid><pubDate>Sat, 17 Aug 2024 03:22:39 GMT</pubDate></item><item><title><![CDATA[AWS Internship]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\general-working-tips\aws-internship.html</link><guid isPermaLink="false">Software Development/General Working Tips/AWS Internship.md</guid><pubDate>Sun, 18 Aug 2024 03:51:57 GMT</pubDate></item><item><title><![CDATA[Burnouts]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\general-working-tips\burnouts.html</link><guid isPermaLink="false">Software Development/General Working Tips/Burnouts.md</guid><pubDate>Sat, 17 Aug 2024 03:13:48 GMT</pubDate></item><item><title><![CDATA[Day 1 Culture]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\general-working-tips\day-1-culture.html</link><guid isPermaLink="false">Software Development/General Working Tips/Day 1 Culture.md</guid><pubDate>Sat, 17 Aug 2024 03:14:05 GMT</pubDate></item><item><title><![CDATA[Department of National Defence Internship]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\general-working-tips\department-of-national-defence-internship.html</link><guid isPermaLink="false">Software Development/General Working Tips/Department of National Defence Internship.md</guid><pubDate>Sun, 18 Aug 2024 03:52:07 GMT</pubDate></item><item><title><![CDATA[Leadership Principles]]></title><description><![CDATA[ 
+ <br>There are sixteen leadership principle that Amazon follows, religiously. These principles help us care for the end user, while promoting leadership within our products.<br>
+<br><a data-href="#Customer Obsession" href="\#Customer_Obsession" class="internal-link" target="_self" rel="noopener">Customer Obsession</a>
+<br><a data-href="#Ownership" href="\#Ownership" class="internal-link" target="_self" rel="noopener">Ownership</a>
+<br><a data-href="#Invent and Simplify" href="\#Invent_and_Simplify" class="internal-link" target="_self" rel="noopener">Invent and Simplify</a>
+<br><a data-href="#Are Right, A Lot" href="\#Are_Right,_A_Lot" class="internal-link" target="_self" rel="noopener">Are Right, A Lot</a>
+<br><a data-href="#Learn and Be Curious" href="\#Learn_and_Be_Curious" class="internal-link" target="_self" rel="noopener">Learn and Be Curious</a>
+<br><a data-href="#Hire and Develop the Best" href="\#Hire_and_Develop_the_Best" class="internal-link" target="_self" rel="noopener">Hire and Develop the Best</a>
+<br><a data-href="#Insist on the Highest Standards" href="\#Insist_on_the_Highest_Standards" class="internal-link" target="_self" rel="noopener">Insist on the Highest Standards</a>
+<br><a data-href="#Think Big" href="\#Think_Big" class="internal-link" target="_self" rel="noopener">Think Big</a>
+<br><a data-href="#Bias for Action" href="\#Bias_for_Action" class="internal-link" target="_self" rel="noopener">Bias for Action</a>
+<br><a data-href="#Frugality" href="\#Frugality" class="internal-link" target="_self" rel="noopener">Frugality</a>
+<br><a data-href="#Earn Trust" href="\#Earn_Trust" class="internal-link" target="_self" rel="noopener">Earn Trust</a>
+<br><a data-href="#Dive Deep" href="\#Dive_Deep" class="internal-link" target="_self" rel="noopener">Dive Deep</a>
+<br><a data-href="#Have Backbone; Disagree and Commit" href="\#Have_Backbone;_Disagree_and_Commit" class="internal-link" target="_self" rel="noopener">Have Backbone; Disagree and Commit</a>
+<br><a data-href="#Deliver Results" href="\#Deliver_Results" class="internal-link" target="_self" rel="noopener">Deliver Results</a>
+<br><a data-href="#Strive to be Earth's Best Employer" href="\#Strive_to_be_Earth's_Best_Employer" class="internal-link" target="_self" rel="noopener">Strive to be Earth's Best Employer</a>
+<br><a data-href="#Success and Scale Bring Broad Responsibility" href="\#Success_and_Scale_Bring_Broad_Responsibility" class="internal-link" target="_self" rel="noopener">Success and Scale Bring Broad Responsibility</a>
+<br><br>
+Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
+<br>We always try to help customers make the best possible decision. Earning their trust is a key to victory. Having this honest communication between us and the customers, we can maximize both of our worlds - customers are happy, we're happy that we could help.<br>As a large example, AWS always looks to cost-optimize for customers where they can save money, which we can redeploy that money in the future. So looking out for the customers can be very cyclic.<br>As a leader, we should always ask the questions that aim to benefit the customers, such as:<br>
+<br>What problem are we trying to solve?
+<br>What will customers care most about?
+<br>What would they be most disappointed about?
+<br>What will they love most?
+<br>Sometimes, competitors could leave us confused. If a competitor builds something  that customers love, we should be aware of it, and we should be inspired by it and think about how we can improve our own customer experience with what we learn from what competitors have done.<br><br>
+Leaders are owners. They think long term and don't sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say "that's not my job."
+<br>Great owners are always asking themselves, what would I do if this were my personal money? Don't think about the short-term benefits like nailing a very temporary object into a wall, but think like an owner and try to maintain the upkeep of your products.<br>The ideal leaders at Amazon are the ones who:<br>
+<br>Feel like owners;
+<br>Think about problems holistically; and
+<br>Finds the right owner to resolve issue if necessary.
+<br>Owners ensure the problems are owned, that they have a path to resolution and they drive it themselves as needed.<br>When there's a hard problem, owners don't delegate it to the next person in line. Try to pull a group of people together to find the right solution for the customers. <br><br>
+Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by "not invented here." As we do new things, we accept that we may be misunderstood for long periods of time.
+<br>Although difficult, we constantly look to invent, and also re-invent our ideas. Our inventions are not just random ones though - we always think about what the customers want the very most. Then, we struggle to make it happen for the customers.<br><br>
+Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
+<br>You can do a lot of things right, but if you make a wrong decision, you might have an issue. We work to keep this miss-rate very low. It's a proxy for decision, and we want to make the best decision.<br>Sometimes, ambiguity occurs, and the process to navigate through that is:<br>
+<br>Sifting through the noise;
+<br>Finding the signal;
+<br>What decision really matters for our customers?
+<br>Even if you're thinking for yourself, try to doubt it with the following questionnaire:<br>
+<br>Is it really right?
+<br>Is there another way to think about it?
+<br>Can we do better for customers?
+<br>The key to being right a lot is to:<br>
+<br>Get the right people involved in giving feedback;
+<br>Listen to the different perspectives; and
+<br>Think about what is the best possible answer for customers and for the business.
+<br><br>
+Leaders are never done learning and always seek to improve th4emselves. They are curious about new possibilities and act to explore them.
+<br>Developers tend to stagnate really fast in this rapid world of technology - you have to try to keep up with it to serve the best tool for our customers. <br>Be able to self-assess and be self-aware of what you're doing well and what you need to be better at. Build a real plan to change if you must change, and make sure to make that change.<br><br>
+Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move th4em throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice. 
+<br>A team is comprised of great people:<br>
+<br>Smart,
+<br>Are Right, A Lot,
+<br>Inventive,
+<br>Look around corners,
+<br>Think big,
+<br>Into the details,
+<br>Able to move quickly,
+<br>Have high ownership, and
+<br>Have the right customer obsession.
+<br>The above is a list of what you want to be as an employee - those traits are what enables us to deliver the best results to our customers.<br>Always ask if you are raising the bar and seek to improve. Your manage strives to learn more about their employee, especially on what they are doing well and what they need to grow. Ask them and learn from your senior. Ask for critical feedback to become the ideal employee.<br><br>
+Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
+<br>Customers can find details which motivates them to switch and continue exploring different option. They are obviously in their right as their own role. So, as developers, we need to insist on the highest standards to try to attract the customers and simply give what they need and want. <br>Higher expectations lead to better results. So, in the meetings you are in, try to set the expectations, and keep them high. Try to model what "good" looks like in your system. <br>Keep fighting - that is a fight worth fighting. The companies that keep increasing what's possible for customers deliver best for customers.<br><br>
+Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
+<br>A part of being an inventor is that we cannot be content with where we are and constantly ask what are the next big breakthroughs for customers.<br>You cannot run the same playbook for decades at a time to have a long-running product. Change is hard, but change is good. <br>Bold initiatives that are not simple to do, and these types of initiatives require thinking big, and it's what you do if you want to serve customers better. And it is part of what not only makes Amazon unique, but also gives us a unique impact in the world.<br><br>
+Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.
+<br>Speed is not preordained - it is a leadership and a culture decision. You can move quickly if you historically haven't. <br>A concept of a one-way door and a two-way door is a good analogy for works that are reversible; if you can make a decision that cannot be reversed easily, that's a one-way door decision and it would require you to invest more time into so you don't spend more time trying to undo the results. Meanwhile, a two-way door decision means you can always go back to where you came from - if it's simply reversible, take risks and learn from it if unwell. Very often, there will be more two-way doors.<br>However, this doesn't mean you have free reign to pass things without concern; be thoughtful and make the right risks. If the risk is low, or reversible, act on it.<br>Have the right mindset and the right urgency about decisions - don't take weeks to figure something out that can be done in hours. Have this idea in your head that you're living in a race. Every week, think about "When I leave this week, will my customers be better off than when I started the week?"<br>You can be fast while still having high standards. Think of ourselves as the world's biggest start-up.<br><br>
+Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
+<br>We want to be scrappy and be frugal as possible. Basis points matter. Don't let pennies become dimes and loonies of expenses later on. Have a rigid constraint and work in it, and only when necessary, expand out of that margin.<br>When you save money on everything you do, it means you can invest more in giving customers lower prices at the same, or even better benefits. Do more with less. Build lean products.<br><br>
+Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team's body odour smells of perfume. They benchmark themselves and their teams against the best.
+<br>Challenges are a good thing to push others to their potential - be honest but respectfully. <br>A formula for earning trust is:<br>
+<br>Deliver it,
+<br>Speak up,
+<br>Own it,
+<br>Be self-critical, and 
+<br>Fix it.
+<br>It's OK to be wrong, but if you own your mistakes and fix it, that is also a part of earning trust. That's also being right, a lot.<br><br>
+Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
+<br>Our expectation is that we want to be strategic, but to be willing to roll up their sleeves and be great at getting to the details.<br>The details of any idea are what matters most. That's what people actually see, and what customers actually see. Good leaders find mechanisms to inspect, audit the details, and understand the anecdotes. <br>Remember that a 1% impact is more than a million people at Amazon's scale.<br><br>
+Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
+<br>You're expected to challenge, regardless of levels, if something doesn't seem right. Speak up, be curious, and ask questions. Be truth-seeking.<br>Once we make a decision:<br>
+<br>All have to get on board;
+<br>Need to focus all our energy rowing the same way.
+<br><br>
+Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
+<br>Outputs are really high-level metrics. For example, stock price, cash flow, revenue, margins,... but it is difficult to manage these items actively.<br>What drives the outputs are the inputs. Inputs are you, your team, and your product.<br>Launch or delivery is not the finish line - it's the starting line. Be ready for improvements, and be ready to re-invent.<br><br>
+Leaders work every day to create a safer, more productive, higher performing, more diverse, and more just work environment. They lead with empathy, have fun at work, and make it easy for others to have fun. Leaders ask themselves: Are my fellow employees growing? Are they empowered? Are they ready for what's next? Leaders have a vision for and commitment to their employees' personal success, whether that be at Amazon or elsewhere.
+<br>Working at a place whose mission is to make customers' lives easier and better every day is very inspiring. Be a part of that team. You are making the impact for millions of people around the world. Be proud and strive to be that customers - the world's - best employer.<br><br>
+We started in a garage, but we're not there anymore. We are big, we impact the world, but we are far from perfect. We must be humble and thoughtful about even the secondary effects of our actions. Our local communities, planet, and future generations need us to be better every day. We must begin each day with a determination to make better, do better, and be better for our customers, our employees, our partners, and the world at large. And we must end every day knowing we can do even more tomorrow. Leaders create more than they consume and always leave things better than how they found them.
+<br>Keep asking ourselves constantly whether the communities in which we reside are better off because we're there. And if they're not, then we need to take action about that.]]></description><link>software-development\general-working-tips\leadership-principles.html</link><guid isPermaLink="false">Software Development/General Working Tips/Leadership Principles.md</guid><pubDate>Sun, 18 Aug 2024 04:39:31 GMT</pubDate></item><item><title><![CDATA[Dependency Inversion Principle (DIP)]]></title><description><![CDATA[ 
+ <br>
+Entities must depend on abstractions, and not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
+<br>This refers to the decoupling of software modules - instead of high-level modules depending on low-level modules, both will depend on abstractions.<br><br>Let's make a Windows98Machine class:<br>public class Windows98Machine {
+    private final StandardKeyboard keyboard;
+    private final Monitor monitor;
+
+    public Windows98Machine() {
+        monitor = new Monitor();
+        keyboard = new StandardKeyboard();
+    }
+}
+Copy<br>The problem with this implementation is that we've now tightly coupled these three classes together. Not only does this make our Windows98Computer hard to test, but we've also lost the ability to switch out our StandardKeyboard class with a different one should the need arise, and the same with Monitor too.<br>We can decouple our machine from the StandardKeyboard by adding a more general Keyboard interface and using this in our class:<br>public interface Keyboard {}
+
+public class Windows98Machine{
+    private final Keyboard keyboard;
+    private final Monitor monitor;
+
+    public Windows98Machine(Keyboard keyboard, Monitor monitor) {
+        this.keyboard = keyboard;
+        this.monitor = monitor;
+    }
+}
+Copy<br>Here, we use <a data-href="Dependency Injection" href="\software-development\design-pattern\structural-patterns\dependency-injection.html" class="internal-link" target="_self" rel="noopener">Dependency Injection</a> to facilitate adding the Keyboard dependency into the class.]]></description><link>software-development\object-oriented-design\dependency-inversion-principle-(dip).html</link><guid isPermaLink="false">Software Development/Object-Oriented Design/Dependency Inversion Principle (DIP).md</guid><pubDate>Sun, 18 Aug 2024 00:08:26 GMT</pubDate></item><item><title><![CDATA[Interface Segregation Principle (ISP)]]></title><description><![CDATA[ 
+ <br>
+A client should never be forced to implement an interface it doesn't use, or clients shouldn't be forced to depend on methods they do not use.
+<br>Larger interfaces should be split into smaller one. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.<br><br>Let's make a BearKeeper class:<br>public interface BearKeeper {
+	void washTheBear();
+	void feedTheBear();
+	void petTheBear();
+}
+Copy<br>However, the interface is rather quite big and each bear keeper may not need the methods that it describes. For example, a bear keeper could only be in charge of washing the bear, or only in the charge of feeding the bear. <br>We can separate the interface so it follows a <a data-tooltip-position="top" aria-label="Single Responsibility Principle (SRP)" data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">single responsibility</a>:<br>public interface BearCleaner {
+    void washTheBear();
+}
+
+public interface BearFeeder {
+    void feedTheBear();
+}
+
+public interface BearPetter {
+    void petTheBear();
+}
+Copy<br>Now, we can implement only the necessary interfaces like so:<br>public class BearCarer implements BearCleaner, BearFeeder {
+
+    public void washTheBear() {
+        //I think we missed a spot...
+    }
+
+    public void feedTheBear() {
+        //Tuna Tuesdays...
+    }
+}
+Copy]]></description><link>software-development\object-oriented-design\interface-segregation-principle-(isp).html</link><guid isPermaLink="false">Software Development/Object-Oriented Design/Interface Segregation Principle (ISP).md</guid><pubDate>Sun, 18 Aug 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[Liskov's Substitution Principle (LSP)]]></title><description><![CDATA[ 
+ <br>
+Every subclass or derived class should be substitutable for their base or parent class.
+<br>This means if a class A is a subtype of class B, we should be able to replace B with A without disrupting the behaviour of our program.<br><br>Let's make a Car interface:<br>public interface Car {
+	void turnOnEngine();
+	void accelerate();
+}
+Copy<br>Let's implement our interface and provide some code for the methods:<br>public class MotorCar implements Car {
+	private Engine engine;
+
+	// Constructors, getters, and setters
+
+	public void turnOnEngine() {
+		engine.on();
+		// ...
+	}
+
+	public void accelerate() {
+		engine.powerOn(1000);
+		// ...
+	}
+}
+Copy<br>That's for a motor vehicle, but we don't have any of that in an Electric car:<br>public class ElectricCar implements Car {
+	// Constructors, getters, and setters
+
+	public void turnOnEngine() {
+		throw new AssertionError("I don't have an engine!");
+	}
+
+	public void accelerate() {
+		// ...
+	}
+}
+Copy<br>This would be a clear violation of the LSP principle. However, if we implement the interface as:<br>public interface Car {
+	void turnOnCar();
+	// ...
+}
+Copy<br>... and make the necessary changes]]></description><link>software-development\object-oriented-design\liskov's-substitution-principle-(lsp).html</link><guid isPermaLink="false">Software Development/Object-Oriented Design/Liskov's Substitution Principle (LSP).md</guid><pubDate>Sat, 17 Aug 2024 22:09:16 GMT</pubDate></item><item><title><![CDATA[Object-Oriented Design]]></title><description><![CDATA[ 
+ <br>Object Oriented Design is the founding member of a good code. It helps developers keep a more modular standard of code, making easier to extend and debug their code.<br><br>The SOLID principle is an acronym for the following OOP principles:<br>
+<br><a data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">Single Responsibility Principle (SRP)</a>,
+<br><a data-href="Open Closed Principle (OCP)" href="\software-development\object-oriented-design\open-closed-principle-(ocp).html" class="internal-link" target="_self" rel="noopener">Open Closed Principle (OCP)</a>,
+<br><a data-href="Liskov's Substitution Principle (LSP)" href="\software-development\object-oriented-design\liskov's-substitution-principle-(lsp).html" class="internal-link" target="_self" rel="noopener">Liskov's Substitution Principle (LSP)</a>,
+<br><a data-href="Interface Segregation Principle (ISP)" href="\software-development\object-oriented-design\interface-segregation-principle-(isp).html" class="internal-link" target="_self" rel="noopener">Interface Segregation Principle (ISP)</a>, and
+<br><a data-href="Dependency Inversion Principle (DIP)" href="\software-development\object-oriented-design\dependency-inversion-principle-(dip).html" class="internal-link" target="_self" rel="noopener">Dependency Inversion Principle (DIP)</a>.
+]]></description><link>software-development\object-oriented-design\object-oriented-design.html</link><guid isPermaLink="false">Software Development/Object-Oriented Design/Object-Oriented Design.md</guid><pubDate>Sun, 18 Aug 2024 00:11:30 GMT</pubDate></item><item><title><![CDATA[Open Closed Principle (OCP)]]></title><description><![CDATA[ 
+ <br>
+Objects or entities should be open for extension, but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs.
+<br>It's a pretty simple principle and largely depends on the extends keyword or the alike.<br><br>Let's build a guitar:<br>public class Guitar {
+	private String make;
+	private String model;
+	private int volume;
+
+	// Constructors, getters, and setters
+}
+Copy<br>If we wanted to add some feature to it later, like, a ElectricGuitar, we could simply extend from the prebuilt Guitar class:<br>public class ElectricGuitar extends Guitar {
+	private String ampere;
+	// ...
+}
+Copy]]></description><link>software-development\object-oriented-design\open-closed-principle-(ocp).html</link><guid isPermaLink="false">Software Development/Object-Oriented Design/Open Closed Principle (OCP).md</guid><pubDate>Sat, 17 Aug 2024 22:01:20 GMT</pubDate></item><item><title><![CDATA[Single Responsibility Principle (SRP)]]></title><description><![CDATA[ 
+ <br>
+A class should have one and only one reason to change, meaning that a class should only have one job.
+<br>This principle gives us a few benefits:<br>
+<br>A class with one responsibility will have far fewer test cases.
+<br>Less functionality in a single class will have fewer dependencies.
+<br>Smaller, well-organized classes are easier to search than monolithic ones.
+<br><br>Here is a simple book class:<br>public class Book {
+	private String name;
+	private String author;
+	private String text;
+	// Constructor, getters, and setters
+}
+Copy<br>Let's add a couple of methods to query the text:<br>public class Book {
+	private String name;
+	private String author;
+	private String text;
+	// Constructor, getters, and setters
+	
+	// Methods that directly relate to the book properties
+	public String replaceWordInText(String word, String replacementWord) {
+		return text.replaceAll(word, replacementWord);
+	} 
+
+	public boolean isWordInText(String word) {
+		return text.contains(word);
+	}
+}
+Copy<br>The book class works well, and we can store as many books as we'd like in our application. Let's try adding a print method to a book:<br>public class BadBook {
+	//  ...
+	void printTextToConsole() {
+		// Code for formatting and printing the text
+	}
+}
+Copy<br>However, this code violates the SRP we outlined earlier.<br>To fix the mess, we should implement a separate class that deals with only printing our texts:<br>public class BookPrinter {
+	// Methods for printing text
+	void printTextToConsole(String text) {
+		// ...
+	}
+
+	void printTextToAnotherMedium(String text) {
+		// ...
+	}
+}
+Copy<br>... relieving the Book class of its printing duties, but we can also leverage our BookPrinter class to send our text to other media.]]></description><link>software-development\object-oriented-design\single-responsibility-principle-(srp).html</link><guid isPermaLink="false">Software Development/Object-Oriented Design/Single Responsibility Principle (SRP).md</guid><pubDate>Sat, 17 Aug 2024 21:54:25 GMT</pubDate></item><item><title><![CDATA[git rebase]]></title><description><![CDATA[ 
+ <br>The git rebase command is a <a data-href="Git" href="\software-development\version-control\git.html" class="internal-link" target="_self" rel="noopener">Git</a> utility that specializes in integrating changes from one branch onto another along with <a data-href="git merge" href="\software-development\version-control\using-branches\git-merge.html" class="internal-link" target="_self" rel="noopener">git merge</a>.<br>In Git, rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow:<br><img alt="Pasted image 20240816232059.png" src="\lib\media\pasted-image-20240816232059.png"><br>
+<a data-tooltip-position="top" aria-label="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase" rel="noopener" class="external-link" href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase" target="_blank">git rebase | Atlassian Git Tutorial</a><br>From a content perspective, rebasing is changing the base of your branch from one commit to another, making it appear as if you'd created your branch from a different commit. Internally, Git does this by creating new commits and applying them to the specified base. <br>The reason why we may want to use git rebase is to maintain a linear project history.<br>There's a great YouTube animation for rebasing:<br>
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=f1wnYdLEpgI" rel="noopener" class="external-link" href="https://www.youtube.com/watch?v=f1wnYdLEpgI" target="_blank">Learn Git Rebase in 6 minutes // explained with live animations! (youtube.com)</a><br><br>To use the interactive rebase mode:<br>git rebase -i &lt;base&gt;
+Copy<br>... where the &lt;base&gt; can be a commit ID, a branch name, or a relative reference to HEAD.]]></description><link>software-development\version-control\rewriting-history\git-rebase.html</link><guid isPermaLink="false">Software Development/Version Control/Rewriting History/git rebase.md</guid><pubDate>Sat, 17 Aug 2024 02:46:41 GMT</pubDate><enclosure url="lib\media\pasted-image-20240816232059.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240816232059.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[git reflog]]></title><description><![CDATA[ 
+ <br><a data-href="Git" href="\software-development\version-control\git.html" class="internal-link" target="_self" rel="noopener">Git</a> keeps track of updates to the tip of branches using a mechanism called reference logs, or reflogs. Many Git commands accept a parameter for specifying a reference to a commit, like git checkout, git reset, or git merge.<br>These reflogs track when Git refs were updated in the local repository. In addition to the branch tip reflogs, a special reflog is maintained for the <a data-href="git stash" href="\software-development\version-control\saving-changes\git-stash.html" class="internal-link" target="_self" rel="noopener">git stash</a>. <br>These reflogs are stored in directories under the local repository's .git directory - .git/logs/....<br><br>Output the log of a ref with:<br>git reflog show &lt;ref&gt;
+Copy<br>You can get a complete reflog of ALL REFs:<br>git reflog show --all
+Copy<br>...as well as for all of your stash:<br>git reflog stash
+Copy]]></description><link>software-development\version-control\rewriting-history\git-reflog.html</link><guid isPermaLink="false">Software Development/Version Control/Rewriting History/git reflog.md</guid><pubDate>Sat, 17 Aug 2024 02:52:39 GMT</pubDate></item><item><title><![CDATA[git reset]]></title><description><![CDATA[ 
+ <br>The git reset command is a complex and versatile tool for undoing changes in <a data-href="Git" href="\software-development\version-control\git.html" class="internal-link" target="_self" rel="noopener">Git</a>.<br><br>At a surface level, git reset is similar in behaviour to <a data-href="git checkout" href="\software-development\version-control\using-branches\git-checkout.html" class="internal-link" target="_self" rel="noopener">git checkout</a>. Where git checkout solely operates on the HEAD ref pointer, git reset will move the HEAD ref pointer and the current branch ref pointer.<br>Because we move both of the pointers to a different node value, it is possible to end up with orphaned commits in history. These orphaned commits can usually be found and restored using <a data-href="git reflog" href="\software-development\version-control\rewriting-history\git-reflog.html" class="internal-link" target="_self" rel="noopener">git reflog</a>. However, Git will permanently delete any orphaned commits after it runs the internal garbage collector, which is by default every 30 days.<br>The safer method to go back to the previous commit is <a data-href="git revert" href="\software-development\version-control\undoing-changes\git-revert.html" class="internal-link" target="_self" rel="noopener">git revert</a>, so first try to see if it's possible to use the git revert command before using git reset as a final method.<br><br>
+Three Trees is a Git's internal state management system. Trees are a bit of a misnomer, as they are not strictly traditional tree data-structures. The trees are the <a data-href="#Working Directory" href="\#Working_Directory" class="internal-link" target="_self" rel="noopener">Working Directory</a>, <a data-href="#Staging Index" href="\#Staging_Index" class="internal-link" target="_self" rel="noopener">Staging Index</a>, and <a data-href="#Commit History" href="\#Commit_History" class="internal-link" target="_self" rel="noopener">Commit History</a>.
+<br><br>This tree is in sync with the local file system and is representative of the immediate changes made to the content in files and in directories.<br><br>This three is tracking the <a data-href="#Working Directory" href="\#Working_Directory" class="internal-link" target="_self" rel="noopener">Working Directory</a> changes that have been staged with <a data-href="git add" href="\software-development\version-control\saving-changes\git-add.html" class="internal-link" target="_self" rel="noopener">git add</a>, to be stored in the next commit. <br><br>This tree is a string of permanent snapshots of commits made with <a data-href="git commit" href="\software-development\version-control\saving-changes\git-commit.html" class="internal-link" target="_self" rel="noopener">git commit</a>.<br><br>The --mixed flag is a default value for the command, where the staging index is reset to the state of the specified commit:<br>git reset
+Copy<br>You can use the --hard flag to update the ref pointer and the head to the specified commit, then the staging index and working directory are reset to match that of the specified commit:<br>git reset --hard &lt;commit-id&gt;
+Copy]]></description><link>software-development\version-control\undoing-changes\git-reset.html</link><guid isPermaLink="false">Software Development/Version Control/Undoing Changes/git reset.md</guid><pubDate>Sat, 17 Aug 2024 02:18:16 GMT</pubDate></item><item><title><![CDATA[Caffè Mocha]]></title><description><![CDATA[ 
  <br>Caffè mocha is an <a data-tooltip-position="top" aria-label="Espresso" data-href="Espresso" href="\hobbies\coffee\espresso.html" class="internal-link" target="_self" rel="noopener">espresso</a>-based, chocolate-flavoured warm beverage and a variation of <a data-href="Caffè Latte" href="\hobbies\coffee\caffè-latte.html" class="internal-link" target="_self" rel="noopener">Caffè Latte</a>, but usually served in a glass rather than a mug. A common alias is mocha, mochaccino, or mochachino.<br><br>The name mocha comes from the Yemeni port of Mokha, which was a port well-known for its coffee trade from the 15th to 17th century. When the coffee culture expanded to Europe, the people referred to the coffee imports from Arabia as Mocha.<br>The coffee we drink today is made by adding chocolate, and that may have been because of the chocolate flavour that could be found in Yemeni coffee beans.<br><br>Creating a caffè mocha is simple:<br>
 <br>Brew espresso
 <br>Make hot chocolate
@@ -117,9 +1030,7 @@ Copy<br>You can push a tag to remote, which has to be done explicitly:<br>git pu
 Copy<br>You can also <a data-tooltip-position="top" aria-label="git checkout" data-href="git checkout" href="\software-development\version-control\using-branches\git-checkout.html" class="internal-link" target="_self" rel="noopener">checkout</a> a tag:<br>git checkout &lt;tag-name&gt;
 Copy<br>You can delete tags:<br>git tag -d &lt;tag-name&gt;
 Copy]]></description><link>software-development\version-control\inspecting-a-repository\git-tag.html</link><guid isPermaLink="false">Software Development/Version Control/Inspecting a Repository/git tag.md</guid><pubDate>Fri, 16 Aug 2024 01:29:14 GMT</pubDate></item><item><title><![CDATA[Pull Requests]]></title><description><![CDATA[ 
- ]]></description><link>software-development\version-control\making-a-pull-request\pull-requests.html</link><guid isPermaLink="false">Software Development/Version Control/Making a Pull Request/Pull Requests.md</guid><pubDate>Thu, 15 Aug 2024 19:43:51 GMT</pubDate></item><item><title><![CDATA[git rebase]]></title><description><![CDATA[ 
- ]]></description><link>software-development\version-control\rewriting-history\git-rebase.html</link><guid isPermaLink="false">Software Development/Version Control/Rewriting History/git rebase.md</guid><pubDate>Thu, 15 Aug 2024 19:27:39 GMT</pubDate></item><item><title><![CDATA[git reflog]]></title><description><![CDATA[ 
- ]]></description><link>software-development\version-control\rewriting-history\git-reflog.html</link><guid isPermaLink="false">Software Development/Version Control/Rewriting History/git reflog.md</guid><pubDate>Thu, 15 Aug 2024 19:27:41 GMT</pubDate></item><item><title><![CDATA[git commit]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\version-control\making-a-pull-request\pull-requests.html</link><guid isPermaLink="false">Software Development/Version Control/Making a Pull Request/Pull Requests.md</guid><pubDate>Thu, 15 Aug 2024 19:43:51 GMT</pubDate></item><item><title><![CDATA[git commit]]></title><description><![CDATA[ 
  <br>The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots are regarded as a "safe" version of a project - <a data-href="Git" href="\software-development\version-control\git.html" class="internal-link" target="_self" rel="noopener">Git</a> will never change them unless the developer explicitly asks it to.<br><br>At a high-level, Git can be thought of as a timeline management utility. Commits, in this analogy, would be the core building block units of a Git project timeline - a milestone or a snapshot of the current project. You can decide what changes to store within each commit by using the <a data-href="git add" href="\software-development\version-control\saving-changes\git-add.html" class="internal-link" target="_self" rel="noopener">git add</a> command. Commits are created with the git commit command to capture the state of a project at that point in time. All the accumulated commits are first stored locally until the developer <a data-tooltip-position="top" aria-label="git push" data-href="git push" href="\software-development\version-control\syncing\git-push.html" class="internal-link" target="_self" rel="noopener">pushes</a> the commits to the central repository.<br>Because storing the history of every directories of a project would be massively difficult and unscalable, Git's version control model works based on these snapshots. Unlike other tools like <a data-href="SVN" href="\SVN" class="internal-link" target="_self" rel="noopener">SVN</a> which stores the differences of each version, or the diffs, which is useful for building a project to the current timeline from scratch, snapshots are much, much faster.<br>
 Snapshot to a repository is like a screenshot to a video.
 <br>Although these snapshots are not human-readable, developers can choose to add a commit message which can be a useful tool to remind what this snapshot was about upon committing.<br><br>Most commonly, you can create a current snapshot of your repository simply with:<br>git commit
@@ -199,8 +1110,7 @@ Copy]]></description><link>software-development\version-control\setting-up-repos
  ]]></description><link>software-development\version-control\syncing\git-fetch.html</link><guid isPermaLink="false">Software Development/Version Control/Syncing/git fetch.md</guid><pubDate>Thu, 15 Aug 2024 19:27:24 GMT</pubDate></item><item><title><![CDATA[git pull]]></title><description><![CDATA[ 
  ]]></description><link>software-development\version-control\syncing\git-pull.html</link><guid isPermaLink="false">Software Development/Version Control/Syncing/git pull.md</guid><pubDate>Thu, 15 Aug 2024 19:27:34 GMT</pubDate></item><item><title><![CDATA[git push]]></title><description><![CDATA[ 
  ]]></description><link>software-development\version-control\syncing\git-push.html</link><guid isPermaLink="false">Software Development/Version Control/Syncing/git push.md</guid><pubDate>Thu, 15 Aug 2024 19:27:37 GMT</pubDate></item><item><title><![CDATA[git remote]]></title><description><![CDATA[ 
- ]]></description><link>software-development\version-control\syncing\git-remote.html</link><guid isPermaLink="false">Software Development/Version Control/Syncing/git remote.md</guid><pubDate>Thu, 15 Aug 2024 19:27:44 GMT</pubDate></item><item><title><![CDATA[git reset]]></title><description><![CDATA[ 
- ]]></description><link>software-development\version-control\undoing-changes\git-reset.html</link><guid isPermaLink="false">Software Development/Version Control/Undoing Changes/git reset.md</guid><pubDate>Thu, 15 Aug 2024 19:27:47 GMT</pubDate></item><item><title><![CDATA[git branch]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\version-control\syncing\git-remote.html</link><guid isPermaLink="false">Software Development/Version Control/Syncing/git remote.md</guid><pubDate>Thu, 15 Aug 2024 19:27:44 GMT</pubDate></item><item><title><![CDATA[git branch]]></title><description><![CDATA[ 
  ]]></description><link>software-development\version-control\using-branches\git-branch.html</link><guid isPermaLink="false">Software Development/Version Control/Using Branches/git branch.md</guid><pubDate>Thu, 15 Aug 2024 19:27:07 GMT</pubDate></item><item><title><![CDATA[git checkout]]></title><description><![CDATA[ 
  ]]></description><link>software-development\version-control\using-branches\git-checkout.html</link><guid isPermaLink="false">Software Development/Version Control/Using Branches/git checkout.md</guid><pubDate>Thu, 15 Aug 2024 19:27:10 GMT</pubDate></item><item><title><![CDATA[git merge]]></title><description><![CDATA[ 
  ]]></description><link>software-development\version-control\using-branches\git-merge.html</link><guid isPermaLink="false">Software Development/Version Control/Using Branches/git merge.md</guid><pubDate>Thu, 15 Aug 2024 19:27:31 GMT</pubDate></item><item><title><![CDATA[Merge Conflicts]]></title><description><![CDATA[ 
@@ -250,8 +1160,7 @@ Copy]]></description><link>software-development\code-integrity\dagger.html</link
  ]]></description><link>software-development\code-integrity\java-annotations.html</link><guid isPermaLink="false">Software Development/Code Integrity/Java Annotations.md</guid><pubDate>Wed, 14 Aug 2024 16:30:31 GMT</pubDate></item><item><title><![CDATA[Dependency Injection]]></title><description><![CDATA[ 
  <br>
 Dependency injection is a programming technique in which an object or function received other objects or function that it requires, as opposed to creating them internally. <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Dependency_injection" rel="noopener" class="external-link" href="https://en.wikipedia.org/wiki/Dependency_injection" target="_blank">Dependency injection - Wikipedia</a>
-<br>Dependency Injection is a <a data-tooltip-position="top" aria-label="Design Pattern" data-href="Design Pattern" href="\Design Pattern" class="internal-link" target="_self" rel="noopener">design pattern</a> to promote the separation of concerns, while ensuring that an object or function that wants to use a given service should not have to know how to construct those services. Instead, the receiving client, the object or function, is provided ith its dependencies by external code.<br>This is a key partner to the <a data-tooltip-position="top" aria-label="Object-Oriented Design" data-href="Object-Oriented Design" href="\Object-Oriented Design" class="internal-link" target="_self" rel="noopener">object-oriented design</a>, the Dependency Inversion Principle.<br>This makes testing much more effective, especially combined with <a data-tooltip-position="top" aria-label="Debugging > Eliminating dependencies in tests" data-href="Debugging#Eliminating dependencies in tests" href="\software-development\code-integrity\debugging.html#Eliminating_dependencies_in_tests" class="internal-link" target="_self" rel="noopener">mocking frameworks</a>.<br>There are multiple methods to enforce dependency injection, most popularly, <a data-href="Dagger" href="\software-development\code-integrity\dagger.html" class="internal-link" target="_self" rel="noopener">Dagger</a> for Java.]]></description><link>software-development\design-pattern\structural-patterns\dependency-injection.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Dependency Injection.md</guid><pubDate>Wed, 14 Aug 2024 21:08:47 GMT</pubDate></item><item><title><![CDATA[Serverless Application Model (SAM)]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\aws\serverless-application-model-(sam).html</link><guid isPermaLink="false">Cloud Computing/AWS/Serverless Application Model (SAM).md</guid><pubDate>Tue, 13 Aug 2024 22:26:52 GMT</pubDate></item><item><title><![CDATA[Codecs]]></title><description><![CDATA[ 
+<br>Dependency Injection is a <a data-tooltip-position="top" aria-label="Design Pattern" data-href="Design Pattern" href="\Design Pattern" class="internal-link" target="_self" rel="noopener">design pattern</a> to promote the separation of concerns, while ensuring that an object or function that wants to use a given service should not have to know how to construct those services. Instead, the receiving client, the object or function, is provided ith its dependencies by external code.<br>This is a key partner to the <a data-tooltip-position="top" aria-label="Object-Oriented Design" data-href="Object-Oriented Design" href="\Object-Oriented Design" class="internal-link" target="_self" rel="noopener">object-oriented design</a>, the Dependency Inversion Principle.<br>This makes testing much more effective, especially combined with <a data-tooltip-position="top" aria-label="Debugging > Eliminating dependencies in tests" data-href="Debugging#Eliminating dependencies in tests" href="\software-development\code-integrity\debugging.html#Eliminating_dependencies_in_tests" class="internal-link" target="_self" rel="noopener">mocking frameworks</a>.<br>There are multiple methods to enforce dependency injection, most popularly, <a data-href="Dagger" href="\software-development\code-integrity\dagger.html" class="internal-link" target="_self" rel="noopener">Dagger</a> for Java.]]></description><link>software-development\design-pattern\structural-patterns\dependency-injection.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Dependency Injection.md</guid><pubDate>Wed, 14 Aug 2024 21:08:47 GMT</pubDate></item><item><title><![CDATA[Codecs]]></title><description><![CDATA[ 
  ]]></description><link>hobbies\audio\codecs.html</link><guid isPermaLink="false">Hobbies/Audio/Codecs.md</guid><pubDate>Wed, 14 Aug 2024 02:57:48 GMT</pubDate></item><item><title><![CDATA[Audio Feedback]]></title><description><![CDATA[ 
  ]]></description><link>hobbies\keyboards\audio-feedback.html</link><guid isPermaLink="false">Hobbies/Keyboards/Audio Feedback.md</guid><pubDate>Wed, 14 Aug 2024 03:02:01 GMT</pubDate></item><item><title><![CDATA[Switches]]></title><description><![CDATA[ 
  ]]></description><link>hobbies\keyboards\switches.html</link><guid isPermaLink="false">Hobbies/Keyboards/Switches.md</guid><pubDate>Wed, 14 Aug 2024 03:01:56 GMT</pubDate></item><item><title><![CDATA[Debugging]]></title><description><![CDATA[ 

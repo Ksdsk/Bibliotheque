@@ -165,3 +165,6 @@ Launch or delivery is not the finish line - it's the starting line. Be ready for
 
 Working at a place whose mission is to make customers' lives easier and better every day is very inspiring. Be a part of that team. You are making the impact for millions of people around the world. Be proud and strive to be that customers - the world's - best employer.
 ## Success and Scale Bring Broad Responsibility
+> We started in a garage, but we're not there anymore. We are big, we impact the world, but we are far from perfect. We must be humble and thoughtful about even the secondary effects of our actions. Our local communities, planet, and future generations need us to be better every day. We must begin each day with a determination to make better, do better, and be better for our customers, our employees, our partners, and the world at large. And we must end every day knowing we can do even more tomorrow. Leaders create more than they consume and always leave things better than how they found them.
+
+Keep asking ourselves constantly whether the communities in which we reside are better off because we're there. And if they're not, then we need to take action about that.
