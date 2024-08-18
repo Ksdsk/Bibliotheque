@@ -164,5 +164,22 @@ public class Demo {
         }
     }
 }
-```
 
+
+/**
+0: Shapes are different objects (yay!)
+0: And they are identical (yay!)
+1: Shapes are different objects (yay!)
+1: And they are identical (yay!)
+2: Shapes are different objects (yay!)
+2: And they are identical (yay!)
+*/
+```
+## Relations with Other Patterns
+- Many designs start by using the [[Factory Method]] and evolve toward this pattern.
+- [[Abstract Factory]] classes are often based on a set of [[Factory Method]], but you can also use this pattern to compose the methods on these classes.
+- Prototype can help when you need to save copies of [[Command]] into history.
+- Designs that make heavy use of [[Composite]] and [[Decorator]] patterns can often benefit from using this pattern.
+- Prototype isn't based on inheritance, so it doesn't have its drawbacks, where [[Factory Method]] is based on inheritance, but doesn't require an initialization step.
+- Sometimes, Prototype can be a simpler alternative to [[Memento]] when the state of which you want to store in the history is fairly straightforward and doesn't have links to external resources.
+- [[Abstract Factory]], [[Builder]], and Prototypes can all be implemented as [[Singleton]].
