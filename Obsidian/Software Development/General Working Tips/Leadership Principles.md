@@ -50,9 +50,45 @@ Although difficult, we constantly look to invent, and also re-invent our ideas. 
 ## Are Right, A Lot
 > Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
 
-You can do a lot of things right, but if you make a wrong decision, you might have an issue. We work to keep this miss-rate very low. 
+You can do a lot of things right, but if you make a wrong decision, you might have an issue. We work to keep this miss-rate very low. It's a proxy for decision, and we want to make the best decision.
+
+Sometimes, ambiguity occurs, and the process to navigate through that is:
+1. Sifting through the noise;
+2. Finding the signal;
+3. **What decision really matters for our customers?**
+
+Even if you're thinking for yourself, try to doubt it with the following questionnaire:
+- Is it really right?
+- Is there another way to think about it?
+- Can we do better for customers?
+
+The key to being right a lot is to:
+- Get the right people involved in giving feedback;
+- Listen to the different perspectives; and
+- **Think about what is the best possible answer for customers and for the business.**
 ## Learn and Be Curious
+> Leaders are never done learning and always seek to improve th4emselves. They are curious about new possibilities and act to explore them.
+
+Developers tend to stagnate really fast in this rapid world of technology - you have to try to keep up with it to serve the best tool for our customers. 
+
+Be able to self-assess and be self-aware of what you're doing well and what you need to be better at. Build a real plan to change if you must change, and make sure to make that change.
 ## Hire and Develop the Best
+> Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move th4em throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice. 
+
+A team is comprised of great people:
+- Smart,
+- Are Right, A Lot,
+- Inventive,
+- Look around corners,
+- Think big,
+- Into the details,
+- Able to move quickly,
+- Have high ownership, and
+- Have the right customer obsession.
+
+The above is a list of what you want to be as an employee - those traits are what enables us to deliver the best results to our customers.
+
+Always ask if you are raising the bar and seek to improve. Your manage strives to learn more about their employee, especially on what they are doing well and what they need to grow. 
 ## Insist on the Highest Standards
 ## Think Big
 ## Bias for Action
