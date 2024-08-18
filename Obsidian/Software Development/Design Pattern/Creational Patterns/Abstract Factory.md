@@ -148,4 +148,7 @@ public class Demo {
 ```
 ## Relations with Other Patterns
 - [[Builder]] focuses on constructing complex objects step-by-step. Abstract factory specializes in creating families of related objects.
-- Abstract Factory classes are often based on a set of [[Factory Method]], but you can also use [[Prototype]] to compose thje methods on these 
+- Abstract Factory classes are often based on a set of [[Factory Method]], but you can also use [[Prototype]] to compose the methods on these classes.
+- This can be an alternative to [[Facade]] when you only want to hide the way the subsystem objects are created from the client code.
+- You can use this abstract factory pattern along with [[Bridge]], which can be useful when some abstractions defined by the Bridge can only work with specific implementations.
+- This can be implemented as [[Singleton]].

@@ -115,3 +115,7 @@ public class Director {
 ```
 
 There's another method of returning the builder so you can do all of the building in one line!
+## Relations with Other Patterns
+- You can use Builder when creating complex [[Composite]] trees because you can program its construction steps to work recursively.
+- You can combine Builder with [[Bridge]] - the director class plays the role of the abstr4action, while different builders act as implementations.
+- You can implement a builder as a [[Singleton]].
