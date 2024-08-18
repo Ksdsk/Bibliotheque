@@ -9,6 +9,11 @@ Pros:
 
 Cons:
 - The overall complexity of the code increases since the pattern requires creating multiple new classes.
+## Applicability
+You can use the pattern when:
+- You want to get rid of a telescoping constructor, which is a long overloaded cases of constructors.
+- You want your code to be able to create different representations of some product.
+- You want to construct [[Composite]] trees or other complex objects.
 ## Structure
 1. The Builder interface declares product construction steps that are common to all types of builders.
 2. Concrete builders provide different implementations of the construction steps. Concrete builders may produce products that don't follow the common interface.
@@ -18,8 +23,10 @@ Cons:
 ## Pseudocode
 ![[Pasted image 20240817220959.png]]
 [Builder (refactoring.guru)](https://refactoring.guru/design-patterns/builder)
-## Applicability
-You can use the pattern when:
-- You want to get rid of a telescoping constructor, which is a long overloaded cases of constructors.
-- You want your code to be able to create different representations of some product.
-- You want to construct [[Composite]] trees or other complex objects.
+
+1. Make sure that you can clearly define the common construction steps for building all available product representations. 
+2. Declare these steps in the base builder interface.
+3. Create a concrete builder class for each of the product representations and implement their construction steps.
+4. Think about creating a director class.
+5. The client code creates both the builder and the director objects.
+6. The construction result can be obtained directly from the director only if all products follow the same interface. Otherwise, the client should fetch the result from the builder.
