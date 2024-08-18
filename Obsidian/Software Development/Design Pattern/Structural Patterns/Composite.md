@@ -100,3 +100,22 @@ Use the Composite pattern when:
 - When you have to implement a tree-like structure.
 - When you want the client code to treat both simple and complex elements uniformly.
 ## How to Implement
+1. Make sure that the core model of your app can be represented as a tree structure. Try to break it down into simple elements and containers. Remember that containers must be able to contain both simple elements and other containers.
+2. Declare the component interface with a list of methods that make sense for both simple and complex components.
+3. Create a leaf class to represent simple elements. A program may have multiple different leaf classes.
+4. Create a container class to represent complex elements. In this class, provide an array field for storing references to sub-elements. The array must be able to store both leaves and containers, so make sure it's declared with the component interface type.
+5. Finally, define the methods for adding and removal of child elements in the container.
+## Pros and Cons
+Pros:
+- You can work with complex tree structures more conveniently - use [[Polymorphism]] and [[Recursion]] to your advantage.
+- Promotes the [[Open Closed Principle (OCP)]]. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
+Cons:
+- It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you'd need to overgeneralize the component interface, making it harder to comprehend.
+## Relations with Other Patterns
+- You can use [[Builder]] when creating complex Composite trees because you can program its construction steps to work recursively.
+- [[Chain of Responsibility]] is often used in conjunction with Composite. In this case, when a leaf component gets a request, it may pass it through the chain of all of the parent components down to the root of the object tree.
+- You can use [[Iterator]] to traverse the tree.
+- You can use [[Visitor]] pattern to execute an operation over an entire Composite tree.
+- You can implement shared leaf nodes of the Composite tree as [[Flyweight]] to save some RAM.
+- Composite and [[Decorator]] have similar structure diagrams since both rely on recursive composition to organize an open-ended number of objects.
+- Designs that make heavy use of Composite and [[Decorator]] pattern can often benefit from using [[Prototype]].
