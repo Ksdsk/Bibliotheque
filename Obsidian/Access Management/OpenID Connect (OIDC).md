@@ -1,6 +1,21 @@
 > OpenID Connect is an interoperable authentical protocol based on the [[OAuth]] 2.0 framework of specifications. It simplifies the way to verify the [[Digital Identity|identity]] of users based on the [[Authentication|authentication]] performed by an [[Authorization|authorization]] server to obtain user profile information in an interoperable and REST-like manner. [How OpenID Connect Works - OpenID Foundation](https://openid.net/developers/how-connect-works/)
 
 It enables developers to launch sign-in flows and receive verifiable assertions about users across web-based, mobile, and JS clients. It also provides a secure and verifiable answer to the question of "What is the identity of the person currently using the application that is connected?" while removing the responsibility of setting, storing, and managing passwords which is frequently associated with credential-based data breaches.
+
+![[Pasted image 20240818192222.png]]
+[OpenID Connect | Okta](https://www.okta.com/openid-connect/)
+## Relationship with OAuth 2.0
+OIDC is built on top of OAuth 2.0. Some of the more important additions are:
+- **Scopes**
+	- In [[OAuth]] 2.0 specification, scopes are whatever the OAuth provider wants them to be. While this is flexible, it makes interoperability effectively impossible. OIDC standardizes these scopes to OpenID, profile, email, and address.
+- **Claims**
+	- In addition to standardizing the scopes used, OIDC also standardizes the sets of claims for the OPDC scopes. It is these standard sets of claims that contain the user specific information for authentication. For example, by having claims specifically named `given_name` and `family_name`. other systems from other organizations can create and receive user information in repeatable, predictable patterns.
+- **ID Token**
+	- For OIDC, scopes can be used to request specific sets of information. This information is made available as claim values. The identity information in the ID token is specifically intended to be read by 3rd party applications to authenticate the same identity across multiple web applications, a crucial component of federation.
+- **User info endpoint**
+	- In addition to the ID token, with the implementation of OIDC comes standardized endpoints. In particular, the `/userinfo` endpoint allows for the verification of identity information metadata and is key to interoperability with other OIDC systems suitable for enterprise grade solutions.
+- **[[JSON Web Tokens (JWT)]]**
+	- JWT is a cryptographically signed JSON payload that stores the user information. Using JWTs allows information to be verified and trusted with a digital signature. With this trusted digital signature in place, the information can later be verified using a signing key. OIDC utilizes the JWT standard for the ID token.
 ## How it works
 OpenID Connect enables an internet identity ecosystem through easy integration and support, security, and privacy-preserving configuration, interoperability, wide support of clients and devices, and enabling any entity to be an OpenID Provider.
 

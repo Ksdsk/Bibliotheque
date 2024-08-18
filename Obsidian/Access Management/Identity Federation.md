@@ -5,6 +5,18 @@ In the days before widespread use of the web, a user would log into a single ser
 Then, as the internet began to gain popularity and applications begin to be run on the web, the number of login credentials a user had to memorize increased from just a few, to several dozen. It also meant the number of user stores grew, creating a number of identity silos. User credentials were no longer centralized in a single directory, but spread over a number of systems across the web. Who was going to manage these credentials and how would they do it in an efficient way? 
 
 *Federation*.
+## Importance for Federation
+In today's modern world, digital identities are growing exponentially. Every application built comes with its own identity. This means your customers, and especially partners, likely already have their own identities, whether from a social application, a custom application, or their enterprise identity. 
+
+When building a new application, providing a method to bring in an existing identity results in:
+- **Reduced on-boarding friction**
+	- The user already has an identity with their existing IdP, so they don't need to complete a registration flow to create a new account.
+- **Better user experience**
+	- By redirecting them to their IdP at authentication time, federation provides a sign-on experience that the user is already familiar with. The user may already have a session with their IdP, so another manual log in may be unnecessary.
+- **Better user management**
+	- The management of all accounts and credentials are delegated to the user's organization, and are no longer the responsibility of the application owner.
+
+By unifying your suite of applications with a single identity layer, you can:
 ## Components of Federation
 Here are some casts:
 - The first system of a federation is the [[Identity Provider (IdP)]]. 
