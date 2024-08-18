@@ -21,14 +21,17 @@ Consider implementing the abstract factory when you have a class with a set of [
 5. Create factory initialization code somewhere in the app. It should instantiate one of the concrete factory classes, depending on the application configuration or the current environment. Pass this factory object to all classes that construct products.
 6. Scan through the code and find all direct calls to product constructors. Replace them with calls to the appropriate creation method on the factory object.
 ## Example
-Let's make a Button interface and the specific classes for MacOS and Windows:
+Let's make a Button and Checkbox interface and the specific classes for MacOS and Windows:
 ```java
 public interface Button {
     void paint();
 }
-```
 
-```java
+public interface Checkbox {
+    void paint();
+}
+
+// MACOS
 public class MacOSButton implements Button {
 
     @Override
@@ -36,14 +39,110 @@ public class MacOSButton implements Button {
         System.out.println("You have created MacOSButton.");
     }
 }
-```
 
-```java
+public class MacOSCheckbox implements Checkbox {
+
+    @Override
+    public void paint() {
+        System.out.println("You have created MacOSCheckbox.");
+    }
+}
+
+// WINDOWS
 public class WindowsButton implements Button {
 
     @Override
     public void paint() {
         System.out.println("You have created WindowsButton.");
+    }
+}
+
+public class WindowsCheckbox implements Checkbox {
+
+    @Override
+    public void paint() {
+        System.out.println("You have created WindowsCheckbox.");
+    }
+}
+```
+
+Let's make an interface as an abstract factory which houses the types and certain methods:
+```java
+public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckbox();
+}
+```
+
+Concrete factories are then made:
+```java
+public class MacOSFactory implements GUIFactory {
+
+    @Override
+    public Button createButton() {
+        return new MacOSButton();
+    }
+
+    @Override
+    public Checkbox createCheckbox() {
+        return new MacOSCheckbox();
+    }
+}
+
+public class WindowsFactory implements GUIFactory {
+
+    @Override
+    public Button createButton() {
+        return new WindowsButton();
+    }
+
+    @Override
+    public Checkbox createCheckbox() {
+        return new WindowsCheckbox();
+    }
+}
+```
+
+Let's make our runner:
+```java
+public class Application {
+    private Button button;
+    private Checkbox checkbox;
+
+    public Application(GUIFactory factory) {
+        button = factory.createButton();
+        checkbox = factory.createCheckbox();
+    }
+
+    public void paint() {
+        button.paint();
+        checkbox.paint();
+    }
+}
+
+public class Demo {
+
+    /**
+     * Application picks the factory type and creates it in run time (usually at
+     * initialization stage), depending on the configuration or environment
+     * variables.
+     */
+    private static Application configureApplication() {
+        Application app;
+        GUIFactory factory;
+        String osName = System.getProperty("os.name").toLowerCase();
+        if (osName.contains("mac")) {
+            factory = new MacOSFactory();
+        } else {
+            factory = new WindowsFactory();
+        }
+        app = new Application(factory);
+        return app;
+    }
+
+    public static void main(String[] args) {
+        Application app = configureApplication();
+        app.paint();
     }
 }
 ```
