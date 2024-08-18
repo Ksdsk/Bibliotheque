@@ -141,8 +141,27 @@ It's OK to be wrong, but if you own your mistakes and fix it, that is also a par
 
 Our expectation is that we want to be strategic, but to be willing to roll up their sleeves and be great at getting to the details.
 
-The details of any idea are what matters most. That's what people actually see, and what customers actually see. Good leaders find mechanisms to inspect, audit the details, and understand the anecdotes.
+The details of any idea are what matters most. That's what people actually see, and what customers actually see. Good leaders find mechanisms to inspect, audit the details, and understand the anecdotes. 
+
+Remember that a 1% impact is more than a million people at Amazon's scale.
 ## Have Backbone; Disagree and Commit
+> Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
+
+You're expected to challenge, regardless of levels, if something doesn't seem right. Speak up, be curious, and ask questions. **Be truth-seeking.**
+
+Once we make a decision:
+- All have to get on board;
+- Need to focus all our energy rowing the same way.
 ## Deliver Results
+> Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
+
+Outputs are really high-level metrics. For example, stock price, cash flow, revenue, margins,... but it is difficult to manage these items actively.
+
+What drives the outputs are the inputs. Inputs are you, your team, and your product.
+
+Launch or delivery is not the finish line - it's the starting line. Be ready for improvements, and be ready to re-invent.
 ## Strive to be Earth's Best Employer
+> Leaders work every day to create a safer, more productive, higher performing, more diverse, and more just work environment. They lead with empathy, have fun at work, and make it easy for others to have fun. Leaders ask themselves: Are my fellow employees growing? Are they empowered? Are they ready for what's next? Leaders have a vision for and commitment to their employees' personal success, whether that be at Amazon or elsewhere.
+
+Working at a place whose mission is to make customers' lives easier and better every day is very inspiring. Be a part of that team. You are making the impact for millions of people around the world. Be proud and strive to be that customers - the world's - best employer.
 ## Success and Scale Bring Broad Responsibility
