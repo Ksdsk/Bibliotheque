@@ -26,7 +26,16 @@ The assertion contains the account name of the user along with other attributes 
 Notice that the SP has nothing to do with the authentication of the user. It trusts the IdP to take care of that. All the SP cares about is that the user was authenticated properly.
 
 But an IdP can be federated to multiple SPs. What does that mean in practice? A user goes to one place to login, then the IdP asserts their identity to the SP that the user is attempting to access. This means there is now a single control point for authentication. By centralizing the user's account and credentials, an administrator has only a single system to perform user management.
-## Relationship with current strategies
+## Relationship with current protocols
 While [[Security Assertion Markup Language (SAML)]] was cutting edge for its time, by today's standards, it looks very dated. It was designed to enable [[Single Sign-On (SSO)]] from browser-based clients to web servers by passing XML documents. 
 
 Today, modern apps are not always going to be web-based, and an assertion using XML is too heavy for today's uses. Hence, the [[OpenID Connect (OIDC)]] was born. 
+### Difference between Federation and SSO
+While SSO and Federation allows access to multiple apps using one set of credentials, they are not the same thing. The main difference between SSO and Federation is their range of access.
+
+Think of SSO like having a driver's license. Within your own country, it serves not only as proof that you can drive but also as a handy form if identification within your country for various services. Your driver's license gets you recognized in many scenarios without needing additional ID. The secure token generated during the SSO process acts like your digital proof of identity, similar to showing your driver's license.
+
+Federation expands on this by letting your digital identity be valid across different countries or organizations, similar to how a password works across borders, enabling access without the need for multiple identities.
+
+If you want to support federated SSO in your application in your application for different customers, you'll have to connect it to the multiple IdPs potentially owned by those different organizations. This can get complex fast because:
+- Your app must be able to send authorization requests and receive assertion messages from each IdP y
