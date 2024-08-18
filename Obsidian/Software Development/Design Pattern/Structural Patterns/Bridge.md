@@ -94,4 +94,5 @@ Cons:
 ## Relations with Other Patterns
 - Bridge is usually designed up-front, letting you develop parts of an application independently of each other. On the other hand, [[Adapter]] is commonly used with an existing app to make some otherwise-incompatible classes work together nicely.
 - Bridge, [[State]], and [[Strategy]] have similar structures, but they solve different problems.
-- You can use the [[Abstract Factory]] along with Bridge
+- You can use the [[Abstract Factory]] along with Bridge, which can be useful when some abstractions defined by the Bridge can only work with specific implementations.
+- You can combine [[Builder]] with Bridge.
