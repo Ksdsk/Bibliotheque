@@ -6,4 +6,12 @@ OpenID Connect enables an internet identity ecosystem through easy integration a
 
 The OpenID Connect protocol follows these steps:
 1. End user navigates to a website or web application via a browser.
-2. End user cl
+2. End user clicks sign-in and types their username and password.
+3. The relying party (RP), which is the Client, sends a request to the OpenID Provider (OP).
+4. The OP authenticates the User and obtains authorization.
+5. The OP responds with an Identity Token and usually an Access Token,
+6. The RP can send a request with the Access Token to the User device.
+7. The UserInfo Endpoint returns Claims about the End User.
+## Example
+Many organizations use OIDC to enable secure authentication across web and mobile apps:
+- When a user signs up for a Spotify account, they are offered three choices: Sign up with Facebook, Google, or your Email address. Users who choose to sign up with Facebook or Google are using OIDC to create an account. They will be redirected to whichever OP they selected (Facebook or Google) and then once they've signed in, the OP will send Spotify basic profile details. The user doesn't have to create a new account for Spotify and their passwords remain protected.
