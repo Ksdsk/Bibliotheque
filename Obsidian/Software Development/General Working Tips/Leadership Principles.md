@@ -106,8 +106,21 @@ You cannot run the same playbook for decades at a time to have a long-running pr
 
 Bold initiatives that are not simple to do, and these types of initiatives require thinking big, and it's what you do if you want to serve customers better. **And it is part of what not only makes Amazon unique, but also gives us a unique impact in the world.**
 ## Bias for Action
-> Speed matters in business. Many
+> Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.
+
+Speed is not preordained - it is a leadership and a culture decision. You can move quickly if you historically haven't. 
+
+A concept of a one-way door and a two-way door is a good analogy for works that are reversible; if you can make a decision that cannot be reversed easily, that's a one-way door decision and it would require you to invest more time into so you don't spend more time trying to undo the results. Meanwhile, a two-way door decision means you can always go back to where you came from - if it's simply reversible, take risks and learn from it if unwell. Very often, there will be more two-way doors.
+
+However, this doesn't mean you have free reign to pass things without concern; be thoughtful and make the right risks. If the risk is low, or reversible, act on it.
+
+Have the right mindset and the right urgency about decisions - don't take weeks to figure something out that can be done in hours. Have this idea in your head that you're living in a race. Every week, think about "When I leave this week, will my customers be better off than when I started the week?"
+
+You can be fast while still having high standards. Think of ourselves as the world's biggest start-up.
 ## Frugality
+> Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
+
+We want to be scrappy and be frugal as possible. Basis points matter. Don't let pennies become dimes and loonies of expenses later on. 
 ## Earn Trust
 ## Dive Deep
 ## Have Backbone; Disagree and Commit
