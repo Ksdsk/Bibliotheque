@@ -15,8 +15,6 @@ When building a new application, providing a method to bring in an existing iden
 	- By redirecting them to their IdP at authentication time, federation provides a sign-on experience that the user is already familiar with. The user may already have a session with their IdP, so another manual log in may be unnecessary.
 - **Better user management**
 	- The management of all accounts and credentials are delegated to the user's organization, and are no longer the responsibility of the application owner.
-
-By unifying your suite of applications with a single identity layer, you can:
 ## Components of Federation
 Here are some casts:
 - The first system of a federation is the [[Identity Provider (IdP)]]. 
