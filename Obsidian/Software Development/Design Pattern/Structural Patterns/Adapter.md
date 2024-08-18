@@ -11,7 +11,9 @@ It's a special object that converts the interface of one object so that another 
 
 ### Class Adapter
 ![[Pasted image 20240818170027.png]]
-1. 
+1. The class adapter does not need to wrap any objects because it inherits behaviours from both the client and the service. The adaptation happens within the overridden methods.
+## Pseudocode
+![[Pasted image 20240818170344.png]]
 
 ## Pros and Cons
 Pros:
