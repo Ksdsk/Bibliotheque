@@ -120,9 +120,28 @@ You can be fast while still having high standards. Think of ourselves as the wor
 ## Frugality
 > Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
 
-We want to be scrappy and be frugal as possible. Basis points matter. Don't let pennies become dimes and loonies of expenses later on. 
+We want to be scrappy and be frugal as possible. Basis points matter. Don't let pennies become dimes and loonies of expenses later on. Have a rigid constraint and work in it, and only when necessary, expand out of that margin.
+
+When you save money on everything you do, it means you can invest more in giving customers lower prices at the same, or even better benefits. Do more with less. Build lean products.
 ## Earn Trust
+> Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team's body odour smells of perfume. They benchmark themselves and their teams against the best.
+
+Challenges are a good thing to push others to their potential - be honest but respectfully. 
+
+A formula for earning trust is:
+- Deliver it,
+- Speak up,
+- Own it,
+- Be self-critical, and 
+- Fix it.
+
+It's OK to be wrong, but if you own your mistakes and fix it, that is also a part of earning trust. That's also being right, a lot.
 ## Dive Deep
+> Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
+
+Our expectation is that we want to be strategic, but to be willing to roll up their sleeves and be great at getting to the details.
+
+The details of any idea are what matters most. That's what people actually see, and what customers actually see. Good leaders find mechanisms to inspect, audit the details, and understand the anecdotes.
 ## Have Backbone; Disagree and Commit
 ## Deliver Results
 ## Strive to be Earth's Best Employer
