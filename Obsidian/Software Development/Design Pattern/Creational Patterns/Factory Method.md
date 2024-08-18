@@ -27,3 +27,8 @@ When you don't know beforehand the exact types and dependencies of the objects y
 4. Now, create a set of creator subclasses for each type of product listed in the factory method. Override the factory method in the subclasses and extract the appropriate bits of construction code from the base method.
 5. If there are too many product types and it doesn't make sense to create subclasses for all of them, you can reuse the control parameter from the base class in subclasses.
 6. If, after all of the extractions, the base factory method has become empty, you can make it abstract. If there's something left, you can make it a default behaviour of the method.
+## Relations with Other Patterns
+- Many designs start by using this pattern, and evolve towards [[Abstract Factory]], [[Prototype]], or the [[Builder]] pattern.
+- [[Abstract Factory]] classes are often based on a set of [[Factory Method]], but you can also use [[Prototype]] to compose the methods on these classes.
+- You can use this pattern along with [[Iterator]] to let collection subclasses return different types of iterators that are compatible with the collections.
+- This pattern is a specialization of the [[Template Method]].

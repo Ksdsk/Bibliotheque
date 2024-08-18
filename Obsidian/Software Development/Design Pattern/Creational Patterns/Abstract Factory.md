@@ -146,4 +146,6 @@ public class Demo {
     }
 }
 ```
-
+## Relations with Other Patterns
+- [[Builder]] focuses on constructing complex objects step-by-step. Abstract factory specializes in creating families of related objects.
+- Abstract Factory classes are often based on a set of [[Factory Method]], but you can also use [[Prototype]] to compose thje methods on these 
