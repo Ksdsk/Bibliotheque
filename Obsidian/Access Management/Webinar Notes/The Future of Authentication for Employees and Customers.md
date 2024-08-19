@@ -7,4 +7,7 @@ Source: [Auth0 | The Future of Authentication for Employees and Customers](https
 ## Misconception
 A common misconception in identity is the impossibility of simultaneously satisfying convenience, security, and privacy; that it's a constant battle of trade-offs. **This is not true**. We can achieve all of security, privacy, and convenience with more innovation in authentication. For example, biometric authentication.
 ## Strengthening Identity Security
-Identity is at the inse
+Building an identity model:
+- Start with the highest acceptable friction level.
+- Build risk models based on progressive assessment.
+- Demand higher assurance level as risk increases.
