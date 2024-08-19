@@ -25,4 +25,5 @@ With the username provided, the system generates a one-time passcode, referred t
 ### Multifactor Authentication
 Multifactor authentication is the combination of any of the above types of authentication. Usually, the act of asking the user for an additional piece of data like the [[#Passwordless]] structure is quite common.
 ### Identity Federation and Single Sign-On
-[[Identity Federation]] and [[Single Sign-On (SSO)]] go hand-in-hand. SSO allows a user to login once and gain acce
+[[Identity Federation]] and [[Single Sign-On (SSO)]] go hand-in-hand. SSO allows a user to login once and gain access to multiple disparate apps and services. Federation deals with managing user identities and granting them the rights and privileges to log into these disparate apps and services.
+
