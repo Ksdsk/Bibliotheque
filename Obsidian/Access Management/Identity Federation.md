@@ -41,3 +41,5 @@ If you want to support federated SSO in your application in your application for
 - Your app must be able to send authorization requests and receive assertion messages from each IdP you're supporting.
 - Each IdP might use a different protocol to share authentication data.
 - IdPs might also present user data in different formats.
+## Federated Identity Management
+## Federation Provider
