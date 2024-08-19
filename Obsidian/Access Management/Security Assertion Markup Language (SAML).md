@@ -1,0 +1,1 @@
+> SAML is a login standard that helps users access applications based on sessions in another context. it's a [[Single Sign-On (SSO)]] login method offering more secure authentication than usernames and passwords.

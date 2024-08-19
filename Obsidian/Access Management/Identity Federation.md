@@ -6,7 +6,7 @@ Then, as the internet began to gain popularity and applications begin to be run 
 
 *Federation*.
 ## Importance for Federation
-In today's modern world, digital identities are growing exponentially. Every application built comes with its own identity. This means your customers, and especially partners, likely already have their own identities, whether from a social application, a custom application, or their enterprise identity. 
+In today's modern world, digital identities are growing exponentially. Every application built comes with its own [[Digital Identity]]. This means your customers, and especially partners, likely already have their own identities, whether from a social application, a custom application, or their enterprise identity. 
 
 When building a new application, providing a method to bring in an existing identity results in:
 - **Reduced on-boarding friction**
@@ -38,4 +38,6 @@ Think of SSO like having a driver's license. Within your own country, it serves 
 Federation expands on this by letting your digital identity be valid across different countries or organizations, similar to how a password works across borders, enabling access without the need for multiple identities.
 
 If you want to support federated SSO in your application in your application for different customers, you'll have to connect it to the multiple IdPs potentially owned by those different organizations. This can get complex fast because:
-- Your app must be able to send authorization requests and receive assertion messages from each IdP y
+- Your app must be able to send authorization requests and receive assertion messages from each IdP you're supporting.
+- Each IdP might use a different protocol to share authentication data.
+- IdPs might also present user data in different formats.
