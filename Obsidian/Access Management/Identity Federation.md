@@ -43,3 +43,4 @@ If you want to support federated SSO in your application in your application for
 - IdPs might also present user data in different formats.
 ## Federated Identity Management
 ## Federation Provider
+## WS-Federation
