@@ -1,41 +1,103 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 18 Aug 2024 04:40:07 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 18 Aug 2024 04:40:03 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Authentication]]></title><description><![CDATA[ 
- ]]></description><link>access-management\authentication.html</link><guid isPermaLink="false">Access Management/Authentication.md</guid><pubDate>Sat, 17 Aug 2024 02:58:15 GMT</pubDate></item><item><title><![CDATA[Authorization]]></title><description><![CDATA[ 
- ]]></description><link>access-management\authorization.html</link><guid isPermaLink="false">Access Management/Authorization.md</guid><pubDate>Sat, 17 Aug 2024 02:58:19 GMT</pubDate></item><item><title><![CDATA[Digital Identity]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 19 Aug 2024 05:14:31 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 19 Aug 2024 05:14:28 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[The Future of Authentication for Employees and Customers]]></title><description><![CDATA[ 
+ <br>Source: <a data-tooltip-position="top" aria-label="https://auth0.com/resources/webinars/the-future-of-authentication-with-jameeka/thankyou" rel="noopener" class="external-link" href="https://auth0.com/resources/webinars/the-future-of-authentication-with-jameeka/thankyou" target="_blank">Auth0 | The Future of Authentication for Employees and Customers</a><br><br>"Traditional IAM is no longer an option". Login forms are vulnerable to automation attacks such as brute-force or DDoS. It is also vulnerable to impersonation attacks, which is one of the most damaging forms of attack. This is because many people in the world still use the same password for each products they are a customer of.<br><br>A common misconception in identity is the impossibility of simultaneously satisfying convenience, security, and privacy; that it's a constant battle of trade-offs. This is not true. We can achieve all of security, privacy, and convenience with more innovation in authentication. For example, biometric authentication.<br><br>Building an identity model:<br>
+<br>Start with the highest acceptable friction level.
+<br>Build risk models based on progressive assessment.
+<br>Demand higher assurance level as risk increases.
+]]></description><link>access-management\webinar-notes\the-future-of-authentication-for-employees-and-customers.html</link><guid isPermaLink="false">Access Management/Webinar Notes/The Future of Authentication for Employees and Customers.md</guid><pubDate>Mon, 19 Aug 2024 01:19:19 GMT</pubDate></item><item><title><![CDATA[Authentication]]></title><description><![CDATA[ 
  <br>
-In access management, digital identity is the recorded set of measurable characteristics by which a computer can identify an external entity. The entity may be a person, an organization, a software program, or another computer. <a data-tooltip-position="top" aria-label="https://www.cloudflare.com/learning/access-management/what-is-identity/#:~:text=In%20access%20management%2C%20digital%20identity,relies%20on%20computer%2Didentifiable%20attributes." rel="noopener" class="external-link" href="https://www.cloudflare.com/learning/access-management/what-is-identity/#:~:text=In%20access%20management%2C%20digital%20identity,relies%20on%20computer%2Didentifiable%20attributes." target="_blank">What is digital identity? | Cloudflare</a>
-]]></description><link>access-management\digital-identity.html</link><guid isPermaLink="false">Access Management/Digital Identity.md</guid><pubDate>Sat, 17 Aug 2024 02:58:00 GMT</pubDate></item><item><title><![CDATA[Identity Provider (IdP)]]></title><description><![CDATA[ 
- ]]></description><link>access-management\identity-provider-(idp).html</link><guid isPermaLink="false">Access Management/Identity Provider (IdP).md</guid><pubDate>Sat, 17 Aug 2024 02:59:15 GMT</pubDate></item><item><title><![CDATA[JSON Web Tokens (JWT)]]></title><description><![CDATA[ 
- ]]></description><link>access-management\json-web-tokens-(jwt).html</link><guid isPermaLink="false">Access Management/JSON Web Tokens (JWT).md</guid><pubDate>Sat, 17 Aug 2024 02:59:38 GMT</pubDate></item><item><title><![CDATA[Security Assertion Markup Language (SAML)]]></title><description><![CDATA[ 
- ]]></description><link>access-management\security-assertion-markup-language-(saml).html</link><guid isPermaLink="false">Access Management/Security Assertion Markup Language (SAML).md</guid><pubDate>Sat, 17 Aug 2024 02:58:41 GMT</pubDate></item><item><title><![CDATA[Single Sign-On (SSO)]]></title><description><![CDATA[ 
- ]]></description><link>access-management\single-sign-on-(sso).html</link><guid isPermaLink="false">Access Management/Single Sign-On (SSO).md</guid><pubDate>Sat, 17 Aug 2024 02:58:59 GMT</pubDate></item><item><title><![CDATA[OpenAPI]]></title><description><![CDATA[ 
- ]]></description><link>application-programming-interface-(api)\openapi.html</link><guid isPermaLink="false">Application Programming Interface (API)/OpenAPI.md</guid><pubDate>Sat, 17 Aug 2024 03:09:44 GMT</pubDate></item><item><title><![CDATA[Smithy 2.0]]></title><description><![CDATA[ 
- ]]></description><link>application-programming-interface-(api)\smithy-2.0.html</link><guid isPermaLink="false">Application Programming Interface (API)/Smithy 2.0.md</guid><pubDate>Sat, 17 Aug 2024 03:09:56 GMT</pubDate></item><item><title><![CDATA[Swagger]]></title><description><![CDATA[ 
- ]]></description><link>application-programming-interface-(api)\swagger.html</link><guid isPermaLink="false">Application Programming Interface (API)/Swagger.md</guid><pubDate>Sat, 17 Aug 2024 03:09:51 GMT</pubDate></item><item><title><![CDATA[AI Ethics]]></title><description><![CDATA[ 
- ]]></description><link>artificial-intelligence-(ai)\ai-ethics.html</link><guid isPermaLink="false">Artificial Intelligence (AI)/AI Ethics.md</guid><pubDate>Sat, 17 Aug 2024 03:19:17 GMT</pubDate></item><item><title><![CDATA[OpenAI]]></title><description><![CDATA[ 
- ]]></description><link>artificial-intelligence-(ai)\openai.html</link><guid isPermaLink="false">Artificial Intelligence (AI)/OpenAI.md</guid><pubDate>Sat, 17 Aug 2024 03:19:22 GMT</pubDate></item><item><title><![CDATA[Amazon CloudSearch]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\analytics\amazon-cloudsearch.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Analytics/Amazon CloudSearch.md</guid><pubDate>Sat, 17 Aug 2024 03:02:04 GMT</pubDate></item><item><title><![CDATA[Amazon Redshift]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\analytics\amazon-redshift.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Analytics/Amazon Redshift.md</guid><pubDate>Sat, 17 Aug 2024 03:01:07 GMT</pubDate></item><item><title><![CDATA[Amazon EC2]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\compute\amazon-ec2.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/Amazon EC2.md</guid><pubDate>Sat, 17 Aug 2024 03:03:13 GMT</pubDate></item><item><title><![CDATA[AWS Elastic Beanstalk]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\compute\aws-elastic-beanstalk.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/AWS Elastic Beanstalk.md</guid><pubDate>Sat, 17 Aug 2024 03:03:27 GMT</pubDate></item><item><title><![CDATA[AWS Lambda]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\compute\aws-lambda.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/AWS Lambda.md</guid><pubDate>Sat, 17 Aug 2024 03:03:18 GMT</pubDate></item><item><title><![CDATA[Amazon Cognito]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\identity\amazon-cognito.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/Amazon Cognito.md</guid><pubDate>Sat, 17 Aug 2024 03:00:46 GMT</pubDate></item><item><title><![CDATA[AWS Identity and Access Management (IAM)]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\identity\aws-identity-and-access-management-(iam).html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/AWS Identity and Access Management (IAM).md</guid><pubDate>Sat, 17 Aug 2024 03:00:18 GMT</pubDate></item><item><title><![CDATA[AWS Identity Center]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\identity\aws-identity-center.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/AWS Identity Center.md</guid><pubDate>Sat, 17 Aug 2024 03:00:09 GMT</pubDate></item><item><title><![CDATA[Amazon CloudWatch]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\management-and-governance\amazon-cloudwatch.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Management and Governance/Amazon CloudWatch.md</guid><pubDate>Sat, 17 Aug 2024 03:04:15 GMT</pubDate></item><item><title><![CDATA[AWS CloudFormation]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\management-and-governance\aws-cloudformation.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Management and Governance/AWS CloudFormation.md</guid><pubDate>Sat, 17 Aug 2024 03:04:21 GMT</pubDate></item><item><title><![CDATA[Serverless Application Model (SAM)]]></title><description><![CDATA[ 
- ]]></description><link>cloud-computing\amazon-web-services\serverless-application-model-(sam).html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Serverless Application Model (SAM).md</guid><pubDate>Tue, 13 Aug 2024 22:26:52 GMT</pubDate></item><item><title><![CDATA[Grafana]]></title><description><![CDATA[ 
- ]]></description><link>monitoring\grafana.html</link><guid isPermaLink="false">Monitoring/Grafana.md</guid><pubDate>Sat, 17 Aug 2024 03:05:14 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[ 
- ]]></description><link>monitoring\prometheus.html</link><guid isPermaLink="false">Monitoring/Prometheus.md</guid><pubDate>Sat, 17 Aug 2024 03:05:02 GMT</pubDate></item><item><title><![CDATA[Chain of Responsibility]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\chain-of-responsibility.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Chain of Responsibility.md</guid><pubDate>Sat, 17 Aug 2024 03:21:08 GMT</pubDate></item><item><title><![CDATA[Command]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\command.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Command.md</guid><pubDate>Sat, 17 Aug 2024 03:21:15 GMT</pubDate></item><item><title><![CDATA[Iterator]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\iterator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Iterator.md</guid><pubDate>Sat, 17 Aug 2024 03:21:18 GMT</pubDate></item><item><title><![CDATA[Mediator]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\mediator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Mediator.md</guid><pubDate>Sat, 17 Aug 2024 03:21:22 GMT</pubDate></item><item><title><![CDATA[Memento]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\memento.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Memento.md</guid><pubDate>Sat, 17 Aug 2024 03:21:25 GMT</pubDate></item><item><title><![CDATA[Observer]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\observer.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Observer.md</guid><pubDate>Sat, 17 Aug 2024 03:21:28 GMT</pubDate></item><item><title><![CDATA[State]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\state.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/State.md</guid><pubDate>Sat, 17 Aug 2024 03:21:32 GMT</pubDate></item><item><title><![CDATA[Strategy]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\strategy.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Strategy.md</guid><pubDate>Sat, 17 Aug 2024 03:21:35 GMT</pubDate></item><item><title><![CDATA[Template Method]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\template-method.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Template Method.md</guid><pubDate>Sat, 17 Aug 2024 03:21:38 GMT</pubDate></item><item><title><![CDATA[Visitor]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\behavioural-patterns\visitor.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Visitor.md</guid><pubDate>Sat, 17 Aug 2024 03:21:42 GMT</pubDate></item><item><title><![CDATA[Abstract Factory]]></title><description><![CDATA[ 
+Authentication is the act of validating that users are whom they claim to be. This is the first step in any security process. <a data-tooltip-position="top" aria-label="https://www.okta.com/identity-101/authentication-vs-authorization/" rel="noopener" class="external-link" href="https://www.okta.com/identity-101/authentication-vs-authorization/" target="_blank">Authentication vs. Authorization | Okta</a>
+<br>Authentication is important because it helps organizations protect their systems, data, networks, websites, and more from attacks. It helps individuals keep their personal data confidential, empowering them to conduct business with less risk. With a weak authentication system, you are risking yourself to:<br>
+<br>Data break or exfiltration,
+<br>Installation of malware, such as ransomware, or
+<br>noncompliance with regional or industry data privacy regulations.
+<br><br>The rise of the web changed the way software was consumed. <a data-href="Software-as-a-Service (SaaS)" href="\Software-as-a-Service (SaaS)" class="internal-link" target="_self" rel="noopener">Software-as-a-Service (SaaS)</a> has become the standard by which modern applications and services are accessed. This model allowed for many start-ups to build specialized products that focused on a singular task and do it well. Protecting each individual software would be extremely hard and tiring for many. This is when the idea of SSO arose.<br><br>Username and Password <a data-tooltip-position="top" aria-label="Authentication" data-href="Authentication" href="\access-management\authentication.html" class="internal-link" target="_self" rel="noopener">authentication</a> is the tried-and-true method of protecting application. This is a commonplace to this day because it provides a simple experience that most people are familiar with. Since the credentials for this type of authentication are stored in a database, passwords must be hashed and salted. <br>
+Hashing is the act of cryptographically translating the password into a one-way verifiable key. Salting is the act of adding a random string of characters before hashing them.
+<br>Enhancing this flow comes in the flavour of enforcing strong password requirements, forcing password changes every so often, and preventing password reuse.<br><br>Social authentication has gained prominence in the last few years because it allows organizations to authenticate users with existing accounts. These social applications, or really, any type of applications that act as an identity provider is called a <a data-tooltip-position="top" aria-label="Identity Federation" data-href="Identity Federation" href="\access-management\identity-federation.html" class="internal-link" target="_self" rel="noopener">Federated Identity Manager</a>.<br>This type of authentication has the benefit of allowing an application to offload many of the authentication, user data storage, and security duties to the social authentication provider. An organization can simply take the unique id from the social provider and use it as the identifier in their application.<br>However, the drawbacks are clear, such as the ability for the social authentication provider to stop providing access which would break the systems' authentication system. This is called account linking.<br><br>Passwordless authentication is an up-and-coming methods of authentication that aims to improve the traditional username and password experience. Wherein username and password authentication a user is required to provide both a username and password, with this type of authentication, the user simply provides their username.<br>With the username provided, the system generates a one-time passcode, referred to as an OTOP, and delivers it to the user via email, SMS, or a dedicated app. Once the user provides the code back to the system and it has been verified as legit, then the user will be authenticated.<br><br>Multifactor authentication is the combination of any of the above types of authentication. Usually, the act of asking the user for an additional piece of data like the <a data-href="#Passwordless" href="\#Passwordless" class="internal-link" target="_self" rel="noopener">Passwordless</a> structure is quite common.<br><br><a data-href="Identity Federation" href="\access-management\identity-federation.html" class="internal-link" target="_self" rel="noopener">Identity Federation</a> and <a data-href="Single Sign-On (SSO)" href="\access-management\single-sign-on-(sso).html" class="internal-link" target="_self" rel="noopener">Single Sign-On (SSO)</a> go hand-in-hand. SSO allows a user to login once and gain access to multiple disparate apps and services. Federation deals with managing user identities and granting them the rights and privileges to log into these disparate apps and services.]]></description><link>access-management\authentication.html</link><guid isPermaLink="false">Access Management/Authentication.md</guid><pubDate>Mon, 19 Aug 2024 01:59:26 GMT</pubDate></item><item><title><![CDATA[Authorization]]></title><description><![CDATA[ 
+ <br>]]></description><link>access-management\authorization.html</link><guid isPermaLink="false">Access Management/Authorization.md</guid><pubDate>Mon, 19 Aug 2024 02:38:01 GMT</pubDate></item><item><title><![CDATA[Identity Federation]]></title><description><![CDATA[ 
+ <br>
+Federation is a process where one system is responsible for the <a data-tooltip-position="top" aria-label="Authentication" data-href="Authentication" href="\access-management\authentication.html" class="internal-link" target="_self" rel="noopener">authentication</a> of a user. That system then sends a message to a second system, announcing who the user is, and verifying that they were properly authenticated. <a data-tooltip-position="top" aria-label="https://www.okta.com/blog/2019/05/what-is-federation-and-why-should-your-apps-support-it/" rel="noopener" class="external-link" href="https://www.okta.com/blog/2019/05/what-is-federation-and-why-should-your-apps-support-it/" target="_blank">What is Federation and Why Should Your Apps Support it? | Okta</a>
+<br><br>In the days before widespread use of the web, a user would log into a single server and only have to remember one or two passwords. Applications were assumed to be for a single user, and didn't require login credentials. <br>Then, as the internet began to gain popularity and applications begin to be run on the web, the number of login credentials a user had to memorize increased from just a few, to several dozen. It also meant the number of user stores grew, creating a number of identity silos. User credentials were no longer centralized in a single directory, but spread over a number of systems across the web. Who was going to manage these credentials and how would they do it in an efficient way? <br>Federation.<br><br>In today's modern world, digital identities are growing exponentially. Every application built comes with its own <a data-href="Digital Identity" href="\access-management\digital-identity.html" class="internal-link" target="_self" rel="noopener">Digital Identity</a>. This means your customers, and especially partners, likely already have their own identities, whether from a social application, a custom application, or their enterprise identity. <br>When building a new application, providing a method to bring in an existing identity results in:<br>
+<br>Reduced on-boarding friction
+
+<br>The user already has an identity with their existing IdP, so they don't need to complete a registration flow to create a new account.
+
+
+<br>Better user experience
+
+<br>By redirecting them to their IdP at authentication time, federation provides a sign-on experience that the user is already familiar with. The user may already have a session with their IdP, so another manual log in may be unnecessary.
+
+
+<br>Better user management
+
+<br>The management of all accounts and credentials are delegated to the user's organization, and are no longer the responsibility of the application owner.
+
+
+<br><br>Here are some casts:<br>
+<br>The first system of a federation is the <a data-href="Identity Provider (IdP)" href="\access-management\identity-provider-(idp).html" class="internal-link" target="_self" rel="noopener">Identity Provider (IdP)</a>. 
+<br>The application a user w ants to log into is the Service Provider (SP).
+<br>The message that is sent between the systems is called an assertion,
+<br>The assertion contains the account name of the user along with other attributes that the SP needs to create a user session. It is cryptographically signed so the SP can trust that it came from the right IdP.<br>Notice that the SP has nothing to do with the authentication of the user. It trusts the IdP to take care of that. All the SP cares about is that the user was authenticated properly.<br>But an IdP can be federated to multiple SPs. What does that mean in practice? A user goes to one place to login, then the IdP asserts their identity to the SP that the user is attempting to access. This means there is now a single control point for authentication. By centralizing the user's account and credentials, an administrator has only a single system to perform user management.<br><br>While <a data-href="Security Assertion Markup Language (SAML)" href="\access-management\security-assertion-markup-language-(saml).html" class="internal-link" target="_self" rel="noopener">Security Assertion Markup Language (SAML)</a> was cutting edge for its time, by today's standards, it looks very dated. It was designed to enable <a data-href="Single Sign-On (SSO)" href="\access-management\single-sign-on-(sso).html" class="internal-link" target="_self" rel="noopener">Single Sign-On (SSO)</a> from browser-based clients to web servers by passing XML documents. <br>Today, modern apps are not always going to be web-based, and an assertion using XML is too heavy for today's uses. Hence, the <a data-href="OpenID Connect (OIDC)" href="\access-management\openid-connect-(oidc).html" class="internal-link" target="_self" rel="noopener">OpenID Connect (OIDC)</a> was born. <br><br>While SSO and Federation allows access to multiple apps using one set of credentials, they are not the same thing. The main difference between SSO and Federation is their range of access.<br>Think of SSO like having a driver's license. Within your own country, it serves not only as proof that you can drive but also as a handy form if identification within your country for various services. Your driver's license gets you recognized in many scenarios without needing additional ID. The secure token generated during the SSO process acts like your digital proof of identity, similar to showing your driver's license.<br>Federation expands on this by letting your digital identity be valid across different countries or organizations, similar to how a password works across borders, enabling access without the need for multiple identities.<br>If you want to support federated SSO in your application in your application for different customers, you'll have to connect it to the multiple IdPs potentially owned by those different organizations. This can get complex fast because:<br>
+<br>Your app must be able to send authorization requests and receive assertion messages from each IdP you're supporting.
+<br>Each IdP might use a different protocol to share authentication data.
+<br>IdPs might also present user data in different formats.
+<br><br><br>]]></description><link>access-management\identity-federation.html</link><guid isPermaLink="false">Access Management/Identity Federation.md</guid><pubDate>Mon, 19 Aug 2024 02:42:38 GMT</pubDate></item><item><title><![CDATA[Identity Provider (IdP)]]></title><description><![CDATA[ 
+ <br>]]></description><link>access-management\identity-provider-(idp).html</link><guid isPermaLink="false">Access Management/Identity Provider (IdP).md</guid><pubDate>Mon, 19 Aug 2024 02:40:57 GMT</pubDate></item><item><title><![CDATA[Kerberos]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\kerberos.html</link><guid isPermaLink="false">Access Management/Kerberos.md</guid><pubDate>Mon, 19 Aug 2024 03:01:42 GMT</pubDate></item><item><title><![CDATA[OAuth]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\oauth.html</link><guid isPermaLink="false">Access Management/OAuth.md</guid><pubDate>Sun, 18 Aug 2024 19:42:17 GMT</pubDate></item><item><title><![CDATA[OpenID Connect (OIDC)]]></title><description><![CDATA[ 
+ <br>
+OpenID Connect is an interoperable authentical protocol based on the <a data-href="OAuth" href="\access-management\oauth.html" class="internal-link" target="_self" rel="noopener">OAuth</a> 2.0 framework of specifications. It simplifies the way to verify the <a data-tooltip-position="top" aria-label="Digital Identity" data-href="Digital Identity" href="\access-management\digital-identity.html" class="internal-link" target="_self" rel="noopener">identity</a> of users based on the <a data-tooltip-position="top" aria-label="Authentication" data-href="Authentication" href="\access-management\authentication.html" class="internal-link" target="_self" rel="noopener">authentication</a> performed by an <a data-tooltip-position="top" aria-label="Authorization" data-href="Authorization" href="\access-management\authorization.html" class="internal-link" target="_self" rel="noopener">authorization</a> server to obtain user profile information in an interoperable and REST-like manner. <a data-tooltip-position="top" aria-label="https://openid.net/developers/how-connect-works/" rel="noopener" class="external-link" href="https://openid.net/developers/how-connect-works/" target="_blank">How OpenID Connect Works - OpenID Foundation</a>
+<br>It enables developers to launch sign-in flows and receive verifiable assertions about users across web-based, mobile, and JS clients. It also provides a secure and verifiable answer to the question of "What is the identity of the person currently using the application that is connected?" while removing the responsibility of setting, storing, and managing passwords which is frequently associated with credential-based data breaches.<br><img alt="Pasted image 20240818192222.png" src="\lib\media\pasted-image-20240818192222.png"><br>
+<a data-tooltip-position="top" aria-label="https://www.okta.com/openid-connect/" rel="noopener" class="external-link" href="https://www.okta.com/openid-connect/" target="_blank">OpenID Connect | Okta</a><br><br>OIDC is built on top of OAuth 2.0. Some of the more important additions are:<br>
+<br>Scopes
+
+<br>In <a data-href="OAuth" href="\access-management\oauth.html" class="internal-link" target="_self" rel="noopener">OAuth</a> 2.0 specification, scopes are whatever the OAuth provider wants them to be. While this is flexible, it makes interoperability effectively impossible. OIDC standardizes these scopes to OpenID, profile, email, and address.
+
+
+<br>Claims
+
+<br>In addition to standardizing the scopes used, OIDC also standardizes the sets of claims for the OPDC scopes. It is these standard sets of claims that contain the user specific information for authentication. For example, by having claims specifically named given_name and family_name. other systems from other organizations can create and receive user information in repeatable, predictable patterns.
+
+
+<br>ID Token
+
+<br>For OIDC, scopes can be used to request specific sets of information. This information is made available as claim values. The identity information in the ID token is specifically intended to be read by 3rd party applications to authenticate the same identity across multiple web applications, a crucial component of federation.
+
+
+<br>User info endpoint
+
+<br>In addition to the ID token, with the implementation of OIDC comes standardized endpoints. In particular, the /userinfo endpoint allows for the verification of identity information metadata and is key to interoperability with other OIDC systems suitable for enterprise grade solutions.
+
+
+<br><a data-href="JSON Web Tokens (JWT)" href="\access-management\json-web-tokens-(jwt).html" class="internal-link" target="_self" rel="noopener">JSON Web Tokens (JWT)</a>
+
+<br>JWT is a cryptographically signed JSON payload that stores the user information. Using JWTs allows information to be verified and trusted with a digital signature. With this trusted digital signature in place, the information can later be verified using a signing key. OIDC utilizes the JWT standard for the ID token.
+
+
+<br><br>OpenID Connect enables an internet identity ecosystem through easy integration and support, security, and privacy-preserving configuration, interoperability, wide support of clients and devices, and enabling any entity to be an OpenID Provider.<br>The OpenID Connect protocol follows these steps:<br>
+<br>End user navigates to a website or web application via a browser.
+<br>End user clicks sign-in and types their username and password.
+<br>The relying party (RP), which is the Client, sends a request to the OpenID Provider (OP).
+<br>The OP authenticates the User and obtains authorization.
+<br>The OP responds with an Identity Token and usually an Access Token, often it would be the <a data-href="JSON Web Tokens (JWT)" href="\access-management\json-web-tokens-(jwt).html" class="internal-link" target="_self" rel="noopener">JSON Web Tokens (JWT)</a>. 
+<br>The RP can send a request with the Access Token to the User device.
+<br>The UserInfo Endpoint returns Claims about the End User.
+<br><br>By reducing the number of accounts that users need to access applications, OIDC offers several benefits to both individuals and organizations:<br>
+<br>Reduces the risk of stolen passwords
+<br>Simplifies the user experience
+<br>Enhances security controls
+<br>Standardizes authentication
+<br>Streamlines identity management
+<br><br>OIDC was built on top of <a data-href="OAuth" href="\access-management\oauth.html" class="internal-link" target="_self" rel="noopener">OAuth</a> 2.0 - it supports a broader set of use cases, like Single Page Applications, mobile apps, and server-to-server access. It uses <a data-href="JSON Web Tokens (JWT)" href="\access-management\json-web-tokens-(jwt).html" class="internal-link" target="_self" rel="noopener">JSON Web Tokens (JWT)</a> which are lighter weight compared to <a data-href="Security Assertion Markup Language (SAML)" href="\access-management\security-assertion-markup-language-(saml).html" class="internal-link" target="_self" rel="noopener">Security Assertion Markup Language (SAML)</a>'s XML assertions.<br><br>Many organizations use OIDC to enable secure authentication across web and mobile apps:<br>
+<br>When a user signs up for a Spotify account, they are offered three choices: Sign up with Facebook, Google, or your Email address. Users who choose to sign up with Facebook or Google are using OIDC to create an account. They will be redirected to whichever OP they selected (Facebook or Google) and then once they've signed in, the OP will send Spotify basic profile details. The user doesn't have to create a new account for Spotify and their passwords remain protected.
+]]></description><link>access-management\openid-connect-(oidc).html</link><guid isPermaLink="false">Access Management/OpenID Connect (OIDC).md</guid><pubDate>Sun, 18 Aug 2024 22:27:38 GMT</pubDate><enclosure url="lib\media\pasted-image-20240818192222.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240818192222.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Security Assertion Markup Language (SAML)]]></title><description><![CDATA[ 
+ <br>
+SAML is a login standard that helps users access applications based on sessions in another context. it's a <a data-href="Single Sign-On (SSO)" href="\access-management\single-sign-on-(sso).html" class="internal-link" target="_self" rel="noopener">Single Sign-On (SSO)</a> login method offering more secure authentication than usernames and passwords.
+]]></description><link>access-management\security-assertion-markup-language-(saml).html</link><guid isPermaLink="false">Access Management/Security Assertion Markup Language (SAML).md</guid><pubDate>Sun, 18 Aug 2024 23:59:23 GMT</pubDate></item><item><title><![CDATA[Single Sign-On (SSO)]]></title><description><![CDATA[ 
+ <br>
+Single Sign-On is a type of authentication in which a user logs in to one system and is automatically granted access to other services.. Rather than having an employee create a separate set of credentials for each app, they simply login once and can access any app the IT administrator has given them access to.
+<br>You've likely experienced SSO before. For example, when you sign up for Gmail, you are automatically authenticated to YouTube, AdSense, Analytics, and more. Likewise, if you log out of your Gmail or other Google apps, you are automatically logged out of all the apps.<br><br>With an example for a typical SSO:<br>
+<img alt="Pasted image 20240818230045.png" src="\lib\media\pasted-image-20240818230045.png"><br>
+The authorization server lives on domain3. domain1 and domain2 interface with domain3 to both <a data-tooltip-position="top" aria-label="Authentication" data-href="Authentication" href="\access-management\authentication.html" class="internal-link" target="_self" rel="noopener">authenticate</a> a user and also to verify that the user is authenticated. In this implementation, the user will still log in with one of the above-mentioned authentication types. However, they will only have to provide this set of credentials once. The SSO system will take care of granting authentications.<br><br>]]></description><link>access-management\single-sign-on-(sso).html</link><guid isPermaLink="false">Access Management/Single Sign-On (SSO).md</guid><pubDate>Mon, 19 Aug 2024 03:10:05 GMT</pubDate><enclosure url="lib\media\pasted-image-20240818230045.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240818230045.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Abstract Factory]]></title><description><![CDATA[ 
  <br>
 Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 <br>This pattern suggests explicitly declaring interfaces for each distinct product of the product family. Then you can make all variants of products follow those interfaces. For example, all chair variants can implement the Chair interface. Many of these designs start by using the <a data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Method</a>.<br>Pros:<br>
@@ -162,7 +224,13 @@ public class Demo {
         app.paint();
     }
 }
-Copy]]></description><link>software-development\design-pattern\creational-patterns\abstract-factory.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Abstract Factory.md</guid><pubDate>Sun, 18 Aug 2024 00:48:32 GMT</pubDate></item><item><title><![CDATA[Builder]]></title><description><![CDATA[ 
+Copy<br><br>
+<br><a data-href="Builder" href="\software-development\design-pattern\creational-patterns\builder.html" class="internal-link" target="_self" rel="noopener">Builder</a> focuses on constructing complex objects step-by-step. Abstract factory specializes in creating families of related objects.
+<br>Abstract Factory classes are often based on a set of <a data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Method</a>, but you can also use <a data-href="Prototype" href="\software-development\design-pattern\creational-patterns\prototype.html" class="internal-link" target="_self" rel="noopener">Prototype</a> to compose the methods on these classes.
+<br>This can be an alternative to <a data-href="Facade" href="\software-development\design-pattern\structural-patterns\facade.html" class="internal-link" target="_self" rel="noopener">Facade</a> when you only want to hide the way the subsystem objects are created from the client code.
+<br>You can use this abstract factory pattern along with <a data-href="Bridge" href="\software-development\design-pattern\structural-patterns\bridge.html" class="internal-link" target="_self" rel="noopener">Bridge</a>, which can be useful when some abstractions defined by the Bridge can only work with specific implementations.
+<br>This can be implemented as <a data-href="Singleton" href="\software-development\design-pattern\creational-patterns\singleton.html" class="internal-link" target="_self" rel="noopener">Singleton</a>.
+]]></description><link>software-development\design-pattern\creational-patterns\abstract-factory.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Abstract Factory.md</guid><pubDate>Sun, 18 Aug 2024 19:52:05 GMT</pubDate></item><item><title><![CDATA[Builder]]></title><description><![CDATA[ 
  <br>
 Builder is a creational design pattern that lets you construct complex objects step-by-step. The pattern allows you to produce different types and representations of an object using the same construction code.
 <br>The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called "Builders".<br>Pros:<br>
@@ -268,7 +336,11 @@ public class Director {
         builder.setGPSNavigator(new GPSNavigator());
     }
 }
-Copy<br>There's another method of returning the builder so you can do all of the building in one line!]]></description><link>software-development\design-pattern\creational-patterns\builder.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Builder.md</guid><pubDate>Sun, 18 Aug 2024 02:27:05 GMT</pubDate><enclosure url="lib\media\pasted-image-20240817220959.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240817220959.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Factory Method]]></title><description><![CDATA[ 
+Copy<br>There's another method of returning the builder so you can do all of the building in one line!<br><br>
+<br>You can use Builder when creating complex <a data-href="Composite" href="\software-development\design-pattern\structural-patterns\composite.html" class="internal-link" target="_self" rel="noopener">Composite</a> trees because you can program its construction steps to work recursively.
+<br>You can combine Builder with <a data-href="Bridge" href="\software-development\design-pattern\structural-patterns\bridge.html" class="internal-link" target="_self" rel="noopener">Bridge</a> - the director class plays the role of the abstr4action, while different builders act as implementations.
+<br>You can implement a builder as a <a data-href="Singleton" href="\software-development\design-pattern\creational-patterns\singleton.html" class="internal-link" target="_self" rel="noopener">Singleton</a>.
+]]></description><link>software-development\design-pattern\creational-patterns\builder.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Builder.md</guid><pubDate>Sun, 18 Aug 2024 19:53:40 GMT</pubDate><enclosure url="lib\media\pasted-image-20240817220959.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240817220959.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Factory Method]]></title><description><![CDATA[ 
  <br>
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 <br>The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method. Well, the objects are still created via the new operator, but it's being called from within the factory method. Objects returned by a factory method are often referred to as products.<br>Pros:<br>
@@ -294,7 +366,417 @@ You can declare the factory method as abstract to force all subclasses to implem
 <br>Now, create a set of creator subclasses for each type of product listed in the factory method. Override the factory method in the subclasses and extract the appropriate bits of construction code from the base method.
 <br>If there are too many product types and it doesn't make sense to create subclasses for all of them, you can reuse the control parameter from the base class in subclasses.
 <br>If, after all of the extractions, the base factory method has become empty, you can make it abstract. If there's something left, you can make it a default behaviour of the method.
-]]></description><link>software-development\design-pattern\creational-patterns\factory-method.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Factory Method.md</guid><pubDate>Sat, 17 Aug 2024 15:19:49 GMT</pubDate><enclosure url="lib\media\pasted-image-20240817120047.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240817120047.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Prototype]]></title><description><![CDATA[ 
+<br><br>
+<br>Many designs start by using this pattern, and evolve towards <a data-href="Abstract Factory" href="\software-development\design-pattern\creational-patterns\abstract-factory.html" class="internal-link" target="_self" rel="noopener">Abstract Factory</a>, <a data-href="Prototype" href="\software-development\design-pattern\creational-patterns\prototype.html" class="internal-link" target="_self" rel="noopener">Prototype</a>, or the <a data-href="Builder" href="\software-development\design-pattern\creational-patterns\builder.html" class="internal-link" target="_self" rel="noopener">Builder</a> pattern.
+<br><a data-href="Abstract Factory" href="\software-development\design-pattern\creational-patterns\abstract-factory.html" class="internal-link" target="_self" rel="noopener">Abstract Factory</a> classes are often based on a set of <a data-href="Factory Method" href="\software-development\design-pattern\creational-patterns\factory-method.html" class="internal-link" target="_self" rel="noopener">Factory Method</a>, but you can also use <a data-href="Prototype" href="\software-development\design-pattern\creational-patterns\prototype.html" class="internal-link" target="_self" rel="noopener">Prototype</a> to compose the methods on these classes.
+<br>You can use this pattern along with <a data-href="Iterator" href="\software-development\design-pattern\behavioural-patterns\iterator.html" class="internal-link" target="_self" rel="noopener">Iterator</a> to let collection subclasses return different types of iterators that are compatible with the collections.
+<br>This pattern is a specialization of the <a data-href="Template Method" href="\software-development\design-pattern\behavioural-patterns\template-method.html" class="internal-link" target="_self" rel="noopener">Template Method</a>.
+]]></description><link>software-development\design-pattern\creational-patterns\factory-method.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Factory Method.md</guid><pubDate>Sun, 18 Aug 2024 19:49:12 GMT</pubDate><enclosure url="lib\media\pasted-image-20240817120047.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240817120047.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Adapter]]></title><description><![CDATA[ 
+ <br>
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+<br>It's a special object that converts the interface of one object so that another object can understand it. It works by wrapping one of the objects to hide the complexity of conversion happening behind the scenes. The wrapped object isn't even aware of the adapter. For example, you can wrap an object that operates in meters and kilometers with an adapter that converts all of the data to imperial units such as feet and miles.<br><br><br><img alt="Pasted image 20240818170005.png" src="\lib\media\pasted-image-20240818170005.png"><br>
+<br>The client is a class that contains the existing business logic of the program.
+<br>The client interface describes a protocol that other classes must follow to be able to collaborate with the client code.
+<br>The service is some useful class. The client can't use this class directly because it has an incompatible interface.
+<br>The adapter is a class that's able to work with both the client and the service. It implements the client interface, while wrapping the service object. The adapter receives calls from the client via the client interface and translates them into calls to the wrapped service object in a format it can understand.
+<br><br><img alt="Pasted image 20240818170027.png" src="\lib\media\pasted-image-20240818170027.png"><br>
+<br>The class adapter does not need to wrap any objects because it inherits behaviours from both the client and the service. The adaptation happens within the overridden methods.
+<br><br><img alt="Pasted image 20240818170344.png" src="\lib\media\pasted-image-20240818170344.png"><br>// Say you have two classes with compatible interfaces:
+// RoundHole and RoundPeg.
+class RoundHole is
+    constructor RoundHole(radius) { ... }
+
+    method getRadius() is
+        // Return the radius of the hole.
+
+    method fits(peg: RoundPeg) is
+        return this.getRadius() &gt;= peg.getRadius()
+
+class RoundPeg is
+    constructor RoundPeg(radius) { ... }
+
+    method getRadius() is
+        // Return the radius of the peg.
+
+// But there's an incompatible class: SquarePeg.
+class SquarePeg is
+    constructor SquarePeg(width) { ... }
+
+    method getWidth() is
+        // Return the square peg width.
+
+// An adapter class lets you fit square pegs into round holes.
+// It extends the RoundPeg class to let the adapter objects act
+// as round pegs.
+class SquarePegAdapter extends RoundPeg is
+    // In reality, the adapter contains an instance of the
+    // SquarePeg class.
+    private field peg: SquarePeg
+
+    constructor SquarePegAdapter(peg: SquarePeg) is
+        this.peg = peg
+
+    method getRadius() is
+        // The adapter pretends that it's a round peg with a
+        // radius that could fit the square peg that the adapter
+        // actually wraps.
+        return peg.getWidth() * Math.sqrt(2) / 2
+
+// Somewhere in client code.
+hole = new RoundHole(5)
+rpeg = new RoundPeg(5)
+hole.fits(rpeg) // true
+
+small_sqpeg = new SquarePeg(5)
+large_sqpeg = new SquarePeg(10)
+hole.fits(small_sqpeg) // this won't compile (incompatible types)
+
+small_sqpeg_adapter = new SquarePegAdapter(small_sqpeg)
+large_sqpeg_adapter = new SquarePegAdapter(large_sqpeg)
+hole.fits(small_sqpeg_adapter) // true
+hole.fits(large_sqpeg_adapter) // false
+Copy<br><br>Use the Adapter class when:<br>
+<br>When you want to use some existing class, but its interface isn't compatible with the rest of your code.
+<br>When you want to reuse several existing subclasses that lack some common functionality that can't be added to the superclass.
+<br><br>Pros:<br>
+<br>Promotes the <a data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">Single Responsibility Principle (SRP)</a>. You can separate the interface or data conversion code from the primary business logic of the program.
+<br>Promotes the <a data-href="Open Closed Principle (OCP)" href="\software-development\object-oriented-design\open-closed-principle-(ocp).html" class="internal-link" target="_self" rel="noopener">Open Closed Principle (OCP)</a>. You can introduce new types of adapters into the program without breaking the existing client code.
+<br>Cons:<br>
+<br>The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Sometimes, it can be simpler to change the service class so that it matches the rest of your code.
+<br><br>
+<br><a data-href="Bridge" href="\software-development\design-pattern\structural-patterns\bridge.html" class="internal-link" target="_self" rel="noopener">Bridge</a> is usually designed up-front, letting you develop parts of an application independently of each other. On the other hand, Adapter is commonly used with an existing app to make some otherwise-incompatible classes work together nicely.
+<br>Adapter provides a completely different interface for accessing an existing object. On the other hand, with the <a data-href="Decorator" href="\software-development\design-pattern\structural-patterns\decorator.html" class="internal-link" target="_self" rel="noopener">Decorator</a> pattern, the interface either stays the same or gets extended.
+<br>With Adapter, you access an existing object via different interface. With <a data-href="Proxy" href="\software-development\design-pattern\structural-patterns\proxy.html" class="internal-link" target="_self" rel="noopener">Proxy</a>, the interface stays the same. With <a data-href="Decorator" href="\software-development\design-pattern\structural-patterns\decorator.html" class="internal-link" target="_self" rel="noopener">Decorator</a>, you access the object via an enhanced interface.
+<br><a data-href="Facade" href="\software-development\design-pattern\structural-patterns\facade.html" class="internal-link" target="_self" rel="noopener">Facade</a> defines a new interface for existing objects, whereas Adapter tries to make the existing interface usable; Adapter usually wraps just one object, Facade works with an entire subsystem of objects.
+<br><a data-href="Bridge" href="\software-development\design-pattern\structural-patterns\bridge.html" class="internal-link" target="_self" rel="noopener">Bridge</a>, <a data-href="State" href="\software-development\design-pattern\behavioural-patterns\state.html" class="internal-link" target="_self" rel="noopener">State</a>, and <a data-href="Strategy" href="\software-development\design-pattern\behavioural-patterns\strategy.html" class="internal-link" target="_self" rel="noopener">Strategy</a> have very similar structures. However, they solve different problems.
+]]></description><link>software-development\design-pattern\structural-patterns\adapter.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Adapter.md</guid><pubDate>Sun, 18 Aug 2024 20:24:46 GMT</pubDate><enclosure url="lib\media\pasted-image-20240818170005.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240818170005.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Bridge]]></title><description><![CDATA[ 
+ <br>
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies - abstraction and implementation - which can be developed independently of each other.
+<br>The pattern attempts to solve the problem of extending a class in multiple dimensions. For example, a Shape to a Form and a Colour. <br><br><img alt="Pasted image 20240818173433.png" src="\lib\media\pasted-image-20240818173433.png"><br>
+<br>The Abstraction provides high-level control logic. It relies on the implementation object to do the actual low-level work.
+<br>The Implementation declares the interface that's common for all concrete implementations. An abstraction can only communicate with an implementation object via methods that are declared here.
+<br>Concrete implementations contain platform-specific code.
+<br>Refined Abstractions provide variants of control logic. Like their parent, they work with different implementations via the general implementation interface.
+<br>Usually, the Client is only interested in working with the abstraction. However, it's the client's job to link the abstraction object with one of the implementation objects.
+<br><br><img alt="Pasted image 20240818173634.png" src="\lib\media\pasted-image-20240818173634.png"><br>// The "abstraction" defines the interface for the "control"
+// part of the two class hierarchies. It maintains a reference
+// to an object of the "implementation" hierarchy and delegates
+// all of the real work to this object.
+class RemoteControl is
+    protected field device: Device
+    constructor RemoteControl(device: Device) is
+        this.device = device
+    method togglePower() is
+        if (device.isEnabled()) then
+            device.disable()
+        else
+            device.enable()
+    method volumeDown() is
+        device.setVolume(device.getVolume() - 10)
+    method volumeUp() is
+        device.setVolume(device.getVolume() + 10)
+    method channelDown() is
+        device.setChannel(device.getChannel() - 1)
+    method channelUp() is
+        device.setChannel(device.getChannel() + 1)
+
+// You can extend classes from the abstraction hierarchy
+// independently from device classes.
+class AdvancedRemoteControl extends RemoteControl is
+    method mute() is
+        device.setVolume(0)
+
+// The "implementation" interface declares methods common to all
+// concrete implementation classes. It doesn't have to match the
+// abstraction's interface. In fact, the two interfaces can be
+// entirely different. Typically the implementation interface
+// provides only primitive operations, while the abstraction
+// defines higher-level operations based on those primitives.
+interface Device is
+    method isEnabled()
+    method enable()
+    method disable()
+    method getVolume()
+    method setVolume(percent)
+    method getChannel()
+    method setChannel(channel)
+
+// All devices follow the same interface.
+class Tv implements Device is
+    // ...
+
+class Radio implements Device is
+    // ...
+
+// Somewhere in client code.
+tv = new Tv()
+remote = new RemoteControl(tv)
+remote.togglePower()
+
+radio = new Radio()
+remote = new AdvancedRemoteControl(radio)
+Copy<br><br>Use the Bridge pattern when:<br>
+<br>When you want to divide and organize a monolithic class that has several variants of some functionality.
+<br>When you need to extend a class in several orthogonal dimensions.
+<br>If you need to be able to switch implementations at runtime.
+<br><br>
+<br>Identify the orthogonal dimensions in your classes. 
+<br>See what operations the client needs and define them in the base abstraction class.
+<br>Determine the operations available on all platforms. Declare the ones that the abstraction needs in the general implementation interface.
+<br>For all platforms in your domain, create concrete implementation classes, but make sure they all follow the implementation interface.
+<br>Inside the abstraction class, add a reference field for the implementation type. The abstraction delegates most of the work to the implementation object that's referenced in that field.
+<br>If you have several variants of high-level logic, create refined abstractions for each variant by extending the base abstraction class.
+<br>The client code should pass an implementation object to the abstraction's constructor to associate one with the other. After that, the client can forget about the implementation and work only with the abstraction object.
+<br><br>Pros:<br>
+<br>You can create platform-independent classes and apps.
+<br>The client code works with high-level abstractions. It isn't exposed to the platform details.
+<br>Promotes the <a data-href="Open Closed Principle (OCP)" href="\software-development\object-oriented-design\open-closed-principle-(ocp).html" class="internal-link" target="_self" rel="noopener">Open Closed Principle (OCP)</a>. You can introduce new abstractions and implementations independently from each other.
+<br>Promotes the <a data-href="Single Responsibility Principle (SRP)" href="\software-development\object-oriented-design\single-responsibility-principle-(srp).html" class="internal-link" target="_self" rel="noopener">Single Responsibility Principle (SRP)</a>. You can focus on high-level logic in the abstraction and on platform details in the implementation.
+<br>Cons:<br>
+<br>You might make the code more complicated by applying the pattern to a highly cohesive class.
+<br><br>
+<br>Bridge is usually designed up-front, letting you develop parts of an application independently of each other. On the other hand, <a data-href="Adapter" href="\software-development\design-pattern\structural-patterns\adapter.html" class="internal-link" target="_self" rel="noopener">Adapter</a> is commonly used with an existing app to make some otherwise-incompatible classes work together nicely.
+<br>Bridge, <a data-href="State" href="\software-development\design-pattern\behavioural-patterns\state.html" class="internal-link" target="_self" rel="noopener">State</a>, and <a data-href="Strategy" href="\software-development\design-pattern\behavioural-patterns\strategy.html" class="internal-link" target="_self" rel="noopener">Strategy</a> have similar structures, but they solve different problems.
+<br>You can use the <a data-href="Abstract Factory" href="\software-development\design-pattern\creational-patterns\abstract-factory.html" class="internal-link" target="_self" rel="noopener">Abstract Factory</a> along with Bridge, which can be useful when some abstractions defined by the Bridge can only work with specific implementations.
+<br>You can combine <a data-href="Builder" href="\software-development\design-pattern\creational-patterns\builder.html" class="internal-link" target="_self" rel="noopener">Builder</a> with Bridge.
+]]></description><link>software-development\design-pattern\structural-patterns\bridge.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Bridge.md</guid><pubDate>Sun, 18 Aug 2024 21:01:37 GMT</pubDate><enclosure url="lib\media\pasted-image-20240818173433.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240818173433.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Composite]]></title><description><![CDATA[ 
+ <br>
+Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+<br>The composite pattern suggests that you work with the common hierarchical classes through a common interface which declares a method for recursively determining the properties of each classes. Obviously, using the composite pattern makes the best sense only when the core model of your application can be represented as a tree.<br><br><img alt="Pasted image 20240818180758.png" src="\lib\media\pasted-image-20240818180758.png"><br>
+<br>The Component interface describes operations that are common to both simple and complex elements of the tree.
+<br>The Leaf is a basic element of a tree that doesn't have sub-elements. Usually, leaf components end up doing most of the real work, since they don't have anyone to delegate the work to.
+<br>The Container, or the Composite, is an element taht has sub-elements - leaves or other containers. A container doesn't know the concrete classes of its children. It works with all sub-elements only via the component interface.<br>
+Upon receiving a request, a container delegates the work to its sub-elements, processes intermediate results, and then returns the final result to the client.
+<br>The Client works with all elements through the component interface. As a result, the client can work in the same way with both simple or complex elements of the tree.
+<br><br><img alt="Pasted image 20240818181747.png" src="\lib\media\pasted-image-20240818181747.png"><br>// The component interface declares common operations for both
+// simple and complex objects of a composition.
+interface Graphic is
+    method move(x, y)
+    method draw()
+
+// The leaf class represents end objects of a composition. A
+// leaf object can't have any sub-objects. Usually, it's leaf
+// objects that do the actual work, while composite objects only
+// delegate to their sub-components.
+class Dot implements Graphic is
+    field x, y
+
+    constructor Dot(x, y) { ... }
+
+    method move(x, y) is
+        this.x += x, this.y += y
+
+    method draw() is
+        // Draw a dot at X and Y.
+
+// All component classes can extend other components.
+class Circle extends Dot is
+    field radius
+
+    constructor Circle(x, y, radius) { ... }
+
+    method draw() is
+        // Draw a circle at X and Y with radius R.
+
+// The composite class represents complex components that may
+// have children. Composite objects usually delegate the actual
+// work to their children and then "sum up" the result.
+class CompoundGraphic implements Graphic is
+    field children: array of Graphic
+
+    // A composite object can add or remove other components
+    // (both simple or complex) to or from its child list.
+    method add(child: Graphic) is
+        // Add a child to the array of children.
+
+    method remove(child: Graphic) is
+        // Remove a child from the array of children.
+
+    method move(x, y) is
+        foreach (child in children) do
+            child.move(x, y)
+
+    // A composite executes its primary logic in a particular
+    // way. It traverses recursively through all its children,
+    // collecting and summing up their results. Since the
+    // composite's children pass these calls to their own
+    // children and so forth, the whole object tree is traversed
+    // as a result.
+    method draw() is
+        // 1. For each child component:
+        //     - Draw the component.
+        //     - Update the bounding rectangle.
+        // 2. Draw a dashed rectangle using the bounding
+        // coordinates.
+
+// The client code works with all the components via their base
+// interface. This way the client code can support simple leaf
+// components as well as complex composites.
+class ImageEditor is
+    field all: CompoundGraphic
+
+    method load() is
+        all = new CompoundGraphic()
+        all.add(new Dot(1, 2))
+        all.add(new Circle(5, 3, 10))
+        // ...
+
+    // Combine selected components into one complex composite
+    // component.
+    method groupSelected(components: array of Graphic) is
+        group = new CompoundGraphic()
+        foreach (component in components) do
+            group.add(component)
+            all.remove(component)
+        all.add(group)
+        // All components will be drawn.
+        all.draw()
+Copy<br><br>Use the Composite pattern when:<br>
+<br>When you have to implement a tree-like structure.
+<br>When you want the client code to treat both simple and complex elements uniformly.
+<br><br>
+<br>Make sure that the core model of your app can be represented as a tree structure. Try to break it down into simple elements and containers. Remember that containers must be able to contain both simple elements and other containers.
+<br>Declare the component interface with a list of methods that make sense for both simple and complex components.
+<br>Create a leaf class to represent simple elements. A program may have multiple different leaf classes.
+<br>Create a container class to represent complex elements. In this class, provide an array field for storing references to sub-elements. The array must be able to store both leaves and containers, so make sure it's declared with the component interface type.
+<br>Finally, define the methods for adding and removal of child elements in the container.
+<br><br>Pros:<br>
+<br>You can work with complex tree structures more conveniently - use <a data-href="Polymorphism" href="\Polymorphism" class="internal-link" target="_self" rel="noopener">Polymorphism</a> and <a data-href="Recursion" href="\Recursion" class="internal-link" target="_self" rel="noopener">Recursion</a> to your advantage.
+<br>Promotes the <a data-href="Open Closed Principle (OCP)" href="\software-development\object-oriented-design\open-closed-principle-(ocp).html" class="internal-link" target="_self" rel="noopener">Open Closed Principle (OCP)</a>. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.<br>
+Cons:
+<br>It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you'd need to overgeneralize the component interface, making it harder to comprehend.
+<br><br>
+<br>You can use <a data-href="Builder" href="\software-development\design-pattern\creational-patterns\builder.html" class="internal-link" target="_self" rel="noopener">Builder</a> when creating complex Composite trees because you can program its construction steps to work recursively.
+<br><a data-href="Chain of Responsibility" href="\software-development\design-pattern\behavioural-patterns\chain-of-responsibility.html" class="internal-link" target="_self" rel="noopener">Chain of Responsibility</a> is often used in conjunction with Composite. In this case, when a leaf component gets a request, it may pass it through the chain of all of the parent components down to the root of the object tree.
+<br>You can use <a data-href="Iterator" href="\software-development\design-pattern\behavioural-patterns\iterator.html" class="internal-link" target="_self" rel="noopener">Iterator</a> to traverse the tree.
+<br>You can use <a data-href="Visitor" href="\software-development\design-pattern\behavioural-patterns\visitor.html" class="internal-link" target="_self" rel="noopener">Visitor</a> pattern to execute an operation over an entire Composite tree.
+<br>You can implement shared leaf nodes of the Composite tree as <a data-href="Flyweight" href="\software-development\design-pattern\structural-patterns\flyweight.html" class="internal-link" target="_self" rel="noopener">Flyweight</a> to save some RAM.
+<br>Composite and <a data-href="Decorator" href="\software-development\design-pattern\structural-patterns\decorator.html" class="internal-link" target="_self" rel="noopener">Decorator</a> have similar structure diagrams since both rely on recursive composition to organize an open-ended number of objects.
+<br>Designs that make heavy use of Composite and <a data-href="Decorator" href="\software-development\design-pattern\structural-patterns\decorator.html" class="internal-link" target="_self" rel="noopener">Decorator</a> pattern can often benefit from using <a data-href="Prototype" href="\software-development\design-pattern\creational-patterns\prototype.html" class="internal-link" target="_self" rel="noopener">Prototype</a>.
+]]></description><link>software-development\design-pattern\structural-patterns\composite.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Composite.md</guid><pubDate>Sun, 18 Aug 2024 21:31:09 GMT</pubDate><enclosure url="lib\media\pasted-image-20240818180758.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240818180758.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Leadership Principles]]></title><description><![CDATA[ 
+ <br>There are sixteen leadership principle that Amazon follows, religiously. These principles help us care for the end user, while promoting leadership within our products.<br>
+<br><a data-href="#Customer Obsession" href="\#Customer_Obsession" class="internal-link" target="_self" rel="noopener">Customer Obsession</a>
+<br><a data-href="#Ownership" href="\#Ownership" class="internal-link" target="_self" rel="noopener">Ownership</a>
+<br><a data-href="#Invent and Simplify" href="\#Invent_and_Simplify" class="internal-link" target="_self" rel="noopener">Invent and Simplify</a>
+<br><a data-href="#Are Right, A Lot" href="\#Are_Right,_A_Lot" class="internal-link" target="_self" rel="noopener">Are Right, A Lot</a>
+<br><a data-href="#Learn and Be Curious" href="\#Learn_and_Be_Curious" class="internal-link" target="_self" rel="noopener">Learn and Be Curious</a>
+<br><a data-href="#Hire and Develop the Best" href="\#Hire_and_Develop_the_Best" class="internal-link" target="_self" rel="noopener">Hire and Develop the Best</a>
+<br><a data-href="#Insist on the Highest Standards" href="\#Insist_on_the_Highest_Standards" class="internal-link" target="_self" rel="noopener">Insist on the Highest Standards</a>
+<br><a data-href="#Think Big" href="\#Think_Big" class="internal-link" target="_self" rel="noopener">Think Big</a>
+<br><a data-href="#Bias for Action" href="\#Bias_for_Action" class="internal-link" target="_self" rel="noopener">Bias for Action</a>
+<br><a data-href="#Frugality" href="\#Frugality" class="internal-link" target="_self" rel="noopener">Frugality</a>
+<br><a data-href="#Earn Trust" href="\#Earn_Trust" class="internal-link" target="_self" rel="noopener">Earn Trust</a>
+<br><a data-href="#Dive Deep" href="\#Dive_Deep" class="internal-link" target="_self" rel="noopener">Dive Deep</a>
+<br><a data-href="#Have Backbone; Disagree and Commit" href="\#Have_Backbone;_Disagree_and_Commit" class="internal-link" target="_self" rel="noopener">Have Backbone; Disagree and Commit</a>
+<br><a data-href="#Deliver Results" href="\#Deliver_Results" class="internal-link" target="_self" rel="noopener">Deliver Results</a>
+<br><a data-href="#Strive to be Earth's Best Employer" href="\#Strive_to_be_Earth's_Best_Employer" class="internal-link" target="_self" rel="noopener">Strive to be Earth's Best Employer</a>
+<br><a data-href="#Success and Scale Bring Broad Responsibility" href="\#Success_and_Scale_Bring_Broad_Responsibility" class="internal-link" target="_self" rel="noopener">Success and Scale Bring Broad Responsibility</a>
+<br><br>
+Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
+<br>We always try to help customers make the best possible decision. Earning their trust is a key to victory. Having this honest communication between us and the customers, we can maximize both of our worlds - customers are happy, we're happy that we could help.<br>As a large example, AWS always looks to cost-optimize for customers where they can save money, which we can redeploy that money in the future. So looking out for the customers can be very cyclic.<br>As a leader, we should always ask the questions that aim to benefit the customers, such as:<br>
+<br>What problem are we trying to solve?
+<br>What will customers care most about?
+<br>What would they be most disappointed about?
+<br>What will they love most?
+<br>Sometimes, competitors could leave us confused. If a competitor builds something  that customers love, we should be aware of it, and we should be inspired by it and think about how we can improve our own customer experience with what we learn from what competitors have done.<br><br>
+Leaders are owners. They think long term and don't sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say "that's not my job."
+<br>Great owners are always asking themselves, what would I do if this were my personal money? Don't think about the short-term benefits like nailing a very temporary object into a wall, but think like an owner and try to maintain the upkeep of your products.<br>The ideal leaders at Amazon are the ones who:<br>
+<br>Feel like owners;
+<br>Think about problems holistically; and
+<br>Finds the right owner to resolve issue if necessary.
+<br>Owners ensure the problems are owned, that they have a path to resolution and they drive it themselves as needed.<br>When there's a hard problem, owners don't delegate it to the next person in line. Try to pull a group of people together to find the right solution for the customers. <br><br>
+Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by "not invented here." As we do new things, we accept that we may be misunderstood for long periods of time.
+<br>Although difficult, we constantly look to invent, and also re-invent our ideas. Our inventions are not just random ones though - we always think about what the customers want the very most. Then, we struggle to make it happen for the customers.<br><br>
+Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
+<br>You can do a lot of things right, but if you make a wrong decision, you might have an issue. We work to keep this miss-rate very low. It's a proxy for decision, and we want to make the best decision.<br>Sometimes, ambiguity occurs, and the process to navigate through that is:<br>
+<br>Sifting through the noise;
+<br>Finding the signal;
+<br>What decision really matters for our customers?
+<br>Even if you're thinking for yourself, try to doubt it with the following questionnaire:<br>
+<br>Is it really right?
+<br>Is there another way to think about it?
+<br>Can we do better for customers?
+<br>The key to being right a lot is to:<br>
+<br>Get the right people involved in giving feedback;
+<br>Listen to the different perspectives; and
+<br>Think about what is the best possible answer for customers and for the business.
+<br><br>
+Leaders are never done learning and always seek to improve th4emselves. They are curious about new possibilities and act to explore them.
+<br>Developers tend to stagnate really fast in this rapid world of technology - you have to try to keep up with it to serve the best tool for our customers. <br>Be able to self-assess and be self-aware of what you're doing well and what you need to be better at. Build a real plan to change if you must change, and make sure to make that change.<br><br>
+Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move th4em throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice. 
+<br>A team is comprised of great people:<br>
+<br>Smart,
+<br>Are Right, A Lot,
+<br>Inventive,
+<br>Look around corners,
+<br>Think big,
+<br>Into the details,
+<br>Able to move quickly,
+<br>Have high ownership, and
+<br>Have the right customer obsession.
+<br>The above is a list of what you want to be as an employee - those traits are what enables us to deliver the best results to our customers.<br>Always ask if you are raising the bar and seek to improve. Your manage strives to learn more about their employee, especially on what they are doing well and what they need to grow. Ask them and learn from your senior. Ask for critical feedback to become the ideal employee.<br><br>
+Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
+<br>Customers can find details which motivates them to switch and continue exploring different option. They are obviously in their right as their own role. So, as developers, we need to insist on the highest standards to try to attract the customers and simply give what they need and want. <br>Higher expectations lead to better results. So, in the meetings you are in, try to set the expectations, and keep them high. Try to model what "good" looks like in your system. <br>Keep fighting - that is a fight worth fighting. The companies that keep increasing what's possible for customers deliver best for customers.<br><br>
+Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
+<br>A part of being an inventor is that we cannot be content with where we are and constantly ask what are the next big breakthroughs for customers.<br>You cannot run the same playbook for decades at a time to have a long-running product. Change is hard, but change is good. <br>Bold initiatives that are not simple to do, and these types of initiatives require thinking big, and it's what you do if you want to serve customers better. And it is part of what not only makes Amazon unique, but also gives us a unique impact in the world.<br><br>
+Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.
+<br>Speed is not preordained - it is a leadership and a culture decision. You can move quickly if you historically haven't. <br>A concept of a one-way door and a two-way door is a good analogy for works that are reversible; if you can make a decision that cannot be reversed easily, that's a one-way door decision and it would require you to invest more time into so you don't spend more time trying to undo the results. Meanwhile, a two-way door decision means you can always go back to where you came from - if it's simply reversible, take risks and learn from it if unwell. Very often, there will be more two-way doors.<br>However, this doesn't mean you have free reign to pass things without concern; be thoughtful and make the right risks. If the risk is low, or reversible, act on it.<br>Have the right mindset and the right urgency about decisions - don't take weeks to figure something out that can be done in hours. Have this idea in your head that you're living in a race. Every week, think about "When I leave this week, will my customers be better off than when I started the week?"<br>You can be fast while still having high standards. Think of ourselves as the world's biggest start-up.<br><br>
+Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
+<br>We want to be scrappy and be frugal as possible. Basis points matter. Don't let pennies become dimes and loonies of expenses later on. Have a rigid constraint and work in it, and only when necessary, expand out of that margin.<br>When you save money on everything you do, it means you can invest more in giving customers lower prices at the same, or even better benefits. Do more with less. Build lean products.<br><br>
+Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team's body odour smells of perfume. They benchmark themselves and their teams against the best.
+<br>Challenges are a good thing to push others to their potential - be honest but respectfully. <br>A formula for earning trust is:<br>
+<br>Deliver it,
+<br>Speak up,
+<br>Own it,
+<br>Be self-critical, and 
+<br>Fix it.
+<br>It's OK to be wrong, but if you own your mistakes and fix it, that is also a part of earning trust. That's also being right, a lot.<br><br>
+Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
+<br>Our expectation is that we want to be strategic, but to be willing to roll up their sleeves and be great at getting to the details.<br>The details of any idea are what matters most. That's what people actually see, and what customers actually see. Good leaders find mechanisms to inspect, audit the details, and understand the anecdotes. <br>Remember that a 1% impact is more than a million people at Amazon's scale.<br><br>
+Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
+<br>You're expected to challenge, regardless of levels, if something doesn't seem right. Speak up, be curious, and ask questions. Be truth-seeking.<br>Once we make a decision:<br>
+<br>All have to get on board;
+<br>Need to focus all our energy rowing the same way.
+<br><br>
+Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
+<br>Outputs are really high-level metrics. For example, stock price, cash flow, revenue, margins,... but it is difficult to manage these items actively.<br>What drives the outputs are the inputs. Inputs are you, your team, and your product.<br>Launch or delivery is not the finish line - it's the starting line. Be ready for improvements, and be ready to re-invent.<br><br>
+Leaders work every day to create a safer, more productive, higher performing, more diverse, and more just work environment. They lead with empathy, have fun at work, and make it easy for others to have fun. Leaders ask themselves: Are my fellow employees growing? Are they empowered? Are they ready for what's next? Leaders have a vision for and commitment to their employees' personal success, whether that be at Amazon or elsewhere.
+<br>Working at a place whose mission is to make customers' lives easier and better every day is very inspiring. Be a part of that team. You are making the impact for millions of people around the world. Be proud and strive to be that customers - the world's - best employer.<br><br>
+We started in a garage, but we're not there anymore. We are big, we impact the world, but we are far from perfect. We must be humble and thoughtful about even the secondary effects of our actions. Our local communities, planet, and future generations need us to be better every day. We must begin each day with a determination to make better, do better, and be better for our customers, our employees, our partners, and the world at large. And we must end every day knowing we can do even more tomorrow. Leaders create more than they consume and always leave things better than how they found them.
+<br>Keep asking ourselves constantly whether the communities in which we reside are better off because we're there. And if they're not, then we need to take action about that.]]></description><link>software-development\general-working-tips\leadership-principles.html</link><guid isPermaLink="false">Software Development/General Working Tips/Leadership Principles.md</guid><pubDate>Sun, 18 Aug 2024 04:40:22 GMT</pubDate></item><item><title><![CDATA[Bibliotheque]]></title><description><![CDATA[ 
+ <br><br>Website has been created via GitHub pages - <a data-tooltip-position="top" aria-label="https://ksdsk.github.io/Bibliotheque/" rel="noopener" class="external-link" href="https://ksdsk.github.io/Bibliotheque/" target="_blank">visit the website!</a><br><br>I've graduated school, and I miss learning.<br>Lately I've been feeling like there's too many knowledge that I don't know about that can't be made with by creating personal projects. For example, learning more about Software Development Life Cycle (SDLC), refactoring tricks, or for a more embedded technology like learning about software layers.<br>Crazy I would tell myself when I was 14 years old, but I really do miss learning and training myself to contain more tech knowledge in general - I want to continue learning more to improve myself. Some people look up on me, but really, I'm just a person who only spent four years in school, dabbling in some fun and motivated projects here and there. I can't let them down. I can't let me down either. I've always wanted to be the person to be reached out for when they need some sort of help. The "first-aid kit" type of senior.<br>Anyways, I'm making this repository as sort of a motivation, but also a log of what I've learned in my career from hereon - a tracker of each and every one of my learnings. This repository is designed to contain pages of my <a data-tooltip-position="top" aria-label="https://obsidian.md/" rel="noopener" class="external-link" href="https://obsidian.md/" target="_blank">Obsidian</a> notes to contain all the cool things I came across after graduation. It'd be awesome if random strangers come by and look at my notes and go "wow this is pretty cool", just like how I read through random people's Medium pages for information and go "wow this is pretty cool".<br>I'm going to start from the very basics, then end up noting about the things I want to be better at, which is mostly going to relate to the kind of work I'm doing. Eventually, this repository is going to become something like a library, where it'll be a collection of notes for different kinds of subjects. The term library has a different meaning in software engineering though, so I'll just call it library in a different language. The Korean word for library doesn't sound cool (do-seo-kwan)... I think I'm going to call it Bibliothèque, the French word for Library.<br>And just for fun, I'll also add in some hobbies outside of the technological world as well. Mostly to keep my sanity, but also for lengthening my interest and mastery in them.<br><br>Most of the words you'll see in this notebook isn't from me, but from several sources from the internet. I highly recommend checking out the source notes as they can often be a better resource if you're looking for the specifics and want to dive deeper into the subjects.]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Sun, 18 Aug 2024 21:04:37 GMT</pubDate></item><item><title><![CDATA[Digital Identity]]></title><description><![CDATA[ 
+ <br>
+In access management, digital identity is the recorded set of measurable characteristics by which a computer can identify an external entity. The entity may be a person, an organization, a software program, or another computer. <a data-tooltip-position="top" aria-label="https://www.cloudflare.com/learning/access-management/what-is-identity/#:~:text=In%20access%20management%2C%20digital%20identity,relies%20on%20computer%2Didentifiable%20attributes." rel="noopener" class="external-link" href="https://www.cloudflare.com/learning/access-management/what-is-identity/#:~:text=In%20access%20management%2C%20digital%20identity,relies%20on%20computer%2Didentifiable%20attributes." target="_blank">What is digital identity? | Cloudflare</a>
+]]></description><link>access-management\digital-identity.html</link><guid isPermaLink="false">Access Management/Digital Identity.md</guid><pubDate>Sat, 17 Aug 2024 02:58:00 GMT</pubDate></item><item><title><![CDATA[JSON Web Tokens (JWT)]]></title><description><![CDATA[ 
+ ]]></description><link>access-management\json-web-tokens-(jwt).html</link><guid isPermaLink="false">Access Management/JSON Web Tokens (JWT).md</guid><pubDate>Sat, 17 Aug 2024 02:59:38 GMT</pubDate></item><item><title><![CDATA[OpenAPI]]></title><description><![CDATA[ 
+ ]]></description><link>application-programming-interface-(api)\openapi.html</link><guid isPermaLink="false">Application Programming Interface (API)/OpenAPI.md</guid><pubDate>Sat, 17 Aug 2024 03:09:44 GMT</pubDate></item><item><title><![CDATA[Smithy 2.0]]></title><description><![CDATA[ 
+ ]]></description><link>application-programming-interface-(api)\smithy-2.0.html</link><guid isPermaLink="false">Application Programming Interface (API)/Smithy 2.0.md</guid><pubDate>Sat, 17 Aug 2024 03:09:56 GMT</pubDate></item><item><title><![CDATA[Swagger]]></title><description><![CDATA[ 
+ ]]></description><link>application-programming-interface-(api)\swagger.html</link><guid isPermaLink="false">Application Programming Interface (API)/Swagger.md</guid><pubDate>Sat, 17 Aug 2024 03:09:51 GMT</pubDate></item><item><title><![CDATA[AI Ethics]]></title><description><![CDATA[ 
+ ]]></description><link>artificial-intelligence-(ai)\ai-ethics.html</link><guid isPermaLink="false">Artificial Intelligence (AI)/AI Ethics.md</guid><pubDate>Sat, 17 Aug 2024 03:19:17 GMT</pubDate></item><item><title><![CDATA[OpenAI]]></title><description><![CDATA[ 
+ ]]></description><link>artificial-intelligence-(ai)\openai.html</link><guid isPermaLink="false">Artificial Intelligence (AI)/OpenAI.md</guid><pubDate>Sat, 17 Aug 2024 03:19:22 GMT</pubDate></item><item><title><![CDATA[Amazon CloudSearch]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\analytics\amazon-cloudsearch.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Analytics/Amazon CloudSearch.md</guid><pubDate>Sat, 17 Aug 2024 03:02:04 GMT</pubDate></item><item><title><![CDATA[Amazon Redshift]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\analytics\amazon-redshift.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Analytics/Amazon Redshift.md</guid><pubDate>Sat, 17 Aug 2024 03:01:07 GMT</pubDate></item><item><title><![CDATA[Amazon EC2]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\compute\amazon-ec2.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/Amazon EC2.md</guid><pubDate>Sat, 17 Aug 2024 03:03:13 GMT</pubDate></item><item><title><![CDATA[AWS Elastic Beanstalk]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\compute\aws-elastic-beanstalk.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/AWS Elastic Beanstalk.md</guid><pubDate>Sat, 17 Aug 2024 03:03:27 GMT</pubDate></item><item><title><![CDATA[AWS Lambda]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\compute\aws-lambda.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Compute/AWS Lambda.md</guid><pubDate>Sat, 17 Aug 2024 03:03:18 GMT</pubDate></item><item><title><![CDATA[Amazon Cognito]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\identity\amazon-cognito.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/Amazon Cognito.md</guid><pubDate>Sat, 17 Aug 2024 03:00:46 GMT</pubDate></item><item><title><![CDATA[AWS Identity and Access Management (IAM)]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\identity\aws-identity-and-access-management-(iam).html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/AWS Identity and Access Management (IAM).md</guid><pubDate>Sat, 17 Aug 2024 03:00:18 GMT</pubDate></item><item><title><![CDATA[AWS Identity Center]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\identity\aws-identity-center.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Identity/AWS Identity Center.md</guid><pubDate>Sat, 17 Aug 2024 03:00:09 GMT</pubDate></item><item><title><![CDATA[Amazon CloudWatch]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\management-and-governance\amazon-cloudwatch.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Management and Governance/Amazon CloudWatch.md</guid><pubDate>Sat, 17 Aug 2024 03:04:15 GMT</pubDate></item><item><title><![CDATA[AWS CloudFormation]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\management-and-governance\aws-cloudformation.html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Management and Governance/AWS CloudFormation.md</guid><pubDate>Sat, 17 Aug 2024 03:04:21 GMT</pubDate></item><item><title><![CDATA[Serverless Application Model (SAM)]]></title><description><![CDATA[ 
+ ]]></description><link>cloud-computing\amazon-web-services\serverless-application-model-(sam).html</link><guid isPermaLink="false">Cloud Computing/Amazon Web Services/Serverless Application Model (SAM).md</guid><pubDate>Tue, 13 Aug 2024 22:26:52 GMT</pubDate></item><item><title><![CDATA[Grafana]]></title><description><![CDATA[ 
+ ]]></description><link>monitoring\grafana.html</link><guid isPermaLink="false">Monitoring/Grafana.md</guid><pubDate>Sat, 17 Aug 2024 03:05:14 GMT</pubDate></item><item><title><![CDATA[Prometheus]]></title><description><![CDATA[ 
+ ]]></description><link>monitoring\prometheus.html</link><guid isPermaLink="false">Monitoring/Prometheus.md</guid><pubDate>Sat, 17 Aug 2024 03:05:02 GMT</pubDate></item><item><title><![CDATA[Chain of Responsibility]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\chain-of-responsibility.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Chain of Responsibility.md</guid><pubDate>Sat, 17 Aug 2024 03:21:08 GMT</pubDate></item><item><title><![CDATA[Command]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\command.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Command.md</guid><pubDate>Sat, 17 Aug 2024 03:21:15 GMT</pubDate></item><item><title><![CDATA[Iterator]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\iterator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Iterator.md</guid><pubDate>Sat, 17 Aug 2024 03:21:18 GMT</pubDate></item><item><title><![CDATA[Mediator]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\mediator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Mediator.md</guid><pubDate>Sat, 17 Aug 2024 03:21:22 GMT</pubDate></item><item><title><![CDATA[Memento]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\memento.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Memento.md</guid><pubDate>Sat, 17 Aug 2024 03:21:25 GMT</pubDate></item><item><title><![CDATA[Observer]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\observer.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Observer.md</guid><pubDate>Sat, 17 Aug 2024 03:21:28 GMT</pubDate></item><item><title><![CDATA[State]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\state.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/State.md</guid><pubDate>Sat, 17 Aug 2024 03:21:32 GMT</pubDate></item><item><title><![CDATA[Strategy]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\strategy.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Strategy.md</guid><pubDate>Sat, 17 Aug 2024 03:21:35 GMT</pubDate></item><item><title><![CDATA[Template Method]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\template-method.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Template Method.md</guid><pubDate>Sat, 17 Aug 2024 03:21:38 GMT</pubDate></item><item><title><![CDATA[Visitor]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\design-pattern\behavioural-patterns\visitor.html</link><guid isPermaLink="false">Software Development/Design Pattern/Behavioural Patterns/Visitor.md</guid><pubDate>Sat, 17 Aug 2024 03:21:42 GMT</pubDate></item><item><title><![CDATA[Prototype]]></title><description><![CDATA[ 
  <br>
 Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 <br>The prototype pattern delegates the cloning process to the actual objects that are being cloned. The pattern declares a common interface for all objects that support cloning. This interface lets you clone an object without coupling your code to the class of that object. Usually, such an interface contains just a single clone method.<br>An object that supports cloning is called a prototype. When your objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing.<br>Pros:<br>
@@ -643,10 +1125,7 @@ Copy<br><br>
 <br>A <a data-href="Facade" href="\software-development\design-pattern\structural-patterns\facade.html" class="internal-link" target="_self" rel="noopener">Facade</a> class can often be transformed into a Singleton since a single facade object is sufficient in most cases.
 <br><a data-href="Flyweight" href="\software-development\design-pattern\structural-patterns\flyweight.html" class="internal-link" target="_self" rel="noopener">Flyweight</a> would resemble Singleton if you somehow managed to reduce all shared states of the objects to just one flyweight object.
 <br><a data-href="Abstract Factory" href="\software-development\design-pattern\creational-patterns\abstract-factory.html" class="internal-link" target="_self" rel="noopener">Abstract Factory</a>, <a data-href="Builder" href="\software-development\design-pattern\creational-patterns\builder.html" class="internal-link" target="_self" rel="noopener">Builder</a>, and <a data-href="Prototype" href="\software-development\design-pattern\creational-patterns\prototype.html" class="internal-link" target="_self" rel="noopener">Prototype</a> can all be implemented as Singletons.
-]]></description><link>software-development\design-pattern\creational-patterns\singleton.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Singleton.md</guid><pubDate>Sun, 18 Aug 2024 03:20:38 GMT</pubDate></item><item><title><![CDATA[Adapter]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\structural-patterns\adapter.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Adapter.md</guid><pubDate>Sat, 17 Aug 2024 03:22:17 GMT</pubDate></item><item><title><![CDATA[Bridge]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\structural-patterns\bridge.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Bridge.md</guid><pubDate>Sat, 17 Aug 2024 03:22:24 GMT</pubDate></item><item><title><![CDATA[Composite]]></title><description><![CDATA[ 
- ]]></description><link>software-development\design-pattern\structural-patterns\composite.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Composite.md</guid><pubDate>Sat, 17 Aug 2024 03:22:27 GMT</pubDate></item><item><title><![CDATA[Decorator]]></title><description><![CDATA[ 
+]]></description><link>software-development\design-pattern\creational-patterns\singleton.html</link><guid isPermaLink="false">Software Development/Design Pattern/Creational Patterns/Singleton.md</guid><pubDate>Sun, 18 Aug 2024 03:20:38 GMT</pubDate></item><item><title><![CDATA[Decorator]]></title><description><![CDATA[ 
  ]]></description><link>software-development\design-pattern\structural-patterns\decorator.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Decorator.md</guid><pubDate>Sat, 17 Aug 2024 03:22:29 GMT</pubDate></item><item><title><![CDATA[Facade]]></title><description><![CDATA[ 
  ]]></description><link>software-development\design-pattern\structural-patterns\facade.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Facade.md</guid><pubDate>Sat, 17 Aug 2024 03:22:32 GMT</pubDate></item><item><title><![CDATA[Flyweight]]></title><description><![CDATA[ 
  ]]></description><link>software-development\design-pattern\structural-patterns\flyweight.html</link><guid isPermaLink="false">Software Development/Design Pattern/Structural Patterns/Flyweight.md</guid><pubDate>Sat, 17 Aug 2024 03:22:35 GMT</pubDate></item><item><title><![CDATA[Proxy]]></title><description><![CDATA[ 
@@ -654,97 +1133,7 @@ Copy<br><br>
  ]]></description><link>software-development\general-working-tips\aws-internship.html</link><guid isPermaLink="false">Software Development/General Working Tips/AWS Internship.md</guid><pubDate>Sun, 18 Aug 2024 03:51:57 GMT</pubDate></item><item><title><![CDATA[Burnouts]]></title><description><![CDATA[ 
  ]]></description><link>software-development\general-working-tips\burnouts.html</link><guid isPermaLink="false">Software Development/General Working Tips/Burnouts.md</guid><pubDate>Sat, 17 Aug 2024 03:13:48 GMT</pubDate></item><item><title><![CDATA[Day 1 Culture]]></title><description><![CDATA[ 
  ]]></description><link>software-development\general-working-tips\day-1-culture.html</link><guid isPermaLink="false">Software Development/General Working Tips/Day 1 Culture.md</guid><pubDate>Sat, 17 Aug 2024 03:14:05 GMT</pubDate></item><item><title><![CDATA[Department of National Defence Internship]]></title><description><![CDATA[ 
- ]]></description><link>software-development\general-working-tips\department-of-national-defence-internship.html</link><guid isPermaLink="false">Software Development/General Working Tips/Department of National Defence Internship.md</guid><pubDate>Sun, 18 Aug 2024 03:52:07 GMT</pubDate></item><item><title><![CDATA[Leadership Principles]]></title><description><![CDATA[ 
- <br>There are sixteen leadership principle that Amazon follows, religiously. These principles help us care for the end user, while promoting leadership within our products.<br>
-<br><a data-href="#Customer Obsession" href="\#Customer_Obsession" class="internal-link" target="_self" rel="noopener">Customer Obsession</a>
-<br><a data-href="#Ownership" href="\#Ownership" class="internal-link" target="_self" rel="noopener">Ownership</a>
-<br><a data-href="#Invent and Simplify" href="\#Invent_and_Simplify" class="internal-link" target="_self" rel="noopener">Invent and Simplify</a>
-<br><a data-href="#Are Right, A Lot" href="\#Are_Right,_A_Lot" class="internal-link" target="_self" rel="noopener">Are Right, A Lot</a>
-<br><a data-href="#Learn and Be Curious" href="\#Learn_and_Be_Curious" class="internal-link" target="_self" rel="noopener">Learn and Be Curious</a>
-<br><a data-href="#Hire and Develop the Best" href="\#Hire_and_Develop_the_Best" class="internal-link" target="_self" rel="noopener">Hire and Develop the Best</a>
-<br><a data-href="#Insist on the Highest Standards" href="\#Insist_on_the_Highest_Standards" class="internal-link" target="_self" rel="noopener">Insist on the Highest Standards</a>
-<br><a data-href="#Think Big" href="\#Think_Big" class="internal-link" target="_self" rel="noopener">Think Big</a>
-<br><a data-href="#Bias for Action" href="\#Bias_for_Action" class="internal-link" target="_self" rel="noopener">Bias for Action</a>
-<br><a data-href="#Frugality" href="\#Frugality" class="internal-link" target="_self" rel="noopener">Frugality</a>
-<br><a data-href="#Earn Trust" href="\#Earn_Trust" class="internal-link" target="_self" rel="noopener">Earn Trust</a>
-<br><a data-href="#Dive Deep" href="\#Dive_Deep" class="internal-link" target="_self" rel="noopener">Dive Deep</a>
-<br><a data-href="#Have Backbone; Disagree and Commit" href="\#Have_Backbone;_Disagree_and_Commit" class="internal-link" target="_self" rel="noopener">Have Backbone; Disagree and Commit</a>
-<br><a data-href="#Deliver Results" href="\#Deliver_Results" class="internal-link" target="_self" rel="noopener">Deliver Results</a>
-<br><a data-href="#Strive to be Earth's Best Employer" href="\#Strive_to_be_Earth's_Best_Employer" class="internal-link" target="_self" rel="noopener">Strive to be Earth's Best Employer</a>
-<br><a data-href="#Success and Scale Bring Broad Responsibility" href="\#Success_and_Scale_Bring_Broad_Responsibility" class="internal-link" target="_self" rel="noopener">Success and Scale Bring Broad Responsibility</a>
-<br><br>
-Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
-<br>We always try to help customers make the best possible decision. Earning their trust is a key to victory. Having this honest communication between us and the customers, we can maximize both of our worlds - customers are happy, we're happy that we could help.<br>As a large example, AWS always looks to cost-optimize for customers where they can save money, which we can redeploy that money in the future. So looking out for the customers can be very cyclic.<br>As a leader, we should always ask the questions that aim to benefit the customers, such as:<br>
-<br>What problem are we trying to solve?
-<br>What will customers care most about?
-<br>What would they be most disappointed about?
-<br>What will they love most?
-<br>Sometimes, competitors could leave us confused. If a competitor builds something  that customers love, we should be aware of it, and we should be inspired by it and think about how we can improve our own customer experience with what we learn from what competitors have done.<br><br>
-Leaders are owners. They think long term and don't sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say "that's not my job."
-<br>Great owners are always asking themselves, what would I do if this were my personal money? Don't think about the short-term benefits like nailing a very temporary object into a wall, but think like an owner and try to maintain the upkeep of your products.<br>The ideal leaders at Amazon are the ones who:<br>
-<br>Feel like owners;
-<br>Think about problems holistically; and
-<br>Finds the right owner to resolve issue if necessary.
-<br>Owners ensure the problems are owned, that they have a path to resolution and they drive it themselves as needed.<br>When there's a hard problem, owners don't delegate it to the next person in line. Try to pull a group of people together to find the right solution for the customers. <br><br>
-Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by "not invented here." As we do new things, we accept that we may be misunderstood for long periods of time.
-<br>Although difficult, we constantly look to invent, and also re-invent our ideas. Our inventions are not just random ones though - we always think about what the customers want the very most. Then, we struggle to make it happen for the customers.<br><br>
-Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
-<br>You can do a lot of things right, but if you make a wrong decision, you might have an issue. We work to keep this miss-rate very low. It's a proxy for decision, and we want to make the best decision.<br>Sometimes, ambiguity occurs, and the process to navigate through that is:<br>
-<br>Sifting through the noise;
-<br>Finding the signal;
-<br>What decision really matters for our customers?
-<br>Even if you're thinking for yourself, try to doubt it with the following questionnaire:<br>
-<br>Is it really right?
-<br>Is there another way to think about it?
-<br>Can we do better for customers?
-<br>The key to being right a lot is to:<br>
-<br>Get the right people involved in giving feedback;
-<br>Listen to the different perspectives; and
-<br>Think about what is the best possible answer for customers and for the business.
-<br><br>
-Leaders are never done learning and always seek to improve th4emselves. They are curious about new possibilities and act to explore them.
-<br>Developers tend to stagnate really fast in this rapid world of technology - you have to try to keep up with it to serve the best tool for our customers. <br>Be able to self-assess and be self-aware of what you're doing well and what you need to be better at. Build a real plan to change if you must change, and make sure to make that change.<br><br>
-Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move th4em throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice. 
-<br>A team is comprised of great people:<br>
-<br>Smart,
-<br>Are Right, A Lot,
-<br>Inventive,
-<br>Look around corners,
-<br>Think big,
-<br>Into the details,
-<br>Able to move quickly,
-<br>Have high ownership, and
-<br>Have the right customer obsession.
-<br>The above is a list of what you want to be as an employee - those traits are what enables us to deliver the best results to our customers.<br>Always ask if you are raising the bar and seek to improve. Your manage strives to learn more about their employee, especially on what they are doing well and what they need to grow. Ask them and learn from your senior. Ask for critical feedback to become the ideal employee.<br><br>
-Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
-<br>Customers can find details which motivates them to switch and continue exploring different option. They are obviously in their right as their own role. So, as developers, we need to insist on the highest standards to try to attract the customers and simply give what they need and want. <br>Higher expectations lead to better results. So, in the meetings you are in, try to set the expectations, and keep them high. Try to model what "good" looks like in your system. <br>Keep fighting - that is a fight worth fighting. The companies that keep increasing what's possible for customers deliver best for customers.<br><br>
-Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
-<br>A part of being an inventor is that we cannot be content with where we are and constantly ask what are the next big breakthroughs for customers.<br>You cannot run the same playbook for decades at a time to have a long-running product. Change is hard, but change is good. <br>Bold initiatives that are not simple to do, and these types of initiatives require thinking big, and it's what you do if you want to serve customers better. And it is part of what not only makes Amazon unique, but also gives us a unique impact in the world.<br><br>
-Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.
-<br>Speed is not preordained - it is a leadership and a culture decision. You can move quickly if you historically haven't. <br>A concept of a one-way door and a two-way door is a good analogy for works that are reversible; if you can make a decision that cannot be reversed easily, that's a one-way door decision and it would require you to invest more time into so you don't spend more time trying to undo the results. Meanwhile, a two-way door decision means you can always go back to where you came from - if it's simply reversible, take risks and learn from it if unwell. Very often, there will be more two-way doors.<br>However, this doesn't mean you have free reign to pass things without concern; be thoughtful and make the right risks. If the risk is low, or reversible, act on it.<br>Have the right mindset and the right urgency about decisions - don't take weeks to figure something out that can be done in hours. Have this idea in your head that you're living in a race. Every week, think about "When I leave this week, will my customers be better off than when I started the week?"<br>You can be fast while still having high standards. Think of ourselves as the world's biggest start-up.<br><br>
-Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
-<br>We want to be scrappy and be frugal as possible. Basis points matter. Don't let pennies become dimes and loonies of expenses later on. Have a rigid constraint and work in it, and only when necessary, expand out of that margin.<br>When you save money on everything you do, it means you can invest more in giving customers lower prices at the same, or even better benefits. Do more with less. Build lean products.<br><br>
-Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team's body odour smells of perfume. They benchmark themselves and their teams against the best.
-<br>Challenges are a good thing to push others to their potential - be honest but respectfully. <br>A formula for earning trust is:<br>
-<br>Deliver it,
-<br>Speak up,
-<br>Own it,
-<br>Be self-critical, and 
-<br>Fix it.
-<br>It's OK to be wrong, but if you own your mistakes and fix it, that is also a part of earning trust. That's also being right, a lot.<br><br>
-Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
-<br>Our expectation is that we want to be strategic, but to be willing to roll up their sleeves and be great at getting to the details.<br>The details of any idea are what matters most. That's what people actually see, and what customers actually see. Good leaders find mechanisms to inspect, audit the details, and understand the anecdotes. <br>Remember that a 1% impact is more than a million people at Amazon's scale.<br><br>
-Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
-<br>You're expected to challenge, regardless of levels, if something doesn't seem right. Speak up, be curious, and ask questions. Be truth-seeking.<br>Once we make a decision:<br>
-<br>All have to get on board;
-<br>Need to focus all our energy rowing the same way.
-<br><br>
-Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
-<br>Outputs are really high-level metrics. For example, stock price, cash flow, revenue, margins,... but it is difficult to manage these items actively.<br>What drives the outputs are the inputs. Inputs are you, your team, and your product.<br>Launch or delivery is not the finish line - it's the starting line. Be ready for improvements, and be ready to re-invent.<br><br>
-Leaders work every day to create a safer, more productive, higher performing, more diverse, and more just work environment. They lead with empathy, have fun at work, and make it easy for others to have fun. Leaders ask themselves: Are my fellow employees growing? Are they empowered? Are they ready for what's next? Leaders have a vision for and commitment to their employees' personal success, whether that be at Amazon or elsewhere.
-<br>Working at a place whose mission is to make customers' lives easier and better every day is very inspiring. Be a part of that team. You are making the impact for millions of people around the world. Be proud and strive to be that customers - the world's - best employer.<br><br>
-We started in a garage, but we're not there anymore. We are big, we impact the world, but we are far from perfect. We must be humble and thoughtful about even the secondary effects of our actions. Our local communities, planet, and future generations need us to be better every day. We must begin each day with a determination to make better, do better, and be better for our customers, our employees, our partners, and the world at large. And we must end every day knowing we can do even more tomorrow. Leaders create more than they consume and always leave things better than how they found them.
-<br>Keep asking ourselves constantly whether the communities in which we reside are better off because we're there. And if they're not, then we need to take action about that.]]></description><link>software-development\general-working-tips\leadership-principles.html</link><guid isPermaLink="false">Software Development/General Working Tips/Leadership Principles.md</guid><pubDate>Sun, 18 Aug 2024 04:39:31 GMT</pubDate></item><item><title><![CDATA[Dependency Inversion Principle (DIP)]]></title><description><![CDATA[ 
+ ]]></description><link>software-development\general-working-tips\department-of-national-defence-internship.html</link><guid isPermaLink="false">Software Development/General Working Tips/Department of National Defence Internship.md</guid><pubDate>Sun, 18 Aug 2024 03:52:07 GMT</pubDate></item><item><title><![CDATA[Dependency Inversion Principle (DIP)]]></title><description><![CDATA[ 
  <br>
 Entities must depend on abstractions, and not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
 <br>This refers to the decoupling of software modules - instead of high-level modules depending on low-level modules, both will depend on abstractions.<br><br>Let's make a Windows98Machine class:<br>public class Windows98Machine {
@@ -1274,5 +1663,4 @@ Like a waterfall, each process phase cascades downward sequentially through the 
 <br>The right answer for your tool will depend on the use case. If you are simply trying to launch a simple ecosystem of software-only projects, then containers might be the right option for you. If you have a specific hardware requirement for your projects, then likely you'll need a virtual machine. Of course, you could choose to employ both, but it is likely that you won't need to.<br><br>Docker is almost synonymous with the standard of container. Because of its popularity, we can decide to use the containers in many different application. The best way to get started with Docker is by installing Docker Desktop for casual purposes. <br>Some examples are:<br>
 <br>Launching MySQL
 <br>Creating a running instance of <a data-tooltip-position="top" aria-label="Serverless Application Model (SAM)" data-href="Serverless Application Model (SAM)" href="\cloud-computing\aws\serverless-application-model-(sam).html" class="internal-link" target="_self" rel="noopener">Serverless Application Model for AWS</a>.
-]]></description><link>software-development\tools\docker.html</link><guid isPermaLink="false">Software Development/Tools/Docker.md</guid><pubDate>Tue, 13 Aug 2024 22:32:24 GMT</pubDate></item><item><title><![CDATA[Bibliotheque]]></title><description><![CDATA[ 
- <br><br>Website has been created via GitHub pages - <a data-tooltip-position="top" aria-label="https://ksdsk.github.io/Bibliotheque/" rel="noopener" class="external-link" href="https://ksdsk.github.io/Bibliotheque/" target="_blank">visit the website!</a><br><br>I've graduated school, and I miss learning.<br>Lately I've been feeling like there's too many knowledge that I don't know about that can't be made with by creating personal projects. For example, learning more about Software Development Life Cycle (SDLC), refactoring tricks, or for a more embedded technology like learning about software layers.<br>Crazy I would tell myself when I was 14 years old, but I really do miss learning and training myself to contain more tech knowledge in general - I want to continue learning more to improve myself. Some people look up on me, but really, I'm just a person who only spent four years in school, dabbling in some fun and motivated projects here and there. I can't let them down. I can't let me down either. I've always wanted to be the person to be reached out for when they need some sort of help. The "first-aid kit" type of senior.<br>Anyways, I'm making this repository as sort of a motivation, but also a log of what I've learned in my career from hereon - a tracker of each and every one of my learnings. This repository is designed to contain pages of my <a data-tooltip-position="top" aria-label="https://obsidian.md/" rel="noopener" class="external-link" href="https://obsidian.md/" target="_blank">Obsidian</a> notes to contain all the cool things I came across after graduation. It'd be awesome if random strangers come by and look at my notes and go "wow this is pretty cool", just like how I read through random people's Medium pages for information and go "wow this is pretty cool".<br>I'm going to start from the very basics, then end up noting about the things I want to be better at, which is mostly going to relate to the kind of work I'm doing. Eventually, this repository is going to become something like a library, where it'll be a collection of notes for different kinds of subjects. The term library has a different meaning in software engineering though, so I'll just call it library in a different language. The Korean word for library doesn't sound cool (do-seo-kwan)... I think I'm going to call it Bibliothèque, the French word for Library.<br>And just for fun, I'll also add in some hobbies outside of the technological world as well. Mostly to keep my sanity, but also for lengthening my interest and mastery in them.]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Wed, 14 Aug 2024 03:05:52 GMT</pubDate></item></channel></rss>
+]]></description><link>software-development\tools\docker.html</link><guid isPermaLink="false">Software Development/Tools/Docker.md</guid><pubDate>Tue, 13 Aug 2024 22:32:24 GMT</pubDate></item></channel></rss>

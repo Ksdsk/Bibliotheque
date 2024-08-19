@@ -1,6 +1,6 @@
 {
   "vaultName": "Obsidian",
-  "lastExport": 1723956003900,
+  "lastExport": 1724044468327,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -10,11 +10,26 @@
     "(media)/Pasted image 20240817120047.png",
     "(media)/Pasted image 20240817220713.png",
     "(media)/Pasted image 20240817220959.png",
+    "(media)/Pasted image 20240817234939.png",
+    "(media)/Pasted image 20240818170005.png",
+    "(media)/Pasted image 20240818170027.png",
+    "(media)/Pasted image 20240818170344.png",
+    "(media)/Pasted image 20240818173433.png",
+    "(media)/Pasted image 20240818173634.png",
+    "(media)/Pasted image 20240818180758.png",
+    "(media)/Pasted image 20240818181747.png",
+    "(media)/Pasted image 20240818192222.png",
+    "(media)/Pasted image 20240818230045.png",
+    "Access Management/Webinar Notes/The Future of Authentication for Employees and Customers.md",
     "Access Management/Authentication.md",
     "Access Management/Authorization.md",
     "Access Management/Digital Identity.md",
+    "Access Management/Identity Federation.md",
     "Access Management/Identity Provider (IdP).md",
     "Access Management/JSON Web Tokens (JWT).md",
+    "Access Management/Kerberos.md",
+    "Access Management/OAuth.md",
+    "Access Management/OpenID Connect (OIDC).md",
     "Access Management/Security Assertion Markup Language (SAML).md",
     "Access Management/Single Sign-On (SSO).md",
     "Application Programming Interface (API)/OpenAPI.md",
@@ -130,11 +145,17 @@
     "Software Development/Version Control/Using Branches/Merge Strategies.md",
     "Software Development/Version Control/Git.md",
     "index.md",
-    "Pasted image 20240817234939.png",
+    "lib/media/pasted-image-20240818192222.png",
+    "lib/media/pasted-image-20240818230045.png",
     "lib/media/pasted-image-20240817220959.png",
     "lib/media/pasted-image-20240817120047.png",
-    "lib/media/pasted-image-20240817234939.png",
-    "lib/media/pasted-image-20240816232059.png",
+    "lib/media/pasted-image-20240818170005.png",
+    "lib/media/pasted-image-20240818170027.png",
+    "lib/media/pasted-image-20240818170344.png",
+    "lib/media/pasted-image-20240818173433.png",
+    "lib/media/pasted-image-20240818173634.png",
+    "lib/media/pasted-image-20240818180758.png",
+    "lib/media/pasted-image-20240818181747.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -184,7 +205,9 @@
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/media/pasted-image-20240817234939.png",
+    "lib/media/pasted-image-20240816232059.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -240,176 +263,176 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 133494,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 146135,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 11906,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 12950,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 130208,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1723605463967,
-      "sourceSize": 2302,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 2585,
       "exportedPath": "index.html",
       "dependencies": []
     },
@@ -782,133 +805,133 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
@@ -938,14 +961,14 @@
       "dependencies": []
     },
     "Access Management/Authentication.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 3854,
       "exportedPath": "access-management/authentication.html",
       "dependencies": []
     },
     "Access Management/Authorization.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 35,
       "exportedPath": "access-management/authorization.html",
       "dependencies": []
     },
@@ -956,8 +979,8 @@
       "dependencies": []
     },
     "Access Management/Identity Provider (IdP).md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 27,
       "exportedPath": "access-management/identity-provider-(idp).html",
       "dependencies": []
     },
@@ -968,16 +991,18 @@
       "dependencies": []
     },
     "Access Management/Security Assertion Markup Language (SAML).md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 212,
       "exportedPath": "access-management/security-assertion-markup-language-(saml).html",
       "dependencies": []
     },
     "Access Management/Single Sign-On (SSO).md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 10618,
       "exportedPath": "access-management/single-sign-on-(sso).html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240818230045.png"
+      ]
     },
     "Application Programming Interface (API)/OpenAPI.md": {
       "modifiedTime": 1723956003900,
@@ -1148,22 +1173,22 @@
       "dependencies": []
     },
     "Software Development/Design Pattern/Creational Patterns/Abstract Factory.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 4934,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 5609,
       "exportedPath": "software-development/design-pattern/creational-patterns/abstract-factory.html",
       "dependencies": []
     },
     "Software Development/Design Pattern/Creational Patterns/Builder.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 5035,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 5397,
       "exportedPath": "software-development/design-pattern/creational-patterns/builder.html",
       "dependencies": [
         "lib/media/pasted-image-20240817220959.png"
       ]
     },
     "Software Development/Design Pattern/Creational Patterns/Factory Method.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 3401,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 3938,
       "exportedPath": "software-development/design-pattern/creational-patterns/factory-method.html",
       "dependencies": [
         "lib/media/pasted-image-20240817120047.png"
@@ -1184,22 +1209,32 @@
       "dependencies": []
     },
     "Software Development/Design Pattern/Structural Patterns/Adapter.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 4987,
       "exportedPath": "software-development/design-pattern/structural-patterns/adapter.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240818170005.png",
+        "lib/media/pasted-image-20240818170027.png",
+        "lib/media/pasted-image-20240818170344.png"
+      ]
     },
     "Software Development/Design Pattern/Structural Patterns/Bridge.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 5492,
       "exportedPath": "software-development/design-pattern/structural-patterns/bridge.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240818173433.png",
+        "lib/media/pasted-image-20240818173634.png"
+      ]
     },
     "Software Development/Design Pattern/Structural Patterns/Composite.md": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 0,
+      "modifiedTime": 1724044468327,
+      "sourceSize": 6662,
       "exportedPath": "software-development/design-pattern/structural-patterns/composite.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240818180758.png",
+        "lib/media/pasted-image-20240818181747.png"
+      ]
     },
     "Software Development/Design Pattern/Structural Patterns/Decorator.md": {
       "modifiedTime": 1723956003900,
@@ -1250,7 +1285,7 @@
       "dependencies": []
     },
     "Software Development/General Working Tips/Leadership Principles.md": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 13355,
       "exportedPath": "software-development/general-working-tips/leadership-principles.html",
       "dependencies": []
@@ -1291,20 +1326,14 @@
       "exportedPath": "software-development/object-oriented-design/single-responsibility-principle-(srp).html",
       "dependencies": []
     },
-    "Pasted image 20240817234939.png": {
-      "modifiedTime": 1723956003900,
-      "sourceSize": 19803,
-      "exportedPath": "pasted-image-20240817234939.png",
-      "dependencies": []
-    },
     "lib/media/pasted-image-20240817220959.png": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 58046,
       "exportedPath": "lib/media/pasted-image-20240817220959.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240817120047.png": {
-      "modifiedTime": 1723956003900,
+      "modifiedTime": 1724044468327,
       "sourceSize": 31116,
       "exportedPath": "lib/media/pasted-image-20240817120047.png",
       "dependencies": []
@@ -1319,6 +1348,152 @@
       "modifiedTime": 1723956003900,
       "sourceSize": 10880,
       "exportedPath": "lib/media/pasted-image-20240816232059.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240817234939.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 19803,
+      "exportedPath": "(media)/pasted-image-20240817234939.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818170005.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 22602,
+      "exportedPath": "(media)/pasted-image-20240818170005.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818170027.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 19918,
+      "exportedPath": "(media)/pasted-image-20240818170027.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818170344.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 38994,
+      "exportedPath": "(media)/pasted-image-20240818170344.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818173433.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 35663,
+      "exportedPath": "(media)/pasted-image-20240818173433.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818173634.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 65319,
+      "exportedPath": "(media)/pasted-image-20240818173634.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818180758.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 24672,
+      "exportedPath": "(media)/pasted-image-20240818180758.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818181747.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 27555,
+      "exportedPath": "(media)/pasted-image-20240818181747.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818192222.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 15246,
+      "exportedPath": "(media)/pasted-image-20240818192222.png",
+      "dependencies": []
+    },
+    "(media)/Pasted image 20240818230045.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 246134,
+      "exportedPath": "(media)/pasted-image-20240818230045.png",
+      "dependencies": []
+    },
+    "Access Management/Webinar Notes/The Future of Authentication for Employees and Customers.md": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 1076,
+      "exportedPath": "access-management/webinar-notes/the-future-of-authentication-for-employees-and-customers.html",
+      "dependencies": []
+    },
+    "Access Management/Identity Federation.md": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 5135,
+      "exportedPath": "access-management/identity-federation.html",
+      "dependencies": []
+    },
+    "Access Management/Kerberos.md": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 0,
+      "exportedPath": "access-management/kerberos.html",
+      "dependencies": []
+    },
+    "Access Management/OAuth.md": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 0,
+      "exportedPath": "access-management/oauth.html",
+      "dependencies": []
+    },
+    "Access Management/OpenID Connect (OIDC).md": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 4850,
+      "exportedPath": "access-management/openid-connect-(oidc).html",
+      "dependencies": [
+        "lib/media/pasted-image-20240818192222.png"
+      ]
+    },
+    "lib/media/pasted-image-20240818192222.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 15246,
+      "exportedPath": "lib/media/pasted-image-20240818192222.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818230045.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 246134,
+      "exportedPath": "lib/media/pasted-image-20240818230045.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818170005.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 22602,
+      "exportedPath": "lib/media/pasted-image-20240818170005.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818170027.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 19918,
+      "exportedPath": "lib/media/pasted-image-20240818170027.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818170344.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 38994,
+      "exportedPath": "lib/media/pasted-image-20240818170344.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818173433.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 35663,
+      "exportedPath": "lib/media/pasted-image-20240818173433.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818173634.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 65319,
+      "exportedPath": "lib/media/pasted-image-20240818173634.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818180758.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 24672,
+      "exportedPath": "lib/media/pasted-image-20240818180758.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240818181747.png": {
+      "modifiedTime": 1724044468327,
+      "sourceSize": 27555,
+      "exportedPath": "lib/media/pasted-image-20240818181747.png",
       "dependencies": []
     }
   }
