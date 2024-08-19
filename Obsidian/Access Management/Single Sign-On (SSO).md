@@ -4,4 +4,4 @@ You've likely experienced SSO before. For example, when you sign up for Gmail, y
 ## How it works
 With an example for a typical SSO:
 ![[Pasted image 20240818230045.png]]
-The **authorization server** lives on `domain3`. `domain1` and `domain2` interface with `domain3` to both [[Authentication|authenticate]] a user and also to verify that the user is authenticated.
+The **authorization server** lives on `domain3`. `domain1` and `domain2` interface with `domain3` to both [[Authentication|authenticate]] a user and also to verify that the user is authenticated. In this implementation, the user will still log in with one of the above-mentioend authentication types. However, they will 
