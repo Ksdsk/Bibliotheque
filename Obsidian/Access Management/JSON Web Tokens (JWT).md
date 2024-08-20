@@ -41,8 +41,24 @@ When decoded, you will find the following:
 ### Header
 Every JWT carries a header, also known as a JOSE header, which claims about itself. These claims establish the algorithms used, whether the JWT is signed or encrypted, and how to parse the rest of the JWT.
 
-Mandatory claims for unencrypted JWT headers:
-- `alg`: The main algorithm in use for signing and decrypting this JWT. For
+Claims:
+- `alg`: The main algorithm in use for signing and decrypting this JWT. 
+	- This must be set to `none` for unencrypted JWTs.
+- `typ`: The media type of the JWT itself.
+	- This parameter is only meant to be used as a help for uses where JWTs may be mixed with other objects carrying a JOSE header. In practice, this rarely happens. When present, this claim should be set to the value `JWT`.
+- `cty`: The content type.
+### Payload
+The payload is the element where all the interesting user data is usually added. In addition, certain claims defined in the spec may also be present. Just like the header, the payload is a JSON object.  No claims are mandatory.
+
+Claims:
+- `iss`: Issuer. A case-sensitive string or URI that uniquely identifies the party that issued the JWT.
+- `sub`: Subject. A case-sensitive string or URI that uniquely identifies the party that this JWT carries information about.
+	- The claims contained in this JWT are statements about this party. 
+- `aud`: Audience. Either a single case-sensitive string or URI or an array of such values that uniquely identify the intended recipients of this JWT.
+	- When this claim is present, the party reading the data in this JWT must find itself in the `aud` claim or disregard the data contained in the JWT.
+- `exp`: Expiration time. A number representing a specific date and time in UNIX timestamp.
+- `nbf`: Not Before time. The opposite of the `exp` claim. A number representing a specific date and time in the UNIX timestamp
+
 ## Stateless Sessions
 Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
 ## Security Considerations
