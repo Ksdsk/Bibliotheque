@@ -49,4 +49,8 @@ CSRF attacks attempts to perform requests against sites where the user is logged
 ```html
 <img src="http://target.site.com/add-user?user=name&grant=admin">
 ```
-The above `<img>` tag will send a request to `target.site.com` every time the page that contains it is loaded.  If the user has 
+The above `<img>` tag will send a request to `target.site.com` every time the page that contains it is loaded.  If the user has previously logged into the `target.site.com` and the site used a cookie to keep the session active, this cookie will be sent as well.  This means that the query strings could go through.
+### Cross-Site Scripting (XSS)
+XSS attacks attempt to inject JS in trusted sides. Injected scripts can then steal tokens from cookies and local storage.
+## Federated Identity
+[[Identity Federation]] allow different parties to s hare authentication and authorization services with other parties. In other words, a user's identity is centralized:
