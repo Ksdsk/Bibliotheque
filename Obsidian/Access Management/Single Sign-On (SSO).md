@@ -44,5 +44,22 @@ The **authorization server** lives on `domain3`. `domain1` and `domain2` interfa
 A good [[Authentication|authentication]] experience can seem at odds with properly implemented security. Many organizations require a strong password, and some even ask the users to change their password every interval. 
 
 Keeping up with these requirements for one application is inconvenient enough, but doing so for five or ten applications leads users to adopt some pretty bad practices like reusing the same password for each app, writing down their passwords on a sticky note and taping on their monitor, and so on.
+
+Authentication experience is simplified for the user, while the organization benefits from better security.
 ### Authorization
-Ensuring the right level of access is very important and is difficult to do in a non-SSO implementation. Different applications present different levels of granularity when it comes to user permission which makes [[Authorization|authorization]] even more difficult. SSO aims to solve this authorization component of identity by providing a centralized source of truth for each individual user. Once a user is authenticated, the IdP can send each application the users' identity 
+Ensuring the right level of access is very important and is difficult to do in a non-SSO implementation. Different applications present different levels of granularity when it comes to user permission which makes [[Authorization|authorization]] even more difficult. SSO aims to solve this authorization component of identity by providing a centralized source of truth for each individual user. Once a user is authenticated, the IdP can send each application the users' identity permissions for each application. IT admins now have a single location where they can manage user roles and permissions for the entire organization. This makes it easier to audit and ensure the right users have the right access at all times.
+
+Authorization experience is handled from a centralized location and can be easily managed.
+## Federation
+SSO provides a solution for all components related with authentication and authorization. Through [[Identity Federation]], an IT administrator can provision and deprovision user accounts once, grant them varying levels of access for each app, and enforce security requirements all from a single source of truth.
+## Identity Protocols and Providers
+Let's highlight some of the common protocols used in SSO, their benefits and downsides, and examples where these protocols are used in.
+### Security Assertion Markup Language (SAML)
+[[Security Assertion Markup Language (SAML)]] is one of the most widely used protocols when it comes to SSO implementations. It exchanges authorization and authentication data in XML format. 
+
+The three components to this data exchange are the:
+- User,
+	- 
+- Identity Provider, and
+- Service provider
+
