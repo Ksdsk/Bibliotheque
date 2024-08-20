@@ -55,11 +55,3 @@ SSO provides a solution for all components related with authentication and autho
 ## Identity Protocols and Providers
 Let's highlight some of the common protocols used in SSO, their benefits and downsides, and examples where these protocols are used in.
 ### Security Assertion Markup Language (SAML)
-[[Security Assertion Markup Language (SAML)]] is one of the most widely used protocols when it comes to SSO implementations. It exchanges authorization and authentication data in XML format. 
-
-The three components to this data exchange are the:
-- User,
-	- 
-- Identity Provider, and
-- Service provider
-
