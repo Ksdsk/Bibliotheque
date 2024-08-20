@@ -53,5 +53,14 @@ Authorization experience is handled from a centralized location and can be easil
 ## Federation
 SSO provides a solution for all components related with authentication and authorization. Through [[Identity Federation]], an IT administrator can provision and deprovision user accounts once, grant them varying levels of access for each app, and enforce security requirements all from a single source of truth.
 ## Identity Protocols and Providers
-Let's highlight some of the common protocols used in SSO, their benefits and downsides, and examples where these protocols are used in.
-### Security Assertion Markup Language (SAML)
+Let's highlight some of the common protocols used in SSO, their benefits and downsides, and examples where these protocols are used in:
+- [[Security Assertion Markup Language (SAML)]]
+- [[OAuth]]
+- [[OpenID Connect (OIDC)]]
+## Customer Perspective for Implementing SSO
+### Advantage
+The big reasons to buy an identity management platform is that you can get your solution up-and-running in no time. Saving time versus building, testing, quality-assuring, and deploying a home-grown solution can mean be very slow. 
+### Disadvantage
+The disadvantage to buy an identity management platform for SSO is that you use some control. The customer's identity data is stored in a third-party server. It also means you are adding another dependency to the technology stack. It may not also be customizable to your needs.
+
+
