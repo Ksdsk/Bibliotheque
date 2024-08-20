@@ -52,5 +52,9 @@ CSRF attacks attempts to perform requests against sites where the user is logged
 The above `<img>` tag will send a request to `target.site.com` every time the page that contains it is loaded.  If the user has previously logged into the `target.site.com` and the site used a cookie to keep the session active, this cookie will be sent as well.  This means that the query strings could go through.
 ### Cross-Site Scripting (XSS)
 XSS attacks attempt to inject JS in trusted sides. Injected scripts can then steal tokens from cookies and local storage.
-## Federated Identity
-[[Identity Federation]] allow different parties to s hare authentication and authorization services with other parties. In other words, a user's identity is centralized:
+## JWTs in Auth Protocols
+### OAuth 2.0
+Although [[OAuth]] 2.0 makes no mention of the format of its tokens, JWTs are a good match for its requirements. Signed JWTs make good access tokens, as they can encode all the necessary data to differentiate access levels to a resource, can carry an expiration date, and are signed to avoid validation queries against the authorization server. Several federated identity providers issue access tokens in JWT format.
+### OIDC
+[[OpenID Connect (OIDC)]] defines several flows which return data in different ways. Some of this data may be in JWT format:
+- Authorization flow: The client requests an [[Authorization|authorization]] code to the authorization endpoint `/authoirze`. This code can be used against the token endpo
