@@ -62,5 +62,6 @@ Let's highlight some of the common protocols used in SSO, their benefits and dow
 The big reasons to buy an identity management platform is that you can get your solution up-and-running in no time. Saving time versus building, testing, quality-assuring, and deploying a home-grown solution can mean be very slow. 
 ### Disadvantage
 The disadvantage to buy an identity management platform for SSO is that you use some control. The customer's identity data is stored in a third-party server. It also means you are adding another dependency to the technology stack. It may not also be customizable to your needs.
-
+## Implementation
+#ToDo
 
