@@ -1,6 +1,13 @@
 > JSON Web Token, or JWT for short, is a standard for safely passing claims in space constrained environments. It has found its way into all major web frameworks. Simplicity and compactness and usability are key features of its architecture.
 
-It is an open, industry standard `RFC 7519` method for representing claims securely between two parties. However, arguably the most important aspect of this is the standardization effort in the form of a simple, optionally validated, and encrypted, container format.
+It is an open, industry standard `RFC 7519` method for representing claims securely between two parties. However, arguably the most important aspect of this is the standardization effort in the form of a simple, optionally validated, and encrypted, container format. 
+
+Some of its applications include:
+- [[Authentication]],
+- [[Authorization]],
+- [[Identity Federation]],
+- Sessions, and
+- Secrets
 ## Structure
 ### Visualization
 A standard JWT looks kind of like this:
@@ -23,3 +30,5 @@ On closer look, they are three strings separated by dots `.`. When decoded, you 
 	}
 }
 ```
+## Stateless Sessions
+Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
