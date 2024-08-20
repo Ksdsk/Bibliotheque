@@ -57,7 +57,10 @@ Claims:
 - `aud`: Audience. Either a single case-sensitive string or URI or an array of such values that uniquely identify the intended recipients of this JWT.
 	- When this claim is present, the party reading the data in this JWT must find itself in the `aud` claim or disregard the data contained in the JWT.
 - `exp`: Expiration time. A number representing a specific date and time in UNIX timestamp.
-- `nbf`: Not Before time. The opposite of the `exp` claim. A number representing a specific date and time in the UNIX timestamp
+- `nbf`: Not Before time. The opposite of the `exp` claim. A number representing a specific date and time in the UNIX timestamp.
+- `iat`: Issued-at time. A number of representing a specific date and time at which this JWT was issued.
+- `jti` from JWT ID. A string representing a unique identifier for this JWT.
+- 
 
 ## Stateless Sessions
 Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
