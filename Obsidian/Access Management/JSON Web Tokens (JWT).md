@@ -17,7 +17,7 @@ eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.
 SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
-On closer look, they are three strings separated by dots `.`. They actually mean a sequence of objects like so:
+On closer look, they are three Base64 strings separated by dots `.`. They actually mean a sequence of objects like so:
 ```css
 <Header>.
 <Payload>.
@@ -38,6 +38,9 @@ When decoded, you will find the following:
 	}
 }
 ```
+### Header
+Every JWT carries a header, also known as a JOSE header, which claims about itself. These claims establish the algorithms used, whether the JWT is signed or encrypted, and how to parse the rest of the JWT.
+
 ## Stateless Sessions
 Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
 ## Security Considerations
@@ -57,4 +60,6 @@ XSS attacks attempt to inject JS in trusted sides. Injected scripts can then ste
 Although [[OAuth]] 2.0 makes no mention of the format of its tokens, JWTs are a good match for its requirements. Signed JWTs make good access tokens, as they can encode all the necessary data to differentiate access levels to a resource, can carry an expiration date, and are signed to avoid validation queries against the authorization server. Several federated identity providers issue access tokens in JWT format.
 ### OIDC
 [[OpenID Connect (OIDC)]] defines several flows which return data in different ways. Some of this data may be in JWT format:
-- Authorization flow: The client requests an [[Authorization|authorization]] code to the authorization endpoint `/authoirze`. This code can be used against the token endpo
+- **Authorization flow:** The client requests an [[Authorization|authorization]] code to the authorization endpoint `/authoirze`. This code can be used against the token endpoint `/token` to request an ID token in JWT format, an access token, or a refresh token.
+- Implicit Flow: The client requests tokens directly from the authorization endpoint `/authorize`. The tokens are specified in the request. If an ID token is requested, it is returned in JWT format.
+- Hybrid Flow: The client requests both an authorization code and certain tokens from the authorization endpoint `/authorizartion`. If an ID token is requested, it is returned in JWT format. If an ID token is not requested at this step, it may later by requested directly from the token endpoint `/token`.
