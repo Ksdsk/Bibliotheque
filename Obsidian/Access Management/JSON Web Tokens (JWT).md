@@ -16,7 +16,15 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.
 SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
-On closer look, they are three strings separated by dots `.`. When decoded, you will find the following:
+
+On closer look, they are three strings separated by dots `.`. They actually mean a sequence of objects like so:
+```css
+<Header>.
+<Payload>.
+<Signature>
+```
+
+When decoded, you will find the following:
 ```json
 {
 	{
@@ -32,3 +40,13 @@ On closer look, they are three strings separated by dots `.`. When decoded, you 
 ```
 ## Stateless Sessions
 Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
+## Security Considerations
+### Signature Stripping
+A common method for attacking a signed JWT is to simply remove the signature:
+![[Pasted image 20240820000021.png]]
+### Cross-Site Request Forgery (CSRF)
+CSRF attacks attempts to perform requests against sites where the user is logged in by tricking the user's browser into sending a request from a different site. For example, say we have an HTML code:
+```html
+<img src="http://target.site.com/add-user?user=name&grant=admin">
+```
+The above `<img>` tag will send a request to `target.site.com` every time the page that contains it is loaded.  If the user has 
