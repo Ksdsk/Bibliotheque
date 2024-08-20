@@ -41,6 +41,8 @@ When decoded, you will find the following:
 ### Header
 Every JWT carries a header, also known as a JOSE header, which claims about itself. These claims establish the algorithms used, whether the JWT is signed or encrypted, and how to parse the rest of the JWT.
 
+Mandatory claims for unencrypted JWT headers:
+- `alg`: The main algorithm in use for signing and decrypting this JWT. For
 ## Stateless Sessions
 Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
 ## Security Considerations
