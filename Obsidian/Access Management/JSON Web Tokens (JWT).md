@@ -60,8 +60,14 @@ Claims:
 - `nbf`: Not Before time. The opposite of the `exp` claim. A number representing a specific date and time in the UNIX timestamp.
 - `iat`: Issued-at time. A number of representing a specific date and time at which this JWT was issued.
 - `jti` from JWT ID. A string representing a unique identifier for this JWT.
-- 
+### Signature
+JWS are probably the single most useful feature of JWTs. The purpose of the signature is to allow one or more parties to establish the authenticity of the JWT. Authenticity in this context means the data contained in the JWT has not been tampered with. In other words, any party that can perform a signature check can rely on the contents provided by the JWT. 
 
+However, it does not prevent other parties from *reading* the contents inside the JWT. 
+
+The process of checking a signature of a JWT is known as *validation*. A token is considered valid when all the restrictions specified in its header and payload are satisfied.
+
+Some of 
 ## Stateless Sessions
 Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
 ## Security Considerations
@@ -84,3 +90,4 @@ Although [[OAuth]] 2.0 makes no mention of the format of its tokens, JWTs are a 
 - **Authorization flow:** The client requests an [[Authorization|authorization]] code to the authorization endpoint `/authoirze`. This code can be used against the token endpoint `/token` to request an ID token in JWT format, an access token, or a refresh token.
 - Implicit Flow: The client requests tokens directly from the authorization endpoint `/authorize`. The tokens are specified in the request. If an ID token is requested, it is returned in JWT format.
 - Hybrid Flow: The client requests both an authorization code and certain tokens from the authorization endpoint `/authorizartion`. If an ID token is requested, it is returned in JWT format. If an ID token is not requested at this step, it may later by requested directly from the token endpoint `/token`.
+## Unsecured JWT
