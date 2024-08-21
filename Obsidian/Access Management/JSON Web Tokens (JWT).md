@@ -67,7 +67,12 @@ However, it does not prevent other parties from *reading* the contents inside th
 
 The process of checking a signature of a JWT is known as *validation*. A token is considered valid when all the restrictions specified in its header and payload are satisfied.
 
-Some of 
+Some of the algorithms used for JWTs are:
+- `HS256`
+- `RS256`,
+- `ES256`, and
+- `RSASSA-PSS + MGF1 + SHA256`
+
 ## Stateless Sessions
 Well, these stateless sessions are in fact nothing more than just client-side data. The key aspect of this application lies in the use of signing and encryption to authenticate and protect the contents of the session. JWS (JSON Web Signature) and JWE (JSON Web Encryption) provides the JWT with those ability. However, **client-side data is subject to tampering**.
 ## Security Considerations
