@@ -51,8 +51,23 @@
 		- Q: Is it better to say "Young Professionals" instead of "Professionals in their early career stages" because we've already defined it in one of the sliders?
 		- Nit: Needless comma between `each other, as well as with...`.
 - Events
-	- Images are a bit low-quality. Unsure if it's just the picture that's small 
+	- Q: Images are a bit low-quality. Unsure if it's just the picture that's small in density or you're using Next.js' Images improperly?
+	- Issue: When you hover over "Registration Form", it doesn't change your cursor to pointer, which is a bad ux.
+	- Orientation Night
+		- Nit: Needless comma between `AKCSE Team, and outline any...`.
+	- YG Seminar
+		- Confusing to read `firsthand experience over the years.`
+	- Meet Your Mentor
+		- What's MECA?
+		- What's KSS?
+		- Nit: missing an oxford comma between `law, IT and others.`
 - Executives
+	- Consistency issue?
+		- Using emojis for executives listing vs "clip diagrams" on the `/about` pages.
+		- Also why are emojis kinda unrelated? Why is copres a tomato, finance a cheese, events a carrot (need help?), external is banana and etc?
+	- 10 points for gryffindor for the social media buttons btw... that's smart!
+	- Preference: The shadows on these panels can be a bit stronger I think, because the top of the panel has no distinction compared to the bottom of the panel.
+	- 
 - Projects
 ### Mobile View
 # Devops
