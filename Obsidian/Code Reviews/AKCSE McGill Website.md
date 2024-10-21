@@ -13,11 +13,13 @@
 - Components
 	- Issue: Navbar's page-redirect buttons are not centered
 		- Easy to tell when you go to the `/'about` page and see the misalignment compared to the `What is AKCSE` hero banner text.
+	
 	- Footer
 		- The phrase `2024 AKCSE McGill Executives`
 			- Executives are copyrighted?
 			- Is AKCSE McGill copyrighted?
 			- Or is it just AKCSE that's copyrighted?
+	- Issue (but also a bit of preference): Footer should be at the footer of the screen (ideally), but this one is kinda at the middle of the screen
 - Main page
 	- Issue: Three.js fragment is filled-to-fit - which breaks on ultrawide monitors
 	- Will this need to change to work with the "members can contribute" idea?
@@ -67,7 +69,41 @@
 		- Also why are emojis kinda unrelated? Why is copres a tomato, finance a cheese, events a carrot (need help?), external is banana and etc?
 	- 10 points for gryffindor for the social media buttons btw... that's smart!
 	- Preference: The shadows on these panels can be a bit stronger I think, because the top of the panel has no distinction compared to the bottom of the panel.
-	- 
 - Projects
+	- Issue: Logos are fit to a certain dimension - some images look stretched, some looks squished, etc.
 ### Mobile View
+*Will ignore all duplicate issues and only focus on mobile view*
+- Components
+	- Issue: Hamburger menu pullout button isn't a hamburger; it's just a patty! Add 2 more lines to it for consistency across the web.
+		- Issue: Also it's not centered. Take a look at `react-icons` if you don't wanna bother with it (it's really nice).
+		- Issue: The X when you press on it is also not centered
+		- Issue: When you click on the pullout, the circle (I think it's an oval actually) is navy compared to the classic McGill color. Maybe navy is mcgill secondary? I'm not sure, but make sure to keep a consistent palette. Remember your CRAP principles too!
+		- Issue: When you click on the button, the entire groups of buttons get shrunk. Not sure if it was intended
+		- Issue: There is an animation for the circle to fill up the buttons to give contrast, but when you click on the X, it's an immediate close.
+		- Preference: Also a sticky nav would be nice
+		- Issue: 
+- Main page
+	- Issue: Vertical height is not locked to screen height, making it scrollable.
+- About
+	- Issue: The buttons do not have a subheading to explain what these diagrams represent. You should put subheadings instead of those buttons.
+- Events
+	- Q: Images are a bit low-quality. Unsure if it's just the picture that's small in density or you're using Next.js' Images improperly?
+	- Issue: When you hover over "Registration Form", it doesn't change your cursor to pointer, which is a bad ux.
+	- Orientation Night
+		- Nit: Needless comma between `AKCSE Team, and outline any...`.
+	- YG Seminar
+		- Confusing to read `firsthand experience over the years.`
+	- Meet Your Mentor
+		- What's MECA?
+		- What's KSS?
+		- Nit: missing an oxford comma between `law, IT and others.`
+- Executives
+	- Consistency issue?
+		- Using emojis for executives listing vs "clip diagrams" on the `/about` pages.
+		- Also why are emojis kinda unrelated? Why is copres a tomato, finance a cheese, events a carrot (need help?), external is banana and etc?
+	- 10 points for gryffindor for the social media buttons btw... that's smart!
+	- Preference: The shadows on these panels can be a bit stronger I think, because the top of the panel has no distinction compared to the bottom of the panel.
+- Projects
+	- Issue: Logos are fit to a certain dimension - some images look stretched, some looks squished, etc.
+	- 
 # Devops
