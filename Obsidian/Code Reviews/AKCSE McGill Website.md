@@ -71,6 +71,8 @@
 	- Preference: The shadows on these panels can be a bit stronger I think, because the top of the panel has no distinction compared to the bottom of the panel.
 - Projects
 	- Issue: Logos are fit to a certain dimension - some images look stretched, some looks squished, etc.
+	- Not gonna check the details English, but would appreciate a back button inside the page. 
+	- Preferences: Maybe a project date would be a good thing to add
 ### Mobile View
 *Will ignore all duplicate issues and only focus on mobile view*
 - Components
@@ -81,28 +83,16 @@
 		- Issue: When you click on the button, the entire groups of buttons get shrunk. Not sure if it was intended
 		- Issue: There is an animation for the circle to fill up the buttons to give contrast, but when you click on the X, it's an immediate close.
 		- Preference: Also a sticky nav would be nice
-		- Issue: 
+		- Preference: I don't like the jitter on the hamburger icon when you launch the mobile website
+		- Issue: You need to click and hold for the button to change to white
 - Main page
 	- Issue: Vertical height is not locked to screen height, making it scrollable.
 - About
 	- Issue: The buttons do not have a subheading to explain what these diagrams represent. You should put subheadings instead of those buttons.
 - Events
-	- Q: Images are a bit low-quality. Unsure if it's just the picture that's small in density or you're using Next.js' Images improperly?
-	- Issue: When you hover over "Registration Form", it doesn't change your cursor to pointer, which is a bad ux.
-	- Orientation Night
-		- Nit: Needless comma between `AKCSE Team, and outline any...`.
-	- YG Seminar
-		- Confusing to read `firsthand experience over the years.`
-	- Meet Your Mentor
-		- What's MECA?
-		- What's KSS?
-		- Nit: missing an oxford comma between `law, IT and others.`
+	- 
 - Executives
-	- Consistency issue?
-		- Using emojis for executives listing vs "clip diagrams" on the `/about` pages.
-		- Also why are emojis kinda unrelated? Why is copres a tomato, finance a cheese, events a carrot (need help?), external is banana and etc?
-	- 10 points for gryffindor for the social media buttons btw... that's smart!
-	- Preference: The shadows on these panels can be a bit stronger I think, because the top of the panel has no distinction compared to the bottom of the panel.
+	- Similar issue to the about page - I'm not sure what the emojis represent, making distinctions pretty hard right-off-the-bat without having to scroll and seeing the title above the name
 - Projects
 	- Issue: Logos are fit to a certain dimension - some images look stretched, some looks squished, etc.
 	- 
