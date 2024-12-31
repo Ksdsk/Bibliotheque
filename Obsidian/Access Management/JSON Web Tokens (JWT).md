@@ -96,3 +96,4 @@ Although [[OAuth]] 2.0 makes no mention of the format of its tokens, JWTs are a 
 - Implicit Flow: The client requests tokens directly from the authorization endpoint `/authorize`. The tokens are specified in the request. If an ID token is requested, it is returned in JWT format.
 - Hybrid Flow: The client requests both an authorization code and certain tokens from the authorization endpoint `/authorizartion`. If an ID token is requested, it is returned in JWT format. If an ID token is not requested at this step, it may later by requested directly from the token endpoint `/token`.
 ## Unsecured JWT
+(Pushing from tablet!!)
